@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 1024 1024">
+<metadata>
+<vectornator:setting key="DimensionsVisible" value="1"/>
+<vectornator:setting key="PencilOnly" value="0"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="OutlineMode" value="0"/>
+<vectornator:setting key="CMYKEnabledKey" value="0"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="GuidesVisible" value="1"/>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="doHistoryDisabled" value="0"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="TimeLapseWatermarkDisabled" value="0"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+<vectornator:setting key="IsolateActiveLayer" value="0"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+</metadata>
+<defs/>
+<g id="Layer 1" vectornator:layerName="Layer 1">
+<path d="M255.832+0L768.168+0C909.46+0+1024+114.54+1024+255.832L1024+768.168C1024+909.46+909.46+1024+768.168+1024L255.832+1024C114.54+1024+0+909.46+0+768.168L0+255.832C0+114.54+114.54+0+255.832+0Z" opacity="1" fill="#ff5252"/>
+</g>
+<g id="Layer 2" vectornator:layerName="Layer 2">
+<path stroke="#000000" vectornator:shadowColor="#000000" vectornator:shadowOffset="17.9956" stroke-width="0.1" fill="#ffffff" stroke-linecap="butt" vectornator:shadowAngle="1.5708" stroke-linejoin="round" opacity="1" vectornator:shadowRadius="50" d="M488.768+575.771C463.414+542.461+299.451+909.051+229.523+866.897C180.453+837.317+309.841+404.925+343.134+339.547C353.755+318.69+398.716+191.196+439.888+211.782C537.628+260.652+596.903+310.332+657.843+412.751C689.808+466.473+715.351+520.519+744.447+575.423C938.915+942.374+608.666+733.288+488.768+575.771Z" vectornator:shadowOpacity="0.333"/>
+</g>
+</svg>

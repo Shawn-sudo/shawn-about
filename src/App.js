@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Link } from "react-router-dom";
+import "./App.css";
+import AppRoutes from "./Routes";
+import appIconRounded from "./appIconRounded.svg";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <BrowserRouter>
+      <div className="App">
+        <header className="App-header">
+          <Link to="/">
+            <img src={appIconRounded} height="40" style={{ padding: 7.5 }} />
+          </Link>
+          <h2>Seihyun Lee</h2>
+          <div style={{ width: "55px" }} />
+        </header>
+        <div style={{ height: 55 }} />
+        <AppRoutes />
+        <footer
+          className="App-footer"
+          style={{ textAlign: "center", backgroundColor: "whitesmoke" }}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <div style={{ height: 20 }} />
+          <Link to="/">
+            <img src={appIconRounded} height="80" style={{ padding: 7.5 }} />
+          </Link>
+          <div>&copy; 2021. Seihyun Lee </div>
+        </footer>
+      </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
