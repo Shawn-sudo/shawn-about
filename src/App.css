@@ -2,6 +2,11 @@
   transition: 0.5s;
 }
 
+::selection {
+  background-color: black;
+  color: white;
+}
+
 .App-header {
   /* background-color: rgba(248, 248, 255, 0.75); */
   background-color: rgba(230, 230, 230, 0.6);
@@ -36,6 +41,8 @@
   height: 45px;
   margin-top: 5px;
   margin-bottom: 5px;
+  cursor: pointer;
+  margin-right: 10px;
 }
 
 .App-header button:hover {
@@ -44,13 +51,14 @@
   box-shadow: 0px 5px 10px rgba(127, 127, 127, 0.5);
 }
 
-.Home {
+#Home {
   height: 100vh;
   overflow: scroll;
   scroll-snap-type: y mandatory;
+  transition: 0s;
 }
 
-.Home .slide {
+#Home .slide {
   scroll-snap-align: start;
 }
 
