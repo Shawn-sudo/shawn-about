@@ -1,9 +1,12 @@
 import React, { useEffect } from "react";
-import * as THREE from "three";
-// import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
-// import * as dat from "dat.gui";
+import { Link } from "react-router-dom";
+import Card from "../Components/Card";
+// import * as THREE from "three";
+import Wrapper from "../Components/Wrapper";
+// import SmallTown from "../Components/3D";
 
 const Home = () => {
+  document.title = "Home | About Seihyun Lee";
   //structure of this page: as if My avatar is presentationing
   //There are many companies that say "We connect people!"
   //But, do they?
@@ -35,279 +38,334 @@ const Home = () => {
   //      Karooni: Book Reading (To Kill a Mockingbird) (Apr - May, 2021)
   //  2. Diaries
 
+  //School / App / Music / Log
+  //School: Class / Club
+  //App: About Atrable (about.atrable.com)
+  //App --> Log: Show my dev history
+  //Music: Just made a few melodies
+  //    --> Log: What I've done / My recordings
+  //Log: What I've done for App, Music, School, Club
+
   useEffect(() => {
-    // Canvas
-    const canvas = document.querySelector("canvas#Home-3d-background");
-
-    // Scene
-    const scene = new THREE.Scene();
-
-    // Objects
-    // const geometry = new THREE.ExtrudeGeometry(heartShape, extrudeSettings);
-    // const geometry = new THREE.BoxGeometry(0.7, 1, 1);
-    const geometry = new THREE.SphereGeometry(0.7, 7, 5);
-
-    // Materials
-    const material = new THREE.MeshBasicMaterial();
-    material.color = new THREE.Color(0xec5f59);
-
-    // material.map = texture;
-    // material.metalness = 0.7;
-    // material.roughness = 0.1;
-
-    // Mesh
-    const sphere = new THREE.Mesh(geometry, material);
-    scene.add(sphere);
-
-    // Lights
-    const pointLight = new THREE.PointLight(0xffffff, 0.2);
-    pointLight.position.x = 2;
-    pointLight.position.y = 0;
-    pointLight.position.z = 10;
-    scene.add(pointLight);
-
-    const pointLight2 = new THREE.PointLight(0xffffff, 0.5);
-    pointLight2.position.x = -2;
-    scene.add(pointLight2);
-
-    // Sizes
-    const sizes = {
-      width: window.innerWidth,
-      height: window.innerHeight,
-    };
-
-    // Camera
-    const camera = new THREE.PerspectiveCamera(
-      75,
-      sizes.width / sizes.height,
-      0.1,
-      100
-    );
-    camera.position.x = 0;
-    camera.position.y = 0;
-    camera.position.z = 2;
-    scene.add(camera);
-
-    // Controls
-    // const controls = new OrbitControls(camera, canvas)
-    // controls.enableDamping = true
-
-    // Renderer
-    const renderer = new THREE.WebGLRenderer({
-      canvas: canvas,
-    });
-    renderer.setSize(sizes.width, sizes.height);
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-    renderer.setClearColor(0xf8f8ff, 1);
-
-    window.addEventListener("resize", () => {
-      // Update sizes
-      sizes.width = window.innerWidth;
-      sizes.height = window.innerHeight;
-
-      // Update camera
-      camera.aspect = sizes.width / sizes.height;
-      camera.updateProjectionMatrix();
-
-      // Update renderer
-      renderer.setSize(sizes.width, sizes.height);
-      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-    });
-
-    // Animate by mouse's movement
-    document.addEventListener("mousemove", onDocumentMouseMove);
-    let mouseX = 0;
-    let mouseY = 0;
-    let targetX = 0;
-    let targetY = 0;
-    const windowHalfX = window.innerWidth / 2;
-    const windowHalfY = window.innerHeight / 2;
-
-    function onDocumentMouseMove(event) {
-      mouseX = event.clientX - windowHalfX;
-      mouseY = event.clientY - windowHalfY;
-    }
-
-    // // Change page when being scrolled
-    // document.addEventListener("wheel", onDocumentScrolled);
-    // function onDocumentScrolled(event) {
-    //   //todo: if the page of the 3D intro space is not finished yet, ignore every scroll
-    //   //   console.log(event.deltaY);
-    // }
-
-    // Animate
-    const clock = new THREE.Clock();
-    const spin = () => {
-      targetX = mouseX * 0.00015;
-      targetY = mouseY * 0.0005;
-
-      const elapsedTime = clock.getElapsedTime();
-      //   document.getElementById("elapsed-time").innerHTML =
-      // clock.getElapsedTime();
-
-      //   Update objects
-      sphere.rotation.y = 0.5 * elapsedTime;
-
-      sphere.rotation.y += 0.5 * (targetX - sphere.rotation.y);
-      sphere.rotation.x += 0.5 * (targetY - sphere.rotation.x);
-
-      // Update Orbital Controls
-      // controls.update()
-
-      // Render
-      renderer.render(scene, camera);
-
-      // Call spin again on the next frame
-      window.requestAnimationFrame(spin);
-    };
-
-    spin();
-
     //Not related to the 3d thing
 
-    var homeElement = document.querySelector("#Home");
-    homeElement.focus();
-    //doesn't work well
+    // var windowHalfY = window.innerHeight / 2;
+    // const homeElement = document.querySelector("#Home");
+    // homeElement.focus();
 
-    var slide1CenterTitle = document.querySelector("#center-title");
-    let scrolledY = 0;
-    let scrolledYBefore = 0;
-    const changeSlide1 = () => {
-      scrolledYBefore = scrolledY;
-      scrolledY = homeElement.scrollTop;
-      if (scrolledY === 0) {
-        slide1CenterTitle.style.opacity = 1;
-      } else {
-        slide1CenterTitle.style.opacity = 0;
-      }
-      window.requestAnimationFrame(changeSlide1);
-    };
-    changeSlide1();
-    // homeElement.addEventListener("scroll", () => {
-    //   console.log(homeElement.scrollTop);
-    //   if (homeElement.scrollTop == 0) {
-    //     setSlide1CenterTitle({
-    //       position: "absolute",
-    //       margin: "auto",
-    //       left: 0,
-    //       right: 0,
-    //       top: "calc(40vh - 30px)",
-    //       textAlign: "center",
-    //       opacity: 1,
-    //     });
+    // const slide1CenterTitle = document.querySelector(
+    //   "#slide0 #center-title-container"
+    // );
+    // let scrolledY = 0;
+    // let scrolledYBefore = 0;
+    // homeElement.addEventListener("scroll", (event) => {
+    //   scrolledYBefore = scrolledY;
+    //   scrolledY = homeElement.scrollTop;
+    //   if (scrolledY < windowHalfY) {
+    //     slide1CenterTitle.style.display = "block";
+    //     slide1CenterTitle.style.opacity = 1 - scrolledY / windowHalfY;
     //   } else {
-    //     setSlide1CenterTitle({
-    //       position: "absolute",
-    //       margin: "auto",
-    //       left: 0,
-    //       right: 0,
-    //       top: "calc(40vh - 30px)",
-    //       textAlign: "center",
-    //       opacity: 0,
-    //     });
+    //     slide1CenterTitle.style.display = "none";
     //   }
     // });
   });
 
-  // window.addEventListener("scroll", () => {
-  //   console.log(window.scrollY);
-  // });
-
-  // function onDocumentScroll(event) {}
-
   return (
-    <div id="Home" tabindex="-1">
-      <div
-        className="slide"
-        id="slide0"
-        style={{
-          width: "100vw",
-          height: "100vh",
-          backgroundColor: "#b9f6ca",
-        }}
-      >
-        <canvas className="slide webgl" id="Home-3d-background"></canvas>
-        {/* The 3D thing: start with home (family) → town → country → world */}
-        <div
-          id="center-title"
-          style={{
-            position: "absolute",
-            margin: "auto",
-            left: 0,
-            right: 0,
-            top: "calc(40vh - 30px)",
-            textAlign: "center",
-          }}
-        >
+    <div id="Home" tabIndex="-1">
+      <div className="slide" id="slide0">
+        <Wrapper>
+          {/* <SmallTown /> */}
           <div
             style={{
-              width: 400,
+              textAlign: "center",
+            }}
+            className="short_portfoliio"
+          >
+            <div
+              style={{
+                margin: "auto",
+              }}
+            >
+              <div
+                style={{
+                  height: 100,
+                }}
+              />
+              <img
+                src="/assets/profile/profile.jpg"
+                alt="my face"
+                className="profile"
+              />
+            </div>
+            <h2>Seihyun (Shawn) Lee</h2>
+            <p>
+              <span
+                style={{
+                  fontWeight: "bold",
+                }}
+              >
+                Interested in science
+              </span>
+              &nbsp;- especially in&nbsp;
+              <span
+                style={{
+                  color: "#69f0ae",
+                  fontWeight: "bold",
+                }}
+              >
+                Chemistry
+              </span>
+              &nbsp;and&nbsp;
+              <span
+                style={{
+                  color: "#69f0ae",
+                  fontWeight: "bold",
+                }}
+              >
+                Computer
+              </span>
+            </p>
+            <div
+              className="flexbox"
+              style={{
+                display: "flex",
+                gap: "2%",
+                // justifyContent: "space-evenly",
+              }}
+            >
+              <div
+                className="item"
+                style={{
+                  marginLeft: "auto",
+                }}
+              >
+                <Card>
+                  <div
+                    style={{
+                      margin: "auto",
+                      display: "flex",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <i
+                      className="fas fa-atom"
+                      style={{
+                        color: "#69f0ae",
+                        marginRight: 10,
+                        fontSize: 25,
+                        display: "inline",
+                      }}
+                    ></i>
+                    <h3
+                      style={{
+                        display: "inline",
+                        marginTop: "auto",
+                        marginBottom: "auto",
+                      }}
+                    >
+                      Chemistry
+                    </h3>
+                  </div>
+                  <p>There are a lot of natural phenomena that fascinate me.</p>
+                  <p>
+                    For example, I was pouring a handful of salt into the water.
+                    I thought that it might be too much, but the water dissolved
+                    the salt very well. I poured a little more salt, and the
+                    water could still dissolve it. In my view, water was
+                    unexceptionally good at dissolving salt.
+                  </p>
+                  <p>
+                    Later, I learned that Oxygen has a higher electronegativity
+                    than Hydrogen, which causes the electrons to tend to stay
+                    near Oxygen. This eventually causes the polarity of the
+                    water molecule, which makes water to be good at dissolving
+                    ions and polar molecules.
+                  </p>
+                  <p>
+                    As it is shown in my experience of pouring salt into the
+                    water, many factors are related to a chemical reaction, even
+                    if it is simple. It is interesting for me to learn and
+                    research how elements and compounds interact with each
+                    other.
+                  </p>
+                </Card>
+              </div>
+              <div
+                className="item"
+                style={{
+                  marginRight: "auto",
+                }}
+              >
+                <Card>
+                  <div
+                    style={{
+                      margin: "auto",
+                      display: "flex",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <i
+                      className="fas fa-laptop-code"
+                      style={{
+                        color: "#69f0ae",
+                        marginRight: 10,
+                        fontSize: 25,
+                        display: "inline",
+                      }}
+                    ></i>
+                    <h3
+                      style={{
+                        display: "inline",
+                        marginTop: "auto",
+                        marginBottom: "auto",
+                      }}
+                    >
+                      Computer
+                    </h3>
+                  </div>
+                  <p>
+                    I used to be interested in airplanes when I was 12. I tried
+                    to run&nbsp;
+                    <a
+                      href="https://www.x-plane.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      the airplane simulator
+                    </a>
+                    &nbsp;on my laptop, but it didn't work well; it took at
+                    least 20 minutes to load the simulator, and often got
+                    crashed because my computer was poor.
+                  </p>
+                  <p>
+                    Since then, I started to get interested in computers. I was
+                    interested in the hardware at that time. I somewhat
+                    understood how the components of the computer interact.
+                    However, to understand what is going on in deep, I had to
+                    understand the software.
+                    {/* Mention that I've made a .pub file for this, in the log or smth */}
+                  </p>
+                  <p>
+                    To do that, I learned how to code. To understand the basic
+                    stuff of programming, I started with the simplest and most
+                    widely-used language,&nbsp;
+                    <a
+                      href="https://www.python.org/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Python
+                    </a>
+                    . I understood what class, function, and variable are while
+                    learning that language.
+                  </p>
+                  <p>
+                    Then, I wanted to build an app that can run on any
+                    platform.&nbsp;
+                    <a
+                      href="https://flutter.dev/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Flutter
+                    </a>
+                    &nbsp;was the exact framework for me. Flutter uses&nbsp;
+                    <a
+                      href="https://dart.dev/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Dartlang
+                    </a>
+                    , so I learned the language to use the framework. I am using
+                    Flutter and&nbsp;
+                    <a
+                      href="https://firebase.google.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Firebase
+                    </a>
+                    &nbsp;to build an audio-based social media service. I am
+                    planning to finish it at least this summer.
+                  </p>
+                  <p>
+                    Javascript with jsx script is quite similar with Flutter
+                    codes, so I am building my own website (this one), too. This
+                    website would be gradually developed as I keep do
+                    activities.
+                  </p>
+                  <div
+                    style={{
+                      height: 10,
+                    }}
+                  />
+                  <Link
+                    to="/logs"
+                    style={{
+                      fontSize: 22.5,
+                      fontWeight: "bold",
+                      color: "#69f0ae",
+                      textDecoration: "none",
+                    }}
+                  >
+                    More on Log &nbsp;<i className="fas fa-arrow-right"></i>
+                  </Link>
+                  <div
+                    style={{
+                      height: 10,
+                    }}
+                  />
+                </Card>
+              </div>
+            </div>
+            <div
+              style={{
+                height: 60,
+              }}
+            />
+            {/* todo: add some pictures that i took */}
+          </div>
+        </Wrapper>
+        {/* <div
+            className="transition-by-it-self"
+            id="center-title-container"
+            style={{
+              position: "absolute",
               margin: "auto",
-              borderRadius: 20,
-              backdropFilter: "blur(20px)",
+              left: 0,
+              right: 0,
+              top: 30,
+
+              textAlign: "center",
               animationName: "title-animation",
               animationDuration: "2s",
               animationIterationCount: "infinite",
               animationTimingFunction: "ease-out",
             }}
           >
-            <h1
+            <div
               style={{
-                fontSize: 60,
-                fontWeight: "900",
-                color: "#69f0ae",
-                // color: "white",
-                textShadow:
-                  "-1px 0 1.7px grey, 0 1px 1.7px grey, 1px 0 1.7px grey, 0 -1px 1.7px grey",
+                width: 400,
+                margin: "auto",
+                borderRadius: 20,
+                backdropFilter: "blur(20px)",
               }}
             >
-              Seihyun Lee
-            </h1>
-          </div>
-        </div>
+              <h1
+                style={{
+                  fontSize: 60,
+                  fontWeight: "900",
+                  // color: "#69f0ae",
+                  color: "white",
+                  textShadow: "0 2px 3px grey",
+                }}
+              >
+                Seihyun Lee
+              </h1>
+            </div>
+          </div> */}
       </div>
-
-      <div
-        className="slide"
-        id="slide1"
-        style={{ width: "100vw", height: "100vh", backgroundColor: "grey" }}
-      >
-        Instagram here
-      </div>
-      <div
-        className="slide"
-        id="slide2"
-        style={{ width: "100vw", height: "100vh", backgroundColor: "blue" }}
-      >
-        Facebook here
-      </div>
-      <div
-        className="slide"
-        id="slide3"
-        style={{ width: "100vw", height: "100vh", backgroundColor: "yellow" }}
-      >
-        SnapChat here
-      </div>
-      <div
-        className="slide"
-        id="slide4"
-        style={{ width: "100vw", height: "100vh", backgroundColor: "#ec5f59" }}
-      >
-        Atrable here
-      </div>
-      {/* <div
-        style={{
-          minHeight: "100vh",
-          width: "90vw",
-          maxWidth: 1000,
-          margin: "auto",
-        }}
-      >
-        <h1>
-          123sadfhj;qf alkf;klewjrf w;akdjfka jasklfjkwqe;jfapokfjaks; jfas
-          fasdjflkasd jf;as dkfas
-        </h1>
-      </div> */}
     </div>
   );
 };
