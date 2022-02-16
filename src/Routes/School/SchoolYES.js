@@ -36,7 +36,7 @@ const SchoolYES = () => {
       <div style={{ margin: 20 }}>
         <h2 style={{ display: "inline" }}>More on </h2>
         <Link
-          to="/logs"
+          to="/logs/YES"
           style={{
             fontSize: "x-large",
             fontWeight: "bold",
