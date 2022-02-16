@@ -1,21 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { Link, Route, Routes, useLocation, useParams } from "react-router-dom";
 import Wrapper from "../../Components/Wrapper";
+import PageNotFound from "../404";
 import SchoolMMS from "./SchoolMMS";
 import SchoolTHS from "./SchoolTHS";
 import SchoolTMS from "./SchoolTMS";
 import SchoolYES from "./SchoolYES";
 
-const PageType = {
-  YES: "PageType_YES",
-  MMS: "PageType_MMS",
-  TMS: "PageType_TMS",
-  THS: "PageType_THS",
-};
-
 const School = () => {
   document.title = "School | About Seihyun Lee";
 
-  const [pageType, setPageType] = useState(PageType.THS);
+  let location = useLocation();
+  const [pathName, setPathName] = useState("");
+
+  useEffect(() => {
+    setPathName(window.location.pathname);
+  }, [location]);
 
   const selectedMenuButtonStyle = {
     backgroundColor: "#69f0ae",
@@ -24,48 +24,40 @@ const School = () => {
   };
 
   const YESMenuButton = (
-    <button
+    <Link
       className="menu_button schoolItem"
-      style={pageType === PageType.YES ? selectedMenuButtonStyle : {}}
-      onClick={() => {
-        setPageType(PageType.YES);
-      }}
+      to="/school/YES"
+      style={pathName.startsWith("/school/YES") ? selectedMenuButtonStyle : {}}
     >
       Yeouido Elementary School
-    </button>
+    </Link>
   );
   const MMSMenuButton = (
-    <button
+    <Link
       className="menu_button schoolItem"
-      style={pageType === PageType.MMS ? selectedMenuButtonStyle : {}}
-      onClick={() => {
-        setPageType(PageType.MMS);
-      }}
+      to="/school/MMS"
+      style={pathName.startsWith("/school/MMS") ? selectedMenuButtonStyle : {}}
     >
       Mogun Middle School
-    </button>
+    </Link>
   );
   const TMSMenuButton = (
-    <button
+    <Link
       className="menu_button schoolItem"
-      style={pageType === PageType.TMS ? selectedMenuButtonStyle : {}}
-      onClick={() => {
-        setPageType(PageType.TMS);
-      }}
+      to="/school/TMS"
+      style={pathName.startsWith("/school/TMS") ? selectedMenuButtonStyle : {}}
     >
       Tenafly Middle School
-    </button>
+    </Link>
   );
   const THSMenuButton = (
-    <button
+    <Link
       className="menu_button schoolItem margin_bottom_15"
-      style={pageType === PageType.THS ? selectedMenuButtonStyle : {}}
-      onClick={() => {
-        setPageType(PageType.THS);
-      }}
+      to="/school/THS"
+      style={pathName.startsWith("/school/THS") ? selectedMenuButtonStyle : {}}
     >
       Tenafly High School
-    </button>
+    </Link>
   );
 
   return (
@@ -79,93 +71,61 @@ const School = () => {
             {THSMenuButton}
           </div>
         </div>
-        <div style={{ width: "100%", textAlign: "center" }}>
-          <div
-            className="nav"
-            style={{ display: "flex", justifyContent: "space-around" }}
-          >
-            {/* {pageType === PageType.MMS ? (
-              <button
-                onClick={() => {
-                  setPageType(PageType.YES);
-                }}
-              >
-                YES
-              </button>
-            ) : pageType === PageType.TMS ? (
-              <button
-                onClick={() => {
-                  setPageType(PageType.MMS);
-                }}
-              >
-                MMS
-              </button>
-            ) : pageType === PageType.THS ? (
-              <button
-                onClick={() => {
-                  setPageType(PageType.TMS);
-                }}
-              >
-                TMS
-              </button>
-            ) : (
-              <></>
-            )} */}
-            <h1>
-              {pageType === PageType.YES
-                ? "Yeouido Elementary School"
-                : pageType === PageType.MMS
-                ? "Mogun Middle School"
-                : pageType === PageType.TMS
-                ? "Tenafly Middle School"
-                : pageType === PageType.THS
-                ? "Tenafly High School"
-                : ""}
-            </h1>
-            {/* {pageType === PageType.YES ? (
-              <button
-                onClick={() => {
-                  setPageType(PageType.MMS);
-                }}
-              >
-                MMS
-              </button>
-            ) : pageType === PageType.MMS ? (
-              <button
-                onClick={() => {
-                  setPageType(PageType.TMS);
-                }}
-              >
-                TMS
-              </button>
-            ) : pageType === PageType.TMS ? (
-              <button
-                onClick={() => {
-                  setPageType(PageType.THS);
-                }}
-              >
-                THS
-              </button>
-            ) : (
-              <div />
-            )} */}
-          </div>
-          {pageType === PageType.YES ? (
-            <SchoolYES />
-          ) : pageType === PageType.MMS ? (
-            <SchoolMMS />
-          ) : pageType === PageType.TMS ? (
-            <SchoolTMS />
-          ) : pageType === PageType.THS ? (
-            <SchoolTHS />
+        <Routes>
+          <Route path=":schoolType/*" element={<SchoolViewer />} />
+        </Routes>
+      </div>
+    </Wrapper>
+  );
+};
+
+const SchoolViewer = () => {
+  let { schoolType } = useParams();
+
+  return (
+    <div style={{ width: "100%", maxWidth: 1200, textAlign: "center" }}>
+      <div
+        className="nav"
+        style={{ display: "flex", justifyContent: "space-around" }}
+      >
+        <div>
+          {schoolType === "YES" ? (
+            <>
+              <h1>Yeouido Elementary School (여의도초)</h1>
+              <h3>2013 - 2018</h3>
+            </>
+          ) : schoolType === "MMS" ? (
+            <>
+              <h1>Mogun Middle School (목운중)</h1>
+              <h3>2019 - 2021</h3>
+            </>
+          ) : schoolType === "TMS" ? (
+            <>
+              <h1>Tenafly Middle School</h1>
+              <h3>2021</h3>
+            </>
+          ) : schoolType === "THS" ? (
+            <>
+              <h1>Tenafly High School</h1>
+              <h3>2021 - </h3>
+            </>
           ) : (
-            <div style={{ fontWeight: "bold" }}>
-              No school has been selected
-            </div>
+            <></>
           )}
         </div>
       </div>
-    </Wrapper>
+      {schoolType === "YES" ? (
+        <SchoolYES />
+      ) : schoolType === "MMS" ? (
+        <SchoolMMS />
+      ) : schoolType === "TMS" ? (
+        <SchoolTMS />
+      ) : schoolType === "THS" ? (
+        <SchoolTHS />
+      ) : (
+        <PageNotFound />
+      )}
+    </div>
   );
 };
 
