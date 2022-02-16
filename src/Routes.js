@@ -1,52 +1,34 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import PageNotFound from "./Routes/404";
-import Home from "./Routes/Home";
 import School from "./Routes/School/School";
-import Music from "./Routes/Music";
 import Logs from "./Routes/myLogs/Logs";
-// const Logs = React.lazy(() => import("./Routes/Logs"));
+import MySuspense from "./Components/MySuspense";
+
+const Home = React.lazy(() => import("./Routes/Home"));
+const Music = React.lazy(() => import("./Routes/Music"));
 
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/school" element={<School />} />
-      <Route path="/music" element={<Music />} />
       <Route
-        path="/logs/*"
+        path="/"
         element={
-          // <Suspense
-          //   fallback={
-          //     <Wrapper>
-          //       <div
-          //         style={{
-          //           width: "100%",
-          //           display: "flex",
-          //           justifyContent: "center",
-          //         }}
-          //       >
-          //         <div
-          //           style={{
-          //             marginTop: "calc(40vh)",
-          //           }}
-          //         >
-          //           <i
-          //             className="fas fa-spinner fa-pulse"
-          //             style={{
-          //               fontSize: 50,
-          //               color: "#ff5252",
-          //             }}
-          //           ></i>
-          //         </div>
-          //       </div>
-          //     </Wrapper>
-          //   }
-          // >
-          <Logs />
-          //  </Suspense>
+          <MySuspense>
+            <Home />
+          </MySuspense>
         }
       />
+      <Route path="/school/*" element={<School />} />
+      <Route
+        path="/music"
+        element={
+          <MySuspense>
+            <Music />
+          </MySuspense>
+        }
+      />
+      <Route path="/logs/*" element={<Logs />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );

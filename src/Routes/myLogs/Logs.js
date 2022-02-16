@@ -1,6 +1,6 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, Route, Routes, useLocation, useParams } from "react-router-dom";
-import ErrorBoundary from "../../Components/ErrorBoundary";
+import MySuspense from "../../Components/MySuspense";
 import Wrapper from "../../Components/Wrapper";
 import PageNotFound from "../404";
 
@@ -9,6 +9,7 @@ const MusicLog = React.lazy(() => import("./MusicLog"));
 
 const Logs = () => {
   document.title = "Log | About Seihyun Lee";
+
   let location = useLocation();
   const [pathName, setPathName] = useState("");
 
@@ -26,6 +27,7 @@ const Logs = () => {
     <Wrapper>
       <div className="screenWithMenu">
         <div className="menu">
+          {/* todo: make it kinda look like facebook / twitter main UI */}
           <Link
             to="/logs/atrable"
             className="menu_button schoolItem"
@@ -62,44 +64,20 @@ const LogType = () => {
     <div
       style={{
         width: "100%",
+        maxWidth: 1200,
       }}
     >
-      <Suspense
-        fallback={
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-            }}
-          >
-            <div
-              style={{
-                marginTop: "calc(40vh)",
-              }}
-            >
-              <i
-                className="fas fa-spinner fa-pulse"
-                style={{
-                  fontSize: 50,
-                  color: "#ff5252",
-                }}
-              ></i>
-            </div>
-          </div>
-        }
-      >
-        {logType === "atrable" ? (
-          <ErrorBoundary>
-            <AtrableLog />
-          </ErrorBoundary>
-        ) : logType === "music" ? (
-          <ErrorBoundary>
-            <MusicLog />
-          </ErrorBoundary>
-        ) : (
-          <PageNotFound />
-        )}
-      </Suspense>
+      {logType === "atrable" ? (
+        <MySuspense>
+          <AtrableLog />
+        </MySuspense>
+      ) : logType === "music" ? (
+        <MySuspense>
+          <MusicLog />
+        </MySuspense>
+      ) : (
+        <PageNotFound />
+      )}
     </div>
   );
 };
