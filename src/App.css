@@ -9,7 +9,7 @@
 }
 
 .App-Appbar {
-  background-color: rgba(230, 230, 230, 0.7);
+  background-color: rgba(248, 248, 255, 0.7);
   height: 55px;
   width: 100vw;
   display: flex;
@@ -51,16 +51,10 @@
 }
 
 #Home {
-  /* height: 100vh; */
   overflow: scroll;
-  /* scroll-snap-type: y mandatory; */
   transition: 0s;
   outline: none;
 }
-
-/* #Home .slide {
-  scroll-snap-align: start;
-} */
 
 #Home .profile {
   width: 100px;
@@ -75,7 +69,7 @@
   max-width: 500px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .flexbox {
     flex-direction: column;
   }
@@ -93,28 +87,6 @@
 #Projects {
   outline: none;
 }
-
-/* .scroll-instruction {
-  position: absolute;
-  bottom: 2px;
-  left: 50%;
-  transform: translate(-50%, 0);
-  width: calc(100px + 15%);
-  height: 7.5px;
-  background-color: #69f0ae;
-  background-color: #7c4dff;
-  border-radius: 5px;
-  animation-name: scroll-instruction-animation;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease;
-  text-align: center;
-  box-shadow: 0 1.5px 10px rgba(127, 127, 127, 0.3);
-} */
-
-/* #Projects .scroll-instruction {
-  background-color: #ec5f59;
-} */
 
 .scroll-instruction div {
   transform: translateY(-20px);
@@ -158,8 +130,6 @@
 
 .menu {
   height: 100%;
-  /* width: 300px; */
-  /* flex-basis: 300px; */
   margin: 20px;
   background-color: ghostwhite;
   border-radius: 20px;

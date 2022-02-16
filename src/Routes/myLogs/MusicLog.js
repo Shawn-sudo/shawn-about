@@ -1,8 +1,12 @@
-
-
 const MusicLog = () => {
-    return <h3>Music </h3>;
-  };
+  document.title = "Log - Music | About Seihyun Lee";
 
-  
-  export default MusicLog;
+  return (
+    <>
+      <h3>Music Log</h3>
+      <p>Nothing here yet</p>
+    </>
+  );
+};
+
+export default MusicLog;

@@ -46,13 +46,6 @@ const SchoolYES = () => {
           Log
         </Link>
       </div>
-      {/* <div
-        style={{
-          height: 500,
-          width: 100,
-          backgroundColor: "blue",
-        }}
-      /> */}
     </div>
   );
 };

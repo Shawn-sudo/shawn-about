@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import appIconRounded from "../appIconRounded.svg";
 
 const Footer = () => {
   return (
@@ -11,10 +10,12 @@ const Footer = () => {
       <div style={{ height: 20 }} />
       <Link to="/">
         <img
-          src={appIconRounded}
-          alt="logo"
-          height="80"
+          src="/assets/profile/profile.jpg"
+          alt="my face"
           style={{
+            height: 75,
+            width: 75,
+            objectFit: "cover",
             padding: 7.5,
             borderRadius: 30,
             boxShadow: "0px 3px 5px rgba(112, 144, 156, 0.3)",
@@ -22,8 +23,7 @@ const Footer = () => {
         />
       </Link>
       <p>&copy; 2022. Seihyun Lee </p>
-      <p>Above image is the logo for my audio-based social media</p>
-      <p style={{ fontWeight: "bold" }}>Fully made by Seihyun (Shawn) Lee</p>
+      <p style={{ fontWeight: "bold" }}>Made by Seihyun (Shawn) Lee</p>
       <p
         style={{
           color: "grey",
@@ -50,6 +50,15 @@ const Footer = () => {
         >
           Font Awesome
         </a>
+      </p>
+      <p
+        style={{
+          color: "grey",
+          opacity: 0.5,
+        }}
+      >
+        There's actually no reason to use React for this simple portfolio
+        website, but I just wanted to use it
       </p>
       <div>{window.location.pathname}</div>
       <div style={{ height: 20 }} />

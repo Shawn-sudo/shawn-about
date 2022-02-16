@@ -1,7 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import "./App.css";
 import AppRoutes from "./Routes";
-import appIconRounded from "./appIconRounded.svg";
 import { useEffect, useState } from "react";
 import Footer from "./Components/Footer";
 
@@ -25,17 +24,23 @@ const App = () => {
         <div className="App-Appbar transition-by-it-self">
           <div
             style={{
-              width: 55,
+              // width: 55,
               display: "flex",
               flexDirection: "row",
             }}
           >
             <Link to="/">
               <img
-                src={appIconRounded}
-                alt="logo"
-                height="40"
-                style={{ padding: 7.5 }}
+                src="/assets/profile/profile.jpg"
+                alt="my face"
+                style={{
+                  height: 40,
+                  width: 40,
+                  objectFit: "cover",
+                  padding: 7.5,
+                  borderRadius: 17.5,
+                  // boxShadow: "0px 3px 5px rgba(112, 144, 156, 0.3)",
+                }}
               />
             </Link>
           </div>
@@ -76,7 +81,7 @@ const App = () => {
               }
               className="navButton"
             >
-              <div style={{ marginTop: 10 }}>Log</div>
+              <div style={{ marginTop: 10 }}>Logs</div>
             </Link>
           </div>
         </div>

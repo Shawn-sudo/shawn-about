@@ -48,11 +48,9 @@ const Home = () => {
 
   useEffect(() => {
     //Not related to the 3d thing
-
     // var windowHalfY = window.innerHeight / 2;
     // const homeElement = document.querySelector("#Home");
     // homeElement.focus();
-
     // const slide1CenterTitle = document.querySelector(
     //   "#slide0 #center-title-container"
     // );
@@ -130,7 +128,6 @@ const Home = () => {
               style={{
                 display: "flex",
                 gap: "2%",
-                // justifyContent: "space-evenly",
               }}
             >
               <div
@@ -166,13 +163,15 @@ const Home = () => {
                       Chemistry
                     </h3>
                   </div>
-                  <p>There are a lot of natural phenomena that fascinate me.</p>
                   <p>
-                    For example, I was pouring a handful of salt into the water.
-                    I thought that it might be too much, but the water dissolved
-                    the salt very well. I poured a little more salt, and the
-                    water could still dissolve it. In my view, water was
-                    unexceptionally good at dissolving salt.
+                    There are a lot of chemical phenomena that fascinate me.
+                  </p>
+                  <p>
+                    For a simple example, I was pouring a handful of salt into
+                    the water. I thought that it might be too much, but the
+                    water dissolved the salt very well. I poured a little more
+                    salt, and the water could still dissolve it. In my view,
+                    water was unexceptionally good at dissolving salt.
                   </p>
                   <p>
                     Later, I learned that Oxygen has a higher electronegativity
@@ -184,7 +183,7 @@ const Home = () => {
                   <p>
                     As it is shown in my experience of pouring salt into the
                     water, many factors are related to a chemical reaction, even
-                    if it is simple. It is interesting for me to learn and
+                    if it looks simple. It is interesting for me to learn and
                     research how elements and compounds interact with each
                     other.
                   </p>
@@ -231,23 +230,23 @@ const Home = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      the airplane simulator
+                      an airplane simulator
                     </a>
-                    &nbsp;on my laptop, but it didn't work well; it took at
-                    least 20 minutes to load the simulator, and often got
-                    crashed because my computer was poor.
+                    &nbsp;on my laptop, but it didn't work well: it took at
+                    least 20 minutes to load the simulator because my computer
+                    was poor.
                   </p>
                   <p>
                     Since then, I started to get interested in computers. I was
-                    interested in the hardware at that time. I somewhat
-                    understood how the components of the computer interact.
-                    However, to understand what is going on in deep, I had to
-                    understand the software.
+                    interested in hardware at that time. I somewhat understood
+                    how the components of the computer interact. To understand
+                    those interactions in deep, I had to understand the
+                    software.
                     {/* Mention that I've made a .pub file for this, in the log or smth */}
                   </p>
                   <p>
                     To do that, I learned how to code. To understand the basic
-                    stuff of programming, I started with the simplest and most
+                    concepts used in programming, I started with the most
                     widely-used language,&nbsp;
                     <a
                       href="https://www.python.org/"
@@ -256,12 +255,11 @@ const Home = () => {
                     >
                       Python
                     </a>
-                    . I understood what class, function, and variable are while
-                    learning that language.
+                    . I understood what class, function, variable, etc. are
+                    while learning that language.
                   </p>
                   <p>
-                    Then, I wanted to build an app that can run on any
-                    platform.&nbsp;
+                    I wanted to build an app that can run on any platform.&nbsp;
                     <a
                       href="https://flutter.dev/"
                       target="_blank"
@@ -269,16 +267,16 @@ const Home = () => {
                     >
                       Flutter
                     </a>
-                    &nbsp;was the exact framework for me. Flutter uses&nbsp;
+                    &nbsp;was the exact cross-platform app framework for this. I
+                    learned&nbsp;
                     <a
                       href="https://dart.dev/"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Dartlang
+                      Dart
                     </a>
-                    , so I learned the language to use the framework. I am using
-                    Flutter and&nbsp;
+                    &nbsp;to use Flutter. I use&nbsp;
                     <a
                       href="https://firebase.google.com/"
                       target="_blank"
@@ -289,10 +287,45 @@ const Home = () => {
                     &nbsp;to build an audio-based social media service. I am
                     planning to finish it at least this summer.
                   </p>
+                  <div>
+                    <img
+                      src="/assets/atrable/Simulator_Screen_Shot_Feb7_1.png"
+                      alt="Simulator_Screen_Shot_Feb7_1"
+                      width="25%"
+                      style={{
+                        borderRadius: "10px",
+                      }}
+                    />
+                    <img
+                      src="/assets/atrable/Simulator_Screen_Shot_Feb7_2.png"
+                      alt="Simulator_Screen_Shot_Feb7_1"
+                      width="25%"
+                      style={{
+                        borderRadius: "10px",
+                      }}
+                    />
+                    <img
+                      src="/assets/atrable/Simulator_Screen_Shot_Feb7_3.png"
+                      alt="Simulator_Screen_Shot_Feb7_1"
+                      width="25%"
+                      style={{
+                        borderRadius: "10px",
+                      }}
+                    />
+                    <img
+                      src="/assets/atrable/Simulator_Screen_Shot_Feb7_4.png"
+                      alt="Simulator_Screen_Shot_Feb7_1"
+                      width="25%"
+                      style={{
+                        borderRadius: "10px",
+                      }}
+                    />
+                  </div>
                   <p>
-                    Javascript with jsx script is quite similar with Flutter
-                    codes, so I am building my own website (this one), too. This
-                    website would be gradually developed as I keep do
+                    I am also building my website (this one), too. Since
+                    Javascript with jsx script is quite similar to Flutter
+                    codes, it wasn't that hard to start coding with JS. This
+                    website would be gradually developed as I keep doing
                     activities.
                   </p>
                   <div
@@ -301,7 +334,7 @@ const Home = () => {
                     }}
                   />
                   <Link
-                    to="/logs"
+                    to="/logs/atrable"
                     style={{
                       fontSize: 22.5,
                       fontWeight: "bold",
@@ -324,47 +357,8 @@ const Home = () => {
                 height: 60,
               }}
             />
-            {/* todo: add some pictures that i took */}
           </div>
         </Wrapper>
-        {/* <div
-            className="transition-by-it-self"
-            id="center-title-container"
-            style={{
-              position: "absolute",
-              margin: "auto",
-              left: 0,
-              right: 0,
-              top: 30,
-
-              textAlign: "center",
-              animationName: "title-animation",
-              animationDuration: "2s",
-              animationIterationCount: "infinite",
-              animationTimingFunction: "ease-out",
-            }}
-          >
-            <div
-              style={{
-                width: 400,
-                margin: "auto",
-                borderRadius: 20,
-                backdropFilter: "blur(20px)",
-              }}
-            >
-              <h1
-                style={{
-                  fontSize: 60,
-                  fontWeight: "900",
-                  // color: "#69f0ae",
-                  color: "white",
-                  textShadow: "0 2px 3px grey",
-                }}
-              >
-                Seihyun Lee
-              </h1>
-            </div>
-          </div> */}
       </div>
     </div>
   );
