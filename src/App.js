@@ -62,9 +62,15 @@ const App = () => {
             >
               <div style={{ marginTop: 10 }}>School</div>
             </Link>
-            <a href="https://about.atrable.com" className="navButton">
+            <Link
+              to="/app"
+              style={
+                pathName.startsWith("/app") ? selectedActionButtonStyle : null
+              }
+              className="navButton"
+            >
               <div style={{ marginTop: 10 }}>App</div>
-            </a>
+            </Link>
             <Link
               to="/music"
               style={

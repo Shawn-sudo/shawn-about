@@ -6,6 +6,8 @@ import PageNotFound from "../404";
 
 const AtrableLog = React.lazy(() => import("./AtrableLog"));
 const MusicLog = React.lazy(() => import("./MusicLog"));
+const InterestInComputersLog = React.lazy(() => import("./InterestInComputersLog"));
+const EtcLog = React.lazy(() => import("./EtcLog"));
 
 const Logs = () => {
   document.title = "Log | About Seihyun Lee";
@@ -27,7 +29,6 @@ const Logs = () => {
     <Wrapper>
       <div className="screenWithMenu">
         <div className="menu">
-          {/* todo: make it kinda look like facebook / twitter main UI */}
           <Link
             to="/logs/atrable"
             className="menu_button schoolItem"
@@ -39,7 +40,6 @@ const Logs = () => {
           >
             Developing My Social Media
           </Link>
-
           <Link
             to="/logs/music"
             className="menu_button schoolItem margin_bottom_15"
@@ -48,6 +48,26 @@ const Logs = () => {
             }
           >
             Making Musics
+          </Link>
+          <Link
+            to="/logs/interest-in-computers"
+            className="menu_button schoolItem margin_bottom_15"
+            style={
+              pathName.startsWith("/logs/interest-in-computers")
+                ? selectedMenuButtonStyle
+                : {}
+            }
+          >
+            Getting Interest in Computers (good old days)
+          </Link>
+          <Link
+            to="/logs/etc"
+            className="menu_button schoolItem margin_bottom_15"
+            style={
+              pathName.startsWith("/logs/etc") ? selectedMenuButtonStyle : {}
+            }
+          >
+            ETC.
           </Link>
         </div>
         <Routes>
@@ -74,6 +94,14 @@ const LogType = () => {
       ) : logType === "music" ? (
         <MySuspense>
           <MusicLog />
+        </MySuspense>
+      ) : logType === "interest-in-computers" ? (
+        <MySuspense>
+          <InterestInComputersLog />
+        </MySuspense>
+      ) : logType === "etc" ? (
+        <MySuspense>
+          <EtcLog />
         </MySuspense>
       ) : (
         <PageNotFound />

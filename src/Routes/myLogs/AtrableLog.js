@@ -45,7 +45,6 @@ const AtrableLog = () => {
             </h2>
             <ul>
               <li>View / play audio posts</li>
-              <li>Change friend relationship manage system</li>
             </ul>
           </div>
         </div>
