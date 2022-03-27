@@ -8,7 +8,10 @@ const InterestInComputersLog = () => {
       style={{
         marginTop: 20,
         marginBottom: 20,
+        marginLeft: "auto",
+        marginRight: "auto",
         textAlign: "center",
+        maxWidth: 750,
       }}
     >
       <Card>
@@ -95,15 +98,7 @@ const InterestInComputersLog = () => {
           &nbsp;to build an audio-based social media service. I am planning to
           finish it till this summer (2022).
         </p>
-        <Link
-          to="/logs/atrable"
-          style={{
-            fontSize: 22.5,
-            fontWeight: "bold",
-            color: "#69f0ae",
-            textDecoration: "none",
-          }}
-        >
+        <Link to="/logs/atrable" className="learn-more">
           More Story &nbsp;
           <i className="fas fa-arrow-right"></i>
         </Link>

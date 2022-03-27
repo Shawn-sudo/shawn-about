@@ -9,13 +9,13 @@
 }
 
 .App-Appbar {
-  background-color: rgba(248, 248, 255, 0.7);
+  background-color: rgba(248, 248, 255, 0.4);
   height: 55px;
   width: 100vw;
   display: flex;
   position: fixed;
   top: 0;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(20px);
   align-items: center;
   justify-content: space-between;
   z-index: 10;
@@ -62,6 +62,25 @@
   border-radius: 25%;
   box-shadow: 0px 5px 10px rgba(112, 144, 156, 0.3);
   object-fit: cover;
+}
+
+.short_portfolio .portfolio-item_atrable {
+  display: flex;
+  flex-direction: row;
+  color: grey;
+}
+
+@media (max-width: 900px) {
+  .short_portfolio .portfolio-item_atrable {
+    flex-direction: column;
+  }
+}
+
+.learn-more {
+  font-size: 22.5px;
+  font-weight: bold;
+  color: #69f0ae;
+  text-decoration: none;
 }
 
 .flexbox .item {

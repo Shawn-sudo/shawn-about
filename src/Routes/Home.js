@@ -1,83 +1,21 @@
-import React, { useEffect } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
 import Card from "../Components/Card";
-// import * as THREE from "three";
 import Wrapper from "../Components/Wrapper";
-// import SmallTown from "../Components/3D";
-//todo: put these in logs
 
 const Home = () => {
   document.title = "Home | About Seihyun Lee";
-  //structure of this page: as if My avatar is presentationing
-  //There are many companies that say "We connect people!"
-  //But, do they?
-  //Instagram: Showing off to others, rather than being connected
-  //            "Who is living a happier life?"
-  //            pic: everybody smiling
-  //Facebook: Tooooooooo public
-  //            "Who has more friends??" "What post did u liked?" "What was the chat with u and Jacob about?" "Your account has been disabled. Upload your ID"
-  //            eyes(like big brother), bugs
-  //Snapchat: Streak Game
-  //          🔥300: Best Friend
-  //          🔥200: Best Friend
-  //          🔥100: Best Friend
-  //          🔥30: Close Friend
-  //          🔥3: Friend
-
-  //structure
-  //  1. Projects
-  //  1-1. Personal Projects
-  //      Closquare: Moving a whole "Table" into a mobile device
-  //          Used Flutter and Firebase
-  //          --> Failed
-  //      Atrable - 1: Sharing projects with others
-  //          --> Failed
-  //      Atrable - 2:
-  //      Atrable: Audio based Social Media
-  //  1-2. School Projects
-  //      I-Research: About the relationship between the pandemic and depression (Mar - Apr, 2021)
-  //      Karooni: Book Reading (To Kill a Mockingbird) (Apr - May, 2021)
-  //  2. Diaries
-
-  //School / App / Music / Log
-  //School: Class / Club
-  //App: About Atrable (about.atrable.com)
-  //App --> Log: Show my dev history
-  //Music: Just made a few melodies
-  //    --> Log: What I've done / My recordings
-  //Log: What I've done for App, Music, School, Club
-
-  useEffect(() => {
-    //Not related to the 3d thing
-    // var windowHalfY = window.innerHeight / 2;
-    // const homeElement = document.querySelector("#Home");
-    // homeElement.focus();
-    // const slide1CenterTitle = document.querySelector(
-    //   "#slide0 #center-title-container"
-    // );
-    // let scrolledY = 0;
-    // let scrolledYBefore = 0;
-    // homeElement.addEventListener("scroll", (event) => {
-    //   scrolledYBefore = scrolledY;
-    //   scrolledY = homeElement.scrollTop;
-    //   if (scrolledY < windowHalfY) {
-    //     slide1CenterTitle.style.display = "block";
-    //     slide1CenterTitle.style.opacity = 1 - scrolledY / windowHalfY;
-    //   } else {
-    //     slide1CenterTitle.style.display = "none";
-    //   }
-    // });
-  });
-
   return (
     <div id="Home" tabIndex="-1">
       <div className="slide" id="slide0">
         <Wrapper>
-          {/* <SmallTown /> */}
           <div
             style={{
               textAlign: "center",
+              maxWidth: 1000,
+              margin: "auto",
             }}
-            className="short_portfoliio"
+            className="short_portfolio"
           >
             <div
               style={{
@@ -123,41 +61,61 @@ const Home = () => {
                 Computer
               </span>
             </p>
+            <Card>
+              <div className="portfolio-item_atrable">
+                <div style={{ padding: 20 }}>
+                  <h1
+                    style={{
+                      color: "white",
+                      fontSize: 75,
+                      textShadow: "0px 5px 15px rgba(112, 144, 156, 0.3)",
+                    }}
+                  >
+                    Atrable
+                  </h1>
+                  <p>An Audio-Based Social Media</p>
+                  <Link to="/logs/atrable" className="learn-more">
+                    More Story &nbsp;
+                    <i className="fas fa-arrow-right"></i>
+                  </Link>
+                </div>
+                <div>
+                  <img
+                    src="/assets/atrable/Simulator_Screen_Shot_Feb7_1.png"
+                    alt="Simulator_Screen_Shot_Feb7_1"
+                    width="25%"
+                    style={{
+                      borderRadius: 15,
+                    }}
+                  />
+                  <img
+                    src="/assets/atrable/Simulator_Screen_Shot_Feb7_2.png"
+                    alt="Simulator_Screen_Shot_Feb7_1"
+                    width="25%"
+                    style={{
+                      borderRadius: 15,
+                    }}
+                  />
+                  <img
+                    src="/assets/atrable/Simulator_Screen_Shot_Feb7_3.png"
+                    alt="Simulator_Screen_Shot_Feb7_1"
+                    width="25%"
+                    style={{
+                      borderRadius: 15,
+                    }}
+                  />
+                  <img
+                    src="/assets/atrable/Simulator_Screen_Shot_Feb7_4.png"
+                    alt="Simulator_Screen_Shot_Feb7_1"
+                    width="25%"
+                    style={{
+                      borderRadius: 15,
+                    }}
+                  />
+                </div>
+              </div>
+            </Card>
 
-            <div style={{ maxWidth: 800, margin: "auto" }}>
-              <img
-                src="/assets/atrable/Simulator_Screen_Shot_Feb7_1.png"
-                alt="Simulator_Screen_Shot_Feb7_1"
-                width="25%"
-                style={{
-                  borderRadius: "10px",
-                }}
-              />
-              <img
-                src="/assets/atrable/Simulator_Screen_Shot_Feb7_2.png"
-                alt="Simulator_Screen_Shot_Feb7_1"
-                width="25%"
-                style={{
-                  borderRadius: "10px",
-                }}
-              />
-              <img
-                src="/assets/atrable/Simulator_Screen_Shot_Feb7_3.png"
-                alt="Simulator_Screen_Shot_Feb7_1"
-                width="25%"
-                style={{
-                  borderRadius: "10px",
-                }}
-              />
-              <img
-                src="/assets/atrable/Simulator_Screen_Shot_Feb7_4.png"
-                alt="Simulator_Screen_Shot_Feb7_1"
-                width="25%"
-                style={{
-                  borderRadius: "10px",
-                }}
-              />
-            </div>
             <div
               className="flexbox"
               style={{

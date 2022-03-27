@@ -3,7 +3,6 @@ const Card = (props) => {
     <div
       style={{
         width: "calc(100% - 60px)",
-        maxWidth: 750,
         padding: 15,
         margin: "auto",
         marginTop: 7.5,
