@@ -93,9 +93,9 @@ const AtrableLog = () => {
           <div className="content">
             <h2>Nov - Dec 2021</h2>
             <p>
-              I made basic features that a social media should provide, such as
-              friend management, viewing others' profiles, sending text
-              messages.
+              I made basic features that a social media (SNS specifically)
+              should provide, such as friend management, viewing others'
+              profiles, sending text messages.
             </p>
             <img
               src="/assets/atrable/IMG_2848.png"
@@ -153,7 +153,7 @@ const AtrableLog = () => {
             <p>
               I made&nbsp;
               <a
-                href="https://intro.chat.atrable.com"
+                href="https://sites.google.com/view/atrable"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -161,7 +161,7 @@ const AtrableLog = () => {
               </a>
               ,&nbsp;
               <a
-                href="https://about.chat.atrable.com"
+                href="https://sites.google.com/view/aboutatrable"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -169,13 +169,14 @@ const AtrableLog = () => {
               </a>
               , and&nbsp;
               <a
-                href="https://get.chat.atrable.com"
+                href="https://sites.google.com/view/getatrable"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Get Page
               </a>
-              &nbsp;to explain my idea of the app using Google Sites
+              &nbsp;to explain my idea of the app using Google Sites. You can
+              see that the app used to have different characteristics.
             </p>
           </div>
         </div>
