@@ -24,7 +24,6 @@ const App = () => {
         <div className="App-Appbar transition-by-it-self">
           <div
             style={{
-              // width: 55,
               display: "flex",
               flexDirection: "row",
             }}
@@ -39,7 +38,6 @@ const App = () => {
                   objectFit: "cover",
                   padding: 7.5,
                   borderRadius: 17.5,
-                  // boxShadow: "0px 3px 5px rgba(112, 144, 156, 0.3)",
                 }}
               />
             </Link>
