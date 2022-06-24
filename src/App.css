@@ -224,3 +224,13 @@
   background-color: white;
   color: #69f0ae;
 }
+
+code {
+  background-color: #d7dae4;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  font-size: 14px;
+}
