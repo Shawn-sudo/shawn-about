@@ -36,18 +36,70 @@ const AtrableLog = () => {
       <div className="timeline">
         <div className="container right">
           <div className="content">
-            <h2
-              style={{
-                color: "#fdd835",
-              }}
-            >
-              TO-DO
-            </h2>
-            <ul>
-              <li>View / play audio posts</li>
-            </ul>
+            <h2>Mar-Jun 2022: Finalizing App</h2>
+            <h3>Play Audios</h3>
+            <p>
+              Using <code>ManageAudioPlayers</code> (I made it!), each page can
+              manage audio plays.
+            </p>
+            <h3>Suggested Posts</h3>
+            <p>
+              In <code>SuggestedPosts</code> page, random public posts are
+              displayed.
+            </p>
+            <p>Audios are automatically played as the page is scrolled.</p>
+            <h3>Post Details</h3>
+            <p>
+              In <code>PostDetailsPage</code>, the uploader can see the details
+              of the post (views, likes, and comments). Comments are accessable
+              here.
+            </p>
+            <h3>Post Likes & Comments & Views</h3>
+            <p>People can like a post by pressing the ❤️ button.</p>
+            <p>
+              People can comment about a post on the linked{" "}
+              <code>PostCommentChatroom</code>, which is a public chatroom for
+              anyone.
+            </p>
+            <p>
+              View would be counted when more than 1/3 or 10 sec of the audio is
+              played.
+            </p>
+            <h3>
+              Add <code>Share With Friends</code>
+            </h3>
+            <p>
+              In <code>SharePost</code>, replace <code>send to</code> feature,
+              which used to send post itself through chatroom, with{" "}
+              <code>Share With Friends</code>.
+            </p>
+            <h3>Chatroom Design Change</h3>
+            <p>Show the time when the message sent, with a better design.</p>
+            <p>
+              If it's not a <code>DMChatroom</code>, show people's profiles.
+            </p>
+            <p>Indicate sending with shimmer effect.</p>
+            <h3>Chatroom Pagination</h3>
+            <p>
+              Much better pagination: fetch the newest message, use{" "}
+              <code>
+                <a href="https://pub.dev/packages/infinite_scroll_pagination">
+                  infinite_scroll_pagination
+                </a>
+              </code>{" "}
+              to fetch older messages and use FirebaseFirestore realtime update
+              feature to fetch newer messages in real time.
+            </p>
+            <h3>Etc</h3>
+            <p>
+              Continue with Apple when signing in/up, don't force/require people
+              to verify email: only show a popup, allow users to check past
+              records locally, set correct keyboard text capitalization
+              settings, dark mode, ...
+            </p>
           </div>
         </div>
+
         <div className="container left">
           <div className="content">
             <h2>Jan-Feb 2022</h2>
