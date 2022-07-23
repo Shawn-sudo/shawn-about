@@ -7,6 +7,17 @@ const AtrableLog = () => {
 
   return (
     <>
+      {/* <button
+          onClick={() => {
+            window.scrollTo({
+              top: document.body.scrollHeight,
+              behavior: "smooth",
+            });
+          }}
+        >
+          Go to the beginning
+        </button> */}
+
       <div
         style={{
           display: "flex",
@@ -35,6 +46,81 @@ const AtrableLog = () => {
       </div>
 
       <div className="timeline">
+        <div className="container left">
+          <div className="content">
+            <h2>Jul 2022</h2>
+            <h3>
+              Published on{" "}
+              <a
+                href="https://get.atrable.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Apple App Store
+              </a>
+            </h3>
+            <h3>Attempt to Advertise </h3>
+            <p>
+              I made a video to submit this app to Congressional App Challenge
+              and advertise it at once. I was trying to kill two "birds" with
+              one stone, but I think I lost both birds; I was being too informal
+              to submit it to the contest, but the video was quite boring to be
+              a good advertisement. I'm going to refilm it 😼
+            </p>
+            <h3>Fix bugs</h3>
+            <p>There were a lot a lot 😩😵‍💫</p>
+            <h3>Change the catchphrase</h3>
+            <p>
+              It used to be "Share your day with audio and video." I thought it
+              was too weak, so I changed it to "Your not-so-special moments,
+              share it on Atrable"
+            </p>
+            <div>
+              <h3>App Details Image</h3>
+              <p>I made these pictures using Vectornator.</p>
+              <img
+                src="/assets/atrable/Atrable App Image 1.png"
+                alt="Your not-so-special moments,"
+                width="50%"
+                style={{
+                  borderRadius: "20px 0px 0px 20px",
+                }}
+              />
+              <img
+                src="/assets/atrable/Atrable App Image 2.png"
+                alt="Share it on Atrable"
+                width="50%"
+                style={{
+                  borderRadius: "0px 20px 20px 0px",
+                }}
+              />
+              <img
+                src="/assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 21.24.28.png"
+                alt="Atrable app detail image - share post"
+                width="33.33%"
+                style={{
+                  borderRadius: 20,
+                }}
+              />
+              <img
+                src="/assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 20.47.25.png"
+                alt="Atrable app detail image - my page"
+                width="33.33%"
+                style={{
+                  borderRadius: 20,
+                }}
+              />
+              <img
+                src="/assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 21.19.37.png"
+                alt="Atrable app detail image - post details"
+                width="33.33%"
+                style={{
+                  borderRadius: 20,
+                }}
+              />
+            </div>
+          </div>
+        </div>
         <div className="container right">
           <div className="content">
             <h2>Mar-Jun 2022: Finalizing App</h2>
@@ -103,10 +189,10 @@ const AtrableLog = () => {
 
         <div className="container left">
           <div className="content">
-            <h2>Jan-Feb 2022</h2>
+            <h2>Jan-Feb 2022: Audio!</h2>
             <p>
-              Added audio-related features: sending an audio message, sharing an
-              audio post, playing those in a chatroom, etc.,
+              Implemented audio-related features: sharing an audio post, sending
+              an audio message, playing those in a chatroom, etc.,
             </p>
             <img
               src="/assets/atrable/Simulator_Screen_Shot_Feb7_1.png"
@@ -148,7 +234,7 @@ const AtrableLog = () => {
             <p>
               I made basic features that a social media (SNS specifically)
               should provide, such as friend management, viewing others'
-              profiles, sending text messages.
+              profiles, and sending chat messages.
             </p>
             <img
               src="/assets/atrable/IMG_2848.png"
@@ -229,7 +315,7 @@ const AtrableLog = () => {
                 Get Page
               </a>
               &nbsp;to explain my idea of the app using Google Sites. You can
-              see that the app used to have different characteristics.
+              see that the app used to be quite different from now.
             </p>
           </div>
         </div>
