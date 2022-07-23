@@ -35,6 +35,13 @@ class ErrorBoundary extends Component<Props, State> {
           >
             Something went wrong.
           </h2>
+          <p
+            style={{
+              textAlign: "center",
+            }}
+          >
+            Try refreshing the page.
+          </p>
         </Wrapper>
       );
     }
