@@ -1,4 +1,11 @@
-const Wrapper = (props) => {
+import React from "react";
+
+type Props = {
+  children?: React.ReactNode;
+  className?: string;
+};
+
+function Wrapper(props: Props) {
   window.scrollTo({ top: 0, behavior: "smooth" });
   return (
     <div
@@ -8,6 +15,6 @@ const Wrapper = (props) => {
       {props.children}
     </div>
   );
-};
+}
 
 export default Wrapper;

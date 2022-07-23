@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import PageNotFound from "./Routes/404";
+import PageNotFound from "./Routes/PageNotFound";
 import School from "./Routes/School/School";
 import Logs from "./Routes/myLogs/Logs";
 import MySuspense from "./Components/MySuspense";

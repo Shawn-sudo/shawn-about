@@ -1,7 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 import "./App.css";
 import AppRoutes from "./Routes";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Footer from "./Components/Footer";
 
 const App = () => {
@@ -54,7 +54,7 @@ const App = () => {
               style={
                 pathName.startsWith("/school")
                   ? selectedActionButtonStyle
-                  : null
+                  : undefined
               }
               className="navButton"
             >
@@ -63,7 +63,9 @@ const App = () => {
             <Link
               to="/app"
               style={
-                pathName.startsWith("/app") ? selectedActionButtonStyle : null
+                pathName.startsWith("/app")
+                  ? selectedActionButtonStyle
+                  : undefined
               }
               className="navButton"
             >
@@ -72,7 +74,9 @@ const App = () => {
             <Link
               to="/music"
               style={
-                pathName.startsWith("/music") ? selectedActionButtonStyle : null
+                pathName.startsWith("/music")
+                  ? selectedActionButtonStyle
+                  : undefined
               }
               className="navButton"
             >
@@ -81,7 +85,9 @@ const App = () => {
             <Link
               to="/logs"
               style={
-                pathName.startsWith("/logs") ? selectedActionButtonStyle : null
+                pathName.startsWith("/logs")
+                  ? selectedActionButtonStyle
+                  : undefined
               }
               className="navButton"
             >

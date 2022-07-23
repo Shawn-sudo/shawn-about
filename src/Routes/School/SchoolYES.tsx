@@ -1,8 +1,9 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import Card from "../../Components/Card";
 import CardImageWrapper from "../../Components/CardImageWrapper";
 
-const SchoolYES = () => {
+function SchoolYES() {
   return (
     <div
       style={{
@@ -20,7 +21,7 @@ const SchoolYES = () => {
           <div style={{ width: "50%" }}>
             <img
               style={{
-                disply: "block",
+                display: "block",
                 borderRadius: 15,
                 margin: 30,
                 objectFit: "cover",
@@ -48,6 +49,6 @@ const SchoolYES = () => {
       </div>
     </div>
   );
-};
+}
 
 export default SchoolYES;

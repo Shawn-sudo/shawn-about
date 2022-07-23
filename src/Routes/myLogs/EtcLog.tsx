@@ -1,3 +1,4 @@
+import React from "react";
 import { Link } from "react-router-dom";
 
 const EtcLog = () => {
@@ -109,9 +110,7 @@ const EtcLog = () => {
       <h2>Music creation, 2019 to present</h2>
       <p>
         Started with some silly melodies, now making not-bad-not-good songs.{" "}
-        <Link exact to="/music">
-          here
-        </Link>
+        <Link to="/music">here</Link>
       </p>
     </div>
   );

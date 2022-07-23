@@ -1,4 +1,6 @@
-const MusicLog = () => {
+import React from "react";
+
+function MusicLog() {
   document.title = "Log - Music | About Seihyun Lee";
 
   return (
@@ -7,6 +9,6 @@ const MusicLog = () => {
       <p>Nothing here yet</p>
     </>
   );
-};
+}
 
 export default MusicLog;

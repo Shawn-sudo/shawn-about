@@ -1,4 +1,6 @@
-const SchoolMMS = () => {
+import React from "react";
+
+const SchoolTMS = () => {
   return (
     <div
       style={{
@@ -13,4 +15,4 @@ const SchoolMMS = () => {
   );
 };
 
-export default SchoolMMS;
+export default SchoolTMS;

@@ -2,11 +2,13 @@ import React, { useEffect, useState } from "react";
 import { Link, Route, Routes, useLocation, useParams } from "react-router-dom";
 import MySuspense from "../../Components/MySuspense";
 import Wrapper from "../../Components/Wrapper";
-import PageNotFound from "../404";
+import PageNotFound from "../PageNotFound";
 
 const AtrableLog = React.lazy(() => import("./AtrableLog"));
 const MusicLog = React.lazy(() => import("./MusicLog"));
-const InterestInComputersLog = React.lazy(() => import("./InterestInComputersLog"));
+const InterestInComputersLog = React.lazy(() =>
+  import("./InterestInComputersLog")
+);
 const EtcLog = React.lazy(() => import("./EtcLog"));
 
 const Logs = () => {
@@ -38,7 +40,7 @@ const Logs = () => {
                 : {}
             }
           >
-            Developing My Social Media
+            Developing Atrable
           </Link>
           <Link
             to="/logs/music"

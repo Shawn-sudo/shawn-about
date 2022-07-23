@@ -6,7 +6,7 @@ import Wrapper from "../Components/Wrapper";
 const Home = () => {
   document.title = "Home | About Seihyun Lee";
   return (
-    <div id="Home" tabIndex="-1">
+    <div id="Home" tabIndex={-1}>
       <div className="slide" id="slide0">
         <Wrapper>
           <div
@@ -73,7 +73,8 @@ const Home = () => {
                   >
                     Atrable
                   </h1>
-                  <p>An Audio-Based Social Media</p>
+                  <h4 style={{ margin: 0, padding: 0 }}>Audio Required!</h4>
+                  <p>Share your not-so-special moments</p>
                   <Link to="/logs/atrable" className="learn-more">
                     More Story &nbsp;
                     <i className="fas fa-arrow-right"></i>
@@ -115,7 +116,6 @@ const Home = () => {
                 </div>
               </div>
             </Card>
-
             <div
               className="flexbox"
               style={{

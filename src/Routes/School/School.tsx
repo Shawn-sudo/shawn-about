@@ -1,7 +1,7 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, Route, Routes, useLocation, useParams } from "react-router-dom";
 import Wrapper from "../../Components/Wrapper";
-import PageNotFound from "../404";
+import PageNotFound from "../PageNotFound";
 import SchoolMMS from "./SchoolMMS";
 import SchoolTHS from "./SchoolTHS";
 import SchoolTMS from "./SchoolTMS";

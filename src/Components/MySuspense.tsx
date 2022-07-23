@@ -1,8 +1,13 @@
+import React from "react";
 import { Suspense } from "react";
 import ErrorBoundary from "./ErrorBoundary";
 import Wrapper from "./Wrapper";
 
-const MySuspense = (props) => {
+type Props = {
+  children?: React.ReactNode;
+};
+
+const MySuspense = (props: Props) => {
   return (
     <Suspense
       fallback={

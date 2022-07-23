@@ -1,4 +1,5 @@
-import appIconRounded from "../../appIconRounded.svg";
+import React from "react";
+import logo from "../../appIconRounded.svg";
 import "./Timeline.css";
 
 const AtrableLog = () => {
@@ -13,7 +14,7 @@ const AtrableLog = () => {
         }}
       >
         <img
-          src={appIconRounded}
+          src={logo}
           alt="logo"
           height="30"
           style={{

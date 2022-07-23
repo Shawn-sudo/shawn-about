@@ -1,4 +1,10 @@
-const Card = (props) => {
+import React from "react";
+
+type Props = {
+  children?: React.ReactNode;
+};
+
+function Card(props: Props) {
   return (
     <div
       style={{
@@ -15,6 +21,6 @@ const Card = (props) => {
       {props.children}
     </div>
   );
-};
+}
 
 export default Card;
