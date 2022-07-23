@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../appIconRounded.svg";
+import logo from "../../assets/appIconRounded.svg";
 import "./Timeline.css";
 
 function AtrableLog() {
