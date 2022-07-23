@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Link, Route, Routes, useLocation, useParams } from "react-router-dom";
+import MySuspense from "../../Components/MySuspense";
 import Wrapper from "../../Components/Wrapper";
 import PageNotFound from "../PageNotFound";
-import SchoolMMS from "./SchoolMMS";
-import SchoolTHS from "./SchoolTHS";
-import SchoolTMS from "./SchoolTMS";
-import SchoolYES from "./SchoolYES";
+
+const SchoolTHS = React.lazy(() => import("./SchoolTHS"));
+const SchoolTMS = React.lazy(() => import("./SchoolTMS"));
+const SchoolMMS = React.lazy(() => import("./SchoolMMS"));
+const SchoolYES = React.lazy(() => import("./SchoolYES"));
 
 function School() {
   document.title = "School | About Seihyun Lee";
@@ -115,13 +117,21 @@ const SchoolViewer = () => {
         </div>
       </div>
       {schoolType === "YES" ? (
-        <SchoolYES />
+        <MySuspense>
+          <SchoolYES />
+        </MySuspense>
       ) : schoolType === "MMS" ? (
-        <SchoolMMS />
+        <MySuspense>
+          <SchoolMMS />
+        </MySuspense>
       ) : schoolType === "TMS" ? (
-        <SchoolTMS />
+        <MySuspense>
+          <SchoolTMS />
+        </MySuspense>
       ) : schoolType === "THS" ? (
-        <SchoolTHS />
+        <MySuspense>
+          <SchoolTHS />
+        </MySuspense>
       ) : (
         <PageNotFound />
       )}
