@@ -27,8 +27,18 @@ function Footer() {
           }}
         />
       </Link>
-      <p>&copy; 2022. Seihyun Lee </p>
       <p style={{ fontWeight: "bold" }}>Made by Seihyun (Shawn) Lee</p>
+      <a
+        href="https://github.com/Shawn-sudo/shawn-about"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          color: "white",
+        }}
+      >
+        Source code
+      </a>
+      <p>&copy; 2022. Seihyun Lee </p>
       <div
         style={{
           display: "flex",
