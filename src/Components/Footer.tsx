@@ -1,11 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import githubLogo from "../assets/social_media_logo/GitHub_Logo_White.png";
+import atrableLogo from "../assets/appIconRounded.svg";
 
 function Footer() {
   return (
     <footer
-      className="App-footer"
-      style={{ textAlign: "center", backgroundColor: "ghostwhite" }}
+      style={{
+        textAlign: "center",
+        backgroundColor: "var(--secondary-color-darker)",
+        color: "white",
+      }}
     >
       <div style={{ height: 20 }} />
       <Link to="/">
@@ -24,43 +29,27 @@ function Footer() {
       </Link>
       <p>&copy; 2022. Seihyun Lee </p>
       <p style={{ fontWeight: "bold" }}>Made by Seihyun (Shawn) Lee</p>
-      <p
+      <div
         style={{
-          color: "grey",
-          opacity: 0.5,
+          display: "flex",
+          justifyContent: "space-evenly",
         }}
       >
-        Used&nbsp;
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          React
-        </a>
-        ,&nbsp;
         <a
-          href="https://firebase.google.com/products/hosting"
+          href="https://github.com/Shawn-sudo"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Firebase Hosting
+          <img src={githubLogo} alt="github" height={50} />
         </a>
-        , and&nbsp;
         <a
-          href="https://fontawesome.com"
+          href="https://get.atrable.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Font Awesome
+          <img src={atrableLogo} alt="github" height={50} />
         </a>
-      </p>
-      <p
-        style={{
-          color: "grey",
-          opacity: 0.5,
-        }}
-      >
-        There's actually no reason to use React for this simple portfolio
-        website, but I just wanted to use it
-      </p>
-      <div>{window.location.pathname}</div>
+      </div>
       <div style={{ height: 20 }} />
     </footer>
   );
