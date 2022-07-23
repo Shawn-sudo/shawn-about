@@ -52,15 +52,17 @@ const InterestInComputersLog = () => {
           >
             an airplane simulator
           </a>
-          &nbsp;on my laptop, but it didn't work well: it took at least 20
-          minutes to load the simulator because my computer was poor.
+          &nbsp;on my laptop, but it didn't work well; the screen was render
+          like 1 frame per 3 seconds.
         </p>
         <p>
-          Since then, I started to get interested in computers. I was interested
-          in hardware at that time. I somewhat understood how the components of
-          the computer interact. To understand those interactions in deep, I had
-          to understand the software.
-          {/* Mention that I've made a .pub file for this, in the log or smth */}
+          I was searching up why this was not working. Since then, I started to
+          get interested in computers, especially in hardwares. I somewhat
+          understood how the components of the computer (CPU, RAM, GPU,
+          mainboard (motherboard / logicboard), sound card, pci lanes for
+          connections, I/O ports, ...) interact, but to deeply understand those
+          interactions, I had to know the software, too.
+          {/* Mention that I've made the computer guide pdf for this, in the log or smth */}
         </p>
         <p>
           I started with the most widely-used language,&nbsp;
@@ -71,11 +73,12 @@ const InterestInComputersLog = () => {
           >
             Python
           </a>
-          , to understand the basic concepts used in programming. I understood
-          what class, function, variable, ... are while learning that language.
+          , to understand the basic concepts in programming, such as class,
+          variable, function, loops, ...
         </p>
         <p>
-          Then, I wanted to build an app that can run on any platform.&nbsp;
+          Then, I wanted to build an app using the programming knowledge that I
+          learned.{" "}
           <a
             href="https://flutter.dev/"
             target="_blank"
@@ -83,70 +86,21 @@ const InterestInComputersLog = () => {
           >
             Flutter
           </a>
-          &nbsp;was the exact cross-platform app framework for this. I
-          learned&nbsp;
+          &nbsp;was the perfect framework for this, as it supports
+          cross-platform app development. I learned&nbsp;
           <a href="https://dart.dev/" target="_blank" rel="noopener noreferrer">
             Dart
           </a>
-          &nbsp;to use Flutter. I used&nbsp;
-          <a
-            href="https://firebase.google.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Firebase
-          </a>
-          &nbsp;to build an audio-based social media service. I am planning to
-          finish it till this summer (2022).
+          &nbsp;to use Flutter. After a year of effort, developing it at least 4
+          hours a day, I published the app, Atrable, on the Apple App Store.
         </p>
         <Link to="/logs/atrable" className="learn-more">
-          More Story &nbsp;
+          More Story about Atrable&nbsp;
           <i className="fas fa-arrow-right"></i>
         </Link>
-        <div style={{ height: 20 }} />
-        <div>
-          <img
-            src="/assets/atrable/Simulator_Screen_Shot_Feb7_1.png"
-            alt="Simulator_Screen_Shot_Feb7_1"
-            width="25%"
-            style={{
-              borderRadius: "10px",
-            }}
-          />
-          <img
-            src="/assets/atrable/Simulator_Screen_Shot_Feb7_2.png"
-            alt="Simulator_Screen_Shot_Feb7_1"
-            width="25%"
-            style={{
-              borderRadius: "10px",
-            }}
-          />
-          <img
-            src="/assets/atrable/Simulator_Screen_Shot_Feb7_3.png"
-            alt="Simulator_Screen_Shot_Feb7_1"
-            width="25%"
-            style={{
-              borderRadius: "10px",
-            }}
-          />
-          <img
-            src="/assets/atrable/Simulator_Screen_Shot_Feb7_4.png"
-            alt="Simulator_Screen_Shot_Feb7_1"
-            width="25%"
-            style={{
-              borderRadius: "10px",
-            }}
-          />
-        </div>
         <p>
-          I am also building my website (this one). Since Javascript with jsx is
-          quite similar to Flutter codes, it wasn't that difficult to start
-          coding with React. This website would be gradually developed as I keep
-          doing activities.
-        </p>
-        <p>
-          Also, there's actually no reason to make this simple portfolio website
-          with the heavy framework React, but I just wanted to.
+          I am also building my website (this one). This website would be
+          gradually developed as I keep doing activities 💪.
         </p>
       </Card>
     </div>
