@@ -49,7 +49,7 @@ const Home = () => {
                   fontWeight: "bold",
                 }}
               >
-                Chemistry
+                Computer
               </span>
               &nbsp;and&nbsp;
               <span
@@ -58,139 +58,84 @@ const Home = () => {
                   fontWeight: "bold",
                 }}
               >
-                Computer
+                Chemistry
               </span>
             </p>
-            <Card>
-              <div className="portfolio-item_atrable">
-                <div style={{ padding: 20 }}>
-                  <h1
-                    style={{
-                      color: "white",
-                      fontSize: 75,
-                      textShadow: "0px 5px 15px rgba(112, 144, 156, 0.3)",
-                    }}
-                  >
-                    Atrable
-                  </h1>
-                  <h4 style={{ margin: 0, padding: 0 }}>Audio Required!</h4>
-                  <p>Share your not-so-special moments</p>
-                  <Link to="/logs/atrable" className="learn-more">
-                    More Story &nbsp;
-                    <i className="fas fa-arrow-right"></i>
-                  </Link>
-                </div>
-                <div>
-                  <img
-                    src="/assets/atrable/Simulator_Screen_Shot_Feb7_1.png"
-                    alt="Simulator_Screen_Shot_Feb7_1"
-                    width="25%"
-                    style={{
-                      borderRadius: 15,
-                    }}
-                  />
-                  <img
-                    src="/assets/atrable/Simulator_Screen_Shot_Feb7_2.png"
-                    alt="Simulator_Screen_Shot_Feb7_1"
-                    width="25%"
-                    style={{
-                      borderRadius: 15,
-                    }}
-                  />
-                  <img
-                    src="/assets/atrable/Simulator_Screen_Shot_Feb7_3.png"
-                    alt="Simulator_Screen_Shot_Feb7_1"
-                    width="25%"
-                    style={{
-                      borderRadius: 15,
-                    }}
-                  />
-                  <img
-                    src="/assets/atrable/Simulator_Screen_Shot_Feb7_4.png"
-                    alt="Simulator_Screen_Shot_Feb7_1"
-                    width="25%"
-                    style={{
-                      borderRadius: 15,
-                    }}
-                  />
-                </div>
-              </div>
-            </Card>
-            <div
-              className="flexbox"
+            <Link
+              to="/logs/atrable"
               style={{
-                display: "flex",
-                gap: "2%",
+                textDecoration: "none",
+                borderRadius: 20,
               }}
             >
-              {/* <div
-                className="item"
-                style={{
-                  marginLeft: "auto",
-                }}
-              >
-                <Card>
-                  <div
-                    style={{
-                      margin: "auto",
-                      display: "flex",
-                      justifyContent: "center",
-                    }}
-                  >
-                    <i
-                      className="fas fa-atom"
+              <Card>
+                <div className="portfolio-item_atrable">
+                  <div style={{ padding: 20 }}>
+                    <h1
                       style={{
-                        color: "#69f0ae",
-                        marginRight: 10,
-                        fontSize: 25,
-                        display: "inline",
-                      }}
-                    ></i>
-                    <h3
-                      style={{
-                        display: "inline",
-                        marginTop: "auto",
-                        marginBottom: "auto",
+                        color: "white",
+                        fontSize: 75,
+                        textShadow: "0px 5px 15px var(--shadow-color)",
+                        marginTop: 50,
+                        marginBottom: 0,
                       }}
                     >
-                      Chemistry
+                      Atrable
+                    </h1>
+                    <h4
+                      style={{
+                        color: "var(--secondary-color)",
+                      }}
+                    >
+                      Audio Required!
+                    </h4>
+                    <h3 className="learn-more">
+                      More Story &nbsp;
+                      <i className="fas fa-arrow-right"></i>
                     </h3>
                   </div>
-                  <p>
-                    There are a lot of chemical phenomena that fascinate me.
-                  </p>
-                  <p>
-                    For a simple example, I was pouring a handful of salt into
-                    the water. I thought that it might be too much, but the
-                    water dissolved the salt very well. I poured a little more
-                    salt, and the water could still dissolve it. In my view,
-                    water was unexceptionally good at dissolving salt.
-                  </p>
-                  <p>
-                    Later, I learned that Oxygen has a higher electronegativity
-                    than Hydrogen, which causes the electrons to tend to stay
-                    near Oxygen. This eventually causes the polarity of the
-                    water molecule, which makes water to be good at dissolving
-                    ions and polar molecules.
-                  </p>
-                  <p>
-                    As it is shown in my experience of pouring salt into the
-                    water, many factors are related to a chemical reaction, even
-                    if it looks simple. It is interesting for me to learn and
-                    research how elements and compounds interact with each
-                    other.
-                  </p>
-                </Card>
-              </div> */}
-              {/* <div
-                className="item"
-                style={{
-                  marginRight: "auto",
-                }}
-              >
-              
-              </div> */}
-            </div>
+                  <div
+                    style={{
+                      alignItems: "center",
+                      display: "flex",
+                    }}
+                  >
+                    <img
+                      src="/assets/atrable/Atrable App Image 1.png"
+                      alt="Your not-so-special moments,"
+                      width="25%"
+                      style={{
+                        borderRadius: "15px 0px 0px 15px",
+                      }}
+                    />
+                    <img
+                      src="/assets/atrable/Atrable App Image 2.png"
+                      alt="Share it on Atrable"
+                      width="25%"
+                      style={{
+                        borderRadius: "0px 15px 15px 0px",
+                      }}
+                    />
+                    <img
+                      src="/assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 20.47.25.png"
+                      alt="Atrable app detail image - my page"
+                      width="25%"
+                      style={{
+                        borderRadius: 15,
+                      }}
+                    />
+                    <img
+                      src="/assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 21.19.37.png"
+                      alt="Atrable app detail image - post details"
+                      width="25%"
+                      style={{
+                        borderRadius: 15,
+                      }}
+                    />
+                  </div>
+                </div>
+              </Card>
+            </Link>
             <div
               style={{
                 height: 60,
