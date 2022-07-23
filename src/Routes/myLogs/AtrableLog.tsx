@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../appIconRounded.svg";
 import "./Timeline.css";
 
-const AtrableLog = () => {
+function AtrableLog() {
   document.title = "Log - Atrable | About Seihyun Lee";
 
   return (
@@ -349,6 +349,6 @@ const AtrableLog = () => {
       </div>
     </>
   );
-};
+}
 
 export default AtrableLog;

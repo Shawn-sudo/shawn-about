@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Card from "../Components/Card";
 import Wrapper from "../Components/Wrapper";
 
-const Home = () => {
+function Home() {
   document.title = "Home | About Seihyun Lee";
   return (
     <div id="Home" tabIndex={-1}>
@@ -146,6 +146,6 @@ const Home = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Home;

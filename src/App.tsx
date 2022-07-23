@@ -4,8 +4,8 @@ import AppRoutes from "./Routes";
 import React, { useEffect, useState } from "react";
 import Footer from "./Components/Footer";
 
-const App = () => {
-  let location = useLocation();
+function App() {
+  const location = useLocation();
   const [pathName, setPathName] = useState("");
 
   const selectedActionButtonStyle = {
@@ -100,6 +100,6 @@ const App = () => {
       </div>
     </>
   );
-};
+}
 
 export default App;

@@ -8,7 +8,7 @@ import MySuspense from "./Components/MySuspense";
 const Home = React.lazy(() => import("./Routes/Home"));
 const Music = React.lazy(() => import("./Routes/Music"));
 
-const AppRoutes = () => {
+function AppRoutes() {
   return (
     <Routes>
       <Route
@@ -32,6 +32,6 @@ const AppRoutes = () => {
       <Route path="*" element={<PageNotFound />} />
     </Routes>
   );
-};
+}
 
 export default AppRoutes;

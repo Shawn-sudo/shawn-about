@@ -7,7 +7,7 @@ type Props = {
   children?: React.ReactNode;
 };
 
-const MySuspense = (props: Props) => {
+function MySuspense(props: Props) {
   return (
     <Suspense
       fallback={
@@ -39,6 +39,6 @@ const MySuspense = (props: Props) => {
       <ErrorBoundary>{props.children}</ErrorBoundary>
     </Suspense>
   );
-};
+}
 
 export default MySuspense;

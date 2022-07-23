@@ -1,6 +1,6 @@
 import React from "react";
 
-const SchoolTMS = () => {
+function SchoolTMS() {
   return (
     <div
       style={{
@@ -13,6 +13,6 @@ const SchoolTMS = () => {
       Developing
     </div>
   );
-};
+}
 
 export default SchoolTMS;

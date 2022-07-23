@@ -7,7 +7,7 @@ import SchoolTHS from "./SchoolTHS";
 import SchoolTMS from "./SchoolTMS";
 import SchoolYES from "./SchoolYES";
 
-const School = () => {
+function School() {
   document.title = "School | About Seihyun Lee";
 
   let location = useLocation();
@@ -77,7 +77,7 @@ const School = () => {
       </div>
     </Wrapper>
   );
-};
+}
 
 const SchoolViewer = () => {
   let { schoolType } = useParams();

@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import Card from "../../Components/Card";
 
-const SchoolTHS = () => {
+function SchoolTHS() {
   const [currentTab, setCurrentTab] = useState(0);
 
   const selectedButtonStyle = {
@@ -47,7 +47,7 @@ const SchoolTHS = () => {
       {currentTab === 0 ? <InClass /> : <Club />}
     </div>
   );
-};
+}
 
 const InClass = () => {
   return (

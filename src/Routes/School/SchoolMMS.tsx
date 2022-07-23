@@ -1,6 +1,6 @@
 import React from "react";
 
-const SchoolMMS = () => {
+function SchoolMMS() {
   return (
     <div
       style={{
@@ -13,6 +13,6 @@ const SchoolMMS = () => {
       Developing
     </div>
   );
-};
+}
 
 export default SchoolMMS;

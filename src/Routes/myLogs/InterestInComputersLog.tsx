@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Card from "../../Components/Card";
 
-const InterestInComputersLog = () => {
+function InterestInComputersLog() {
   return (
     <div
       className="item"
@@ -105,6 +105,6 @@ const InterestInComputersLog = () => {
       </Card>
     </div>
   );
-};
+}
 
 export default InterestInComputersLog;

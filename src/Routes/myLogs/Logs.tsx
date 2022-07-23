@@ -11,7 +11,7 @@ const InterestInComputersLog = React.lazy(
 );
 const EtcLog = React.lazy(() => import("./EtcLog"));
 
-const Logs = () => {
+function Logs() {
   document.title = "Log | About Seihyun Lee";
 
   let location = useLocation();
@@ -78,7 +78,7 @@ const Logs = () => {
       </div>
     </Wrapper>
   );
-};
+}
 
 const LogType = () => {
   let { logType } = useParams();

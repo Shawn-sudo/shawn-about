@@ -1,7 +1,7 @@
 import React from "react";
 import Wrapper from "../Components/Wrapper";
 
-const PageNotFound = () => {
+function PageNotFound() {
   return (
     <Wrapper>
       <div
@@ -33,6 +33,6 @@ const PageNotFound = () => {
       </div>
     </Wrapper>
   );
-};
+}
 
 export default PageNotFound;

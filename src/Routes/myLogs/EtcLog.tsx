@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const EtcLog = () => {
+function EtcLog() {
   return (
     <div>
       <h1>As of Jan 2022</h1>
@@ -114,6 +114,6 @@ const EtcLog = () => {
       </p>
     </div>
   );
-};
+}
 
 export default EtcLog;

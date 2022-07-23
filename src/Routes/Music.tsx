@@ -1,7 +1,7 @@
 import React from "react";
 import Wrapper from "../Components/Wrapper";
 
-const Music = () => {
+function Music() {
   document.title = "Music | About Seihyun Lee";
   return (
     <Wrapper>
@@ -43,6 +43,6 @@ const Music = () => {
       </p>
     </Wrapper>
   );
-};
+}
 
 export default Music;

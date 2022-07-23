@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
+function Footer() {
   return (
     <footer
       className="App-footer"
@@ -64,6 +64,6 @@ const Footer = () => {
       <div style={{ height: 20 }} />
     </footer>
   );
-};
+}
 
 export default Footer;
