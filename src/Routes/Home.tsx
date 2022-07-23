@@ -118,7 +118,7 @@ const Home = () => {
                     />
                     <img
                       src="/assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 20.47.25.png"
-                      alt="Atrable app detail image - my page"
+                      alt="Atrable app detail - my page"
                       width="25%"
                       style={{
                         borderRadius: 15,
@@ -126,7 +126,7 @@ const Home = () => {
                     />
                     <img
                       src="/assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 21.19.37.png"
-                      alt="Atrable app detail image - post details"
+                      alt="Atrable app detail - post details"
                       width="25%"
                       style={{
                         borderRadius: 15,
