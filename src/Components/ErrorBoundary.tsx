@@ -1,4 +1,5 @@
 import React, { Component, ErrorInfo, ReactNode } from "react";
+import Wrapper from "./Wrapper";
 
 interface Props {
   children: ReactNode;
@@ -25,13 +26,16 @@ class ErrorBoundary extends Component<Props, State> {
   public render() {
     if (this.state.hasError) {
       return (
-        <h1
-          style={{
-            textAlign: "center",
-          }}
-        >
-          Something went wrong.
-        </h1>
+        <Wrapper>
+          <h2
+            style={{
+              textAlign: "center",
+              margin: 55,
+            }}
+          >
+            Something went wrong.
+          </h2>
+        </Wrapper>
       );
     }
 
