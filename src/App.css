@@ -1,6 +1,7 @@
 :root {
   --primary-color: #69f0ae;
-  --secondary-color: rgba(172, 138, 248, 1);
+  --secondary-color: #ac8af8;
+  --secondary-color-darker: #471da3;
   --hint-color: rgba(0, 0, 0, 0.6);
   --shadow-color: rgba(112, 144, 156, 0.3);
   --shadow-big: 0px 5px 10px rgba(112, 144, 156, 0.3);
