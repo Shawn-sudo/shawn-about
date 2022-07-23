@@ -319,31 +319,55 @@ function AtrableLog() {
             </p>
           </div>
         </div>
+        <div className="container left">
+          <div className="content">
+            <h2>Jun - Aug 2021</h2>
+            <p>
+              I built an app using Flutter. I watched tutorials on YouTube, read
+              official/unofficial Flutter documents, and read questions &
+              answers on Stack Overflow. The main focus of the app was to make
+              people share a post and chat directly about it.
+            </p>
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+              }}
+            >
+              <img
+                src="/assets/atrable/Aug26_2021_ViewResponses.png"
+                alt="Aug26_2021_ViewResponses"
+                width="50%"
+                style={{
+                  borderRadius: "20px",
+                }}
+              />
+              <img
+                src="/assets/atrable/Aug26_2021.png"
+                alt="Aug26_2021"
+                width="50%"
+                style={{
+                  borderRadius: "10px",
+                }}
+              />
+            </div>
+          </div>
+        </div>
         <div className="container right">
           <div className="content">
-            <h2>Jan - Aug 2021</h2>
+            <h2>Apr - May 2021</h2>
             <p>
-              I built an app by viewing tutorials in YouTube, reading
-              official/unofficial Flutter documents, and reading questions &
-              answers in Stack Overflow. The app allows people to share a post
-              and chat directly about it.
+              I tried making a{" "}
+              <a
+                href="https://atrable-project.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                website
+              </a>
+              . The concept was to share your projects and let others use it,
+              but I'd only implemented fundamental authentication system.
             </p>
-            <img
-              src="/assets/atrable/Aug26_2021_ViewResponses.png"
-              alt="Aug26_2021_ViewResponses"
-              width="50%"
-              style={{
-                borderRadius: "20px",
-              }}
-            />
-            <img
-              src="/assets/atrable/Aug26_2021.png"
-              alt="Aug26_2021"
-              width="50%"
-              style={{
-                borderRadius: "10px",
-              }}
-            />
           </div>
         </div>
       </div>
