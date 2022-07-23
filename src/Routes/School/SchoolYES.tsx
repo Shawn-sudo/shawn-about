@@ -41,7 +41,7 @@ function SchoolYES() {
           style={{
             fontSize: "x-large",
             fontWeight: "bold",
-            color: "#69f0ae",
+            color: "var(--primary-color)",
           }}
         >
           Log

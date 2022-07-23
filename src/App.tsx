@@ -9,9 +9,9 @@ const App = () => {
   const [pathName, setPathName] = useState("");
 
   const selectedActionButtonStyle = {
-    backgroundColor: "#69f0ae",
-    color: "rgba(0,0,0,0.6)",
-    boxShadow: "0 0 0 rgba(112, 144, 156, 0.3)",
+    backgroundColor: "var(--primary-color)",
+    color: "var(--hint-color)",
+    boxShadow: "0 0 0 var(--shadow-color)",
   };
 
   useEffect(() => {

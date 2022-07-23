@@ -6,8 +6,8 @@ import PageNotFound from "../PageNotFound";
 
 const AtrableLog = React.lazy(() => import("./AtrableLog"));
 const MusicLog = React.lazy(() => import("./MusicLog"));
-const InterestInComputersLog = React.lazy(() =>
-  import("./InterestInComputersLog")
+const InterestInComputersLog = React.lazy(
+  () => import("./InterestInComputersLog")
 );
 const EtcLog = React.lazy(() => import("./EtcLog"));
 
@@ -18,9 +18,9 @@ const Logs = () => {
   const [pathName, setPathName] = useState("");
 
   const selectedMenuButtonStyle = {
-    backgroundColor: "#69f0ae",
-    color: "rgba(0,0,0,0.6)",
-    boxShadow: "0 0 0 rgba(112, 144, 156, 0.3)",
+    backgroundColor: "var(--primary-color)",
+    color: "var(--hint-color)",
+    boxShadow: "0 0 0 var(--shadow-color)",
   };
 
   useEffect(() => {

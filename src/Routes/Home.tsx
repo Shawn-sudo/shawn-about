@@ -45,7 +45,7 @@ const Home = () => {
               &nbsp;- especially in&nbsp;
               <span
                 style={{
-                  color: "#69f0ae",
+                  color: "var(--primary-color)",
                   fontWeight: "bold",
                 }}
               >
@@ -54,7 +54,7 @@ const Home = () => {
               &nbsp;and&nbsp;
               <span
                 style={{
-                  color: "#69f0ae",
+                  color: "var(--primary-color)",
                   fontWeight: "bold",
                 }}
               >

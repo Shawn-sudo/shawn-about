@@ -26,7 +26,7 @@ const InterestInComputersLog = () => {
           <i
             className="fas fa-laptop-code"
             style={{
-              color: "#69f0ae",
+              color: "var(--primary-color)",
               marginRight: 10,
               fontSize: 25,
               display: "inline",
