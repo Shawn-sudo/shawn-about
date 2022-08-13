@@ -30,17 +30,7 @@ function Music() {
       <p style={{ opacity: 0.2 }}>
         Sometimes, I make music while studying for a test. Tests are inspiring.
       </p>
-      <p>They are all incomplete.</p>
-      <p>
-        It is impossible to
-        <ul>
-          <li>get a good score in every class</li>
-          <li>make my own social media service</li>
-          <li>make this website by myself (not using website builders)</li>
-          <li>make music professionally</li>
-        </ul>
-        at once, so I gave up professionally making music .
-      </p>
+      <p>They are all incomplete. I don't have time to complete those rn.</p>
     </Wrapper>
   );
 }
