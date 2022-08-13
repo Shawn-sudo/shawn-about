@@ -63,9 +63,9 @@ function AtrableLog() {
             <p>
               I made a video to submit this app to Congressional App Challenge
               and advertise it at once. I was trying to kill two "birds" with
-              one stone, but I think I lost both birds; I was being too informal
-              to submit it to the contest, but the video was quite boring to be
-              a good advertisement. I'm going to refilm it 😼
+              one "stone", but I think I lost both birds; I was being too
+              informal to submit it to the contest, but the video was quite
+              boring to be a good advertisement. I'm going to refilm it 😼
             </p>
             <h3>Fix bugs</h3>
             <p>There were a lot a lot 😩😵‍💫</p>
@@ -323,10 +323,13 @@ function AtrableLog() {
           <div className="content">
             <h2>Jun - Aug 2021</h2>
             <p>
-              I built an app using Flutter. I watched tutorials on YouTube, read
-              official/unofficial Flutter documents, and read questions &
-              answers on Stack Overflow. The main focus of the app was to make
-              people share a post and chat directly about it.
+              I built an app using Flutter by watching tutorials on YouTube,
+              reading official/unofficial documents (instructions), and reading
+              questions & answers on Stack Overflow.
+            </p>
+            <p>
+              The main focus of the app was to make people share a post and{" "}
+              <strong>directly</strong> chat about it.
             </p>
             <div
               style={{
@@ -364,9 +367,10 @@ function AtrableLog() {
                 rel="noopener noreferrer"
               >
                 website
-              </a>
-              . The concept was to share your projects and let others use it,
-              but I'd only implemented fundamental authentication system.
+              </a>{" "}
+              using React. The purpose was to share your projects and let others
+              use it, but I'd only implemented fundamental authentication
+              system.
             </p>
           </div>
         </div>
