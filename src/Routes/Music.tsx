@@ -26,11 +26,12 @@ function Music() {
         />
         <p>Your browser does not support the audio element.</p>
       </audio>
-      <p>I make musics when I have nothing left to do.</p>
-      <p style={{ opacity: 0.2 }}>
-        Sometimes, I make music while studying for a test. Tests are inspiring.
+      <p>
+        I usually make music while studying for a test. Tests are inspiring.
       </p>
-      <p>They are all incomplete. I don't have time to complete those rn.</p>
+      <p>
+        They are all incomplete tho. I don't have time to complete those rn.
+      </p>
     </Wrapper>
   );
 }

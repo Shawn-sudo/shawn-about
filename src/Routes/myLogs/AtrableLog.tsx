@@ -48,6 +48,99 @@ function AtrableLog() {
       <div className="timeline">
         <div className="container left">
           <div className="content">
+            <h2>Sep-Oct 2022: Changes for v1.2.0</h2>
+            <p>School started, and I was really busy.</p>
+            <h3>v1.1.2 release</h3>
+            <p>I released v1.1.2 (Aug 2022 works) on App Store. </p>
+            <p>
+              My Android friends also want to get this app, so I gotta release
+              it on the Play Store too.
+            </p>
+            <h3>"Post" → "Diary"</h3>
+            <p>
+              An uploaded audio was being called as an "Audio Post", but I
+              realized that "diary" fits better than "post" .
+            </p>
+            <p>
+              When I say it's a "post", it feels like I'm revealing something to
+              the public. It's not wrong, but the audios on Atrable are more
+              like diaries (more daily, personal, and reflective).
+            </p>
+            <h3>Post + Chat</h3>
+            <p>
+              I started to think that comments are not for diaries after
+              changing the wordings from "post" to "diary". Through comments,
+              you literally "comment" on others. This wouldn't be desirable for
+              an uploader who just wants to record their day and share some
+              portion of it with their friends.
+            </p>
+            <p>
+              Modifying the preexisting direct message a bit, you can send your
+              post to your friends and reply to friends' posts,
+            </p>
+            <p>Post comments are deprecated.</p>
+            <h3>Post Visibility Setting</h3>
+            <p>Huge change for the backend</p>
+            <p></p>
+            <h3>Found some Bugs</h3>
+            <a
+              href="https://github.com/firebase/flutterfire/issues/9457"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              🐛 [cloud_firestore] collectionGroup using get() throws
+              [cloud_firestore/unavailable] The service is currently
+              unavailable. #9457
+            </a>
+            <br />
+            <br />
+            <a
+              href="https://github.com/fluttercommunity/plus_plugins/issues/1053"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              share_plus Disable touch input on share screen open #1053
+            </a>
+            <p>(Nobody except the manager seems to care tho)</p>
+          </div>
+        </div>
+
+        <div className="container right">
+          <div className="content">
+            <h2>Aug 2022: Changes for v1.1.2</h2>
+            <h3>Post Carousel</h3>
+            <p>
+              Slide the post to listen to the uploader's previous / next post
+            </p>
+            <p>This lets you see the full story, not just a portion</p>
+            <h3>Post Comments Design Change</h3>
+            <p>Comments look more like a single chat thread.</p>
+            <h3>New App Details Image</h3>
+            <p>
+              I thought the old one (from Jul 2022) isn't really appealing, so I
+              made some modifications.
+            </p>
+            <img
+              src="/assets/atrable/v1.1.2/iPhone_6.5/Atrable App Image 1.png"
+              alt="Your not-so-special moments,"
+              width="50%"
+              style={{
+                borderRadius: "20px 0px 0px 20px",
+              }}
+            />
+            <img
+              src="/assets/atrable/v1.1.2/iPhone_6.5/Atrable App Image 2.png"
+              alt="Share it on Atrable"
+              width="50%"
+              style={{
+                borderRadius: "0px 20px 20px 0px",
+              }}
+            />
+          </div>
+        </div>
+
+        <div className="container left">
+          <div className="content">
             <h2>Jul 2022</h2>
             <h3>
               Published on{" "}
@@ -67,9 +160,7 @@ function AtrableLog() {
               informal to submit it to the contest, but the video was quite
               boring to be a good advertisement. I'm going to refilm it 😼
             </p>
-            <h3>Fix bugs</h3>
-            <p>There were a lot a lot 😩😵‍💫</p>
-            <h3>Change the catchphrase</h3>
+            <h3>Change the Catchphrase</h3>
             <p>
               It used to be "Share your day with audio and video." I thought it
               was too weak, so I changed it to "Your not-so-special moments,
@@ -119,6 +210,39 @@ function AtrableLog() {
                 }}
               />
             </div>
+            <h3>Fix Bugs</h3>
+            <p>There were a lot a lot 😩😵‍💫</p>
+            <h3>Changes on Fundamental Features</h3>
+            <ul>
+              <li>Replace likes with emoji reactions</li>
+              <dl>
+                "Likes" give me a feeling that I should post something
+                "likeable" (or smth that can be loved by the public). I wanted
+                to feel free to record and share whatever I wanted to, and emoji
+                lets reactions with more diverse emotions.
+              </dl>
+              <li>
+                Replace <code>Share With Friends</code> with{" "}
+                <code>OnlyFriendsPost</code>
+              </li>
+              <dl>
+                I thought the old post visibility structure with{" "}
+                <code>Share With Friends</code> doesn't make sense, so I
+                replaced it with <code>OnlyFriendsPost</code>s instead.
+              </dl>
+              <dl>
+                So there are 2 type of posts: <code>PublicPost</code> and{" "}
+                <code>OnlyFriendsPost</code>. Anybody can view a{" "}
+                <code>PublicPost</code>, but only friends can view an{" "}
+                <code>OnlyFriendsPost</code>.
+              </dl>
+            </ul>
+            <h3>Minor Changes on v1.1.0 </h3>
+            <p>(David strongly suggested)</p>
+            <ul>
+              <li>Audio player seekbar got smoother</li>
+              <li>Crop profile photo when setting it</li>
+            </ul>
           </div>
         </div>
         <div className="container right">
@@ -142,9 +266,9 @@ function AtrableLog() {
               here.
             </p>
             <h3>Post Likes & Comments & Views</h3>
-            <p>People can like a post by pressing the ❤️ button.</p>
+            <p>You can like a post by pressing the ❤️ button.</p>
             <p>
-              People can comment about a post on the linked{" "}
+              You can comment about a post on the linked{" "}
               <code>PostCommentChatroom</code>, which is a public chatroom for
               anyone.
             </p>
@@ -274,7 +398,7 @@ function AtrableLog() {
           <div className="content">
             <h2>Oct 2021</h2>
             <p>
-              I got the idea of the&nbsp;
+              I got the idea of an&nbsp;
               <span
                 style={{
                   fontWeight: "bold",
@@ -282,7 +406,8 @@ function AtrableLog() {
               >
                 audio
               </span>
-              -based social media.
+              -based social media, not for podcasts but for personal recordings
+              and sharing.
             </p>
           </div>
         </div>
@@ -314,8 +439,8 @@ function AtrableLog() {
               >
                 Get Page
               </a>
-              &nbsp;to explain my idea of the app using Google Sites. You can
-              see that the app used to be quite different from now.
+              &nbsp;to explain my idea of the app using Google Sites. Atrable
+              used to be quite different from now.
             </p>
           </div>
         </div>
