@@ -20,6 +20,7 @@ function EtcLog() {
                 }}
               >
                 <h2>Resume written on Jan 2022 for Science Research Program</h2>
+                <p>(Tried to look as genius as possible)</p>
               </div>
               <h2>Tenafly Middle School, March 2021</h2>
               <h3>
