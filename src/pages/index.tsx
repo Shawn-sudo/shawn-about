@@ -64,17 +64,8 @@ function Home() {
                   >
                     Atrable
                   </h1>
-                  <h4
-                    style={{
-                      color: "var(--secondary-color)",
-                    }}
-                  >
-                    Audio Required!
-                  </h4>
-                  <h3 className="learn-more">
-                    More Story &nbsp;
-                    <i className="fas fa-arrow-right"></i>
-                  </h3>
+                  <p>A personal project</p>
+                  <h3 className="learn-more">Developing Story →</h3>
                 </div>
                 <div
                   style={{
