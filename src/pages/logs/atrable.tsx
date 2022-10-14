@@ -7,7 +7,7 @@ import "../../components/timeline.css";
 function AtrableLog() {
   return (
     <>
-      <title>Making Atrable | About Seihyun Lee</title>
+      <title>Developing Atrable | About Seihyun Lee</title>
       {/* <button
           onClick={() => {
             window.scrollTo({
@@ -72,13 +72,16 @@ function AtrableLog() {
                   and share some portion of it with their friends.
                 </p>
                 <p>
-                  Modifying the preexisting direct message a bit, you can send
-                  your post to your friends and reply to friends' posts,
+                  Modifying the preexisting codes for direct messages a bit, you
+                  can send your post to your friends and reply to friends'
+                  posts,
                 </p>
                 <p>Post comments are deprecated.</p>
                 <h3>Post Visibility Setting</h3>
-                <p>Huge change for the backend</p>
-                <p></p>
+                <p>
+                  The old db structure for post visibility settings didnn't make
+                  sense, so I made some huge changes.
+                </p>
                 <h3>Found some Bugs</h3>
                 <a
                   href="https://github.com/firebase/flutterfire/issues/9457"
@@ -241,14 +244,14 @@ function AtrableLog() {
                     <code>OnlyFriendsPost</code>
                   </li>
                   <dl>
-                    I thought the old post visibility structure with{" "}
-                    <code>Share With Friends</code> doesn't make sense, so I
+                    The old post visibility settings with{" "}
+                    <code>Share With Friends</code> didn't make sense, so I
                     replaced it with <code>OnlyFriendsPost</code>s instead.
                   </dl>
                   <dl>
                     So there are 2 type of posts: <code>PublicPost</code> and{" "}
                     <code>OnlyFriendsPost</code>. Anybody can view a{" "}
-                    <code>PublicPost</code>, but only friends can view an{" "}
+                    <code>PublicPost</code>, and only friends can view an{" "}
                     <code>OnlyFriendsPost</code>.
                   </dl>
                 </ul>
