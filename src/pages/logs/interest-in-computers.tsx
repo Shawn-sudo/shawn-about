@@ -55,11 +55,11 @@ function InterestInComputersLog() {
               >
                 an airplane simulator
               </a>
-              &nbsp;on my laptop, but it didn't work well; the screen was render
-              like 1 frame per 3 seconds.
+              &nbsp;on my laptop, but it didn't work well: it took like 3
+              seconds to render a frame.
             </p>
             <p>
-              I was searching up why this was not working. Since then, I started
+              I was searching up why it was not working. Since then, I started
               to get interested in computers, especially in hardwares. I
               somewhat understood how the components of the computer (CPU, RAM,
               GPU, mainboard (motherboard / logicboard), sound card, pci lanes
@@ -103,8 +103,7 @@ function InterestInComputersLog() {
               App Store.
             </p>
             <Link to="/logs/atrable" className="learn-more">
-              More Story about Atrable&nbsp;
-              <i className="fas fa-arrow-right"></i>
+              Developing Story of Atrable →
             </Link>
             <p>
               I am also building my website (this one). This website would be
