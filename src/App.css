@@ -1,3 +1,17 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
 :root {
   --primary-color: #69f0ae;
   --secondary-color: #ac8af8;
@@ -15,20 +29,6 @@
 ::selection {
   background-color: var(--primary-color);
   color: gray;
-}
-
-.App-Appbar {
-  background-color: rgba(248, 248, 255, 0.72);
-  height: 55px;
-  width: 100vw;
-  display: flex;
-  position: fixed;
-  top: 0;
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
-  align-items: center;
-  justify-content: space-between;
-  z-index: 10;
 }
 
 .App-Appbar .navButton {
@@ -58,20 +58,6 @@
 
 .transition-by-it-self {
   transition: none;
-}
-
-#Home {
-  overflow: scroll;
-  transition: 0s;
-  outline: none;
-}
-
-#Home .profile {
-  width: 100px;
-  height: 100px;
-  border-radius: 25%;
-  box-shadow: var(--shadow-big);
-  object-fit: cover;
 }
 
 .short_portfolio .portfolio-item_atrable {
@@ -158,15 +144,6 @@
 
 .margin_bottom_15 {
   margin-bottom: 15px;
-}
-
-.School .nav button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  font-size: medium;
-  font-weight: bold;
-  color: var(--primary-color);
 }
 
 /* SchoolTHS */

@@ -1,7 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import githubLogo from "../assets/social_media_logo/GitHub_Logo_White.png";
 import atrableLogo from "../assets/appIconRounded.svg";
+import { Link } from "gatsby";
+import { StaticImage } from "gatsby-plugin-image";
 
 function Footer() {
   return (
@@ -14,9 +15,10 @@ function Footer() {
     >
       <div style={{ height: 20 }} />
       <Link to="/">
-        <img
-          src="/assets/profile/profile.jpg"
-          alt="my face"
+        <StaticImage
+          src="../assets/profile/profile.jpg"
+          alt="Shawn's face"
+          transformOptions={{ fit: "inside" }}
           style={{
             height: 75,
             width: 75,
