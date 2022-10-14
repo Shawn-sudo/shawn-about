@@ -5,8 +5,6 @@ import DevelopingLabel from "../../components/DevelopingLabel";
 import SchoolLayout from "../../components/layouts.tsx/SchoolLayout";
 
 function SchoolTHS() {
-  const [currentTab, setCurrentTab] = useState(0);
-
   const selectedButtonStyle = {
     backgroundColor: "var(--primary-color)",
     color: "var(--hint-color)",
@@ -26,51 +24,16 @@ function SchoolTHS() {
           <div
             className="menu_bar"
             style={{ display: "flex", justifyContent: "space-evenly" }}
-          >
-            <button
-              style={currentTab === 0 ? selectedButtonStyle : {}}
-              onClick={() => {
-                setCurrentTab(0);
-              }}
-            >
-              In Class
-            </button>
-            <button
-              style={currentTab === 1 ? selectedButtonStyle : {}}
-              onClick={() => {
-                setCurrentTab(1);
-              }}
-            >
-              Club
-            </button>
+          ></div>
+          <div>
+            <Card></Card>
+            <Card></Card>
+            <Card></Card>
           </div>
-          {currentTab === 0 ? <InClass /> : <Club />}
         </div>
       </SchoolLayout>
     </>
   );
 }
-
-const InClass = () => {
-  return (
-    <div>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-    </div>
-  );
-};
-
-const Club = () => {
-  return (
-    <div>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-      <Card></Card>
-    </div>
-  );
-};
 
 export default SchoolTHS;
