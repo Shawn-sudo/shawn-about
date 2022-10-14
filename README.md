@@ -1,4 +1,6 @@
 ## [My About Website](https://seihyun.atrable.com)
-Used [React](https://reactjs.org), [Firebase Hosting](https://firebase.google.com/products/hosting), and [Font Awesome](https://fontawesome.com/)
+Used [GatsbyJS](https://www.gatsbyjs.com/) and [Firebase Hosting](https://firebase.google.com/products/hosting)
 
-I used React to make the Navigation Bar look cooler 😎. (React might be too much for this lol)
+Migrated from React to Gatsby for better experience (I mean, better site exploring experience for crawling bots).
+
+The navigation bar used to have a cool transitioning animation, but it's gone after migrating to Gatsby 😕
