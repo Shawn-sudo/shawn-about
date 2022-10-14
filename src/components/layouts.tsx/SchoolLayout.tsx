@@ -15,7 +15,7 @@ function SchoolLayout(props: Props) {
 
   return (
     <Layout className="School">
-      <div className="screenWithMenu">
+      <div className="flexBox">
         <div
           className="menu"
           style={{
@@ -25,7 +25,7 @@ function SchoolLayout(props: Props) {
           <div>
             {/* Yeouido Elementary School */}
             <Link
-              className="menu_button schoolItem"
+              className="menu_button"
               to="/school/YES"
               partiallyActive={true}
               activeStyle={selectedMenuButtonStyle}
@@ -35,7 +35,7 @@ function SchoolLayout(props: Props) {
 
             {/* Mogun Middle School */}
             <Link
-              className="menu_button schoolItem"
+              className="menu_button"
               to="/school/MMS"
               partiallyActive={true}
               activeStyle={selectedMenuButtonStyle}
@@ -45,7 +45,7 @@ function SchoolLayout(props: Props) {
 
             {/* Tenafly Middle School */}
             <Link
-              className="menu_button schoolItem"
+              className="menu_button"
               to="/school/TMS"
               partiallyActive={true}
               activeStyle={selectedMenuButtonStyle}
@@ -55,7 +55,7 @@ function SchoolLayout(props: Props) {
 
             {/* Tenafly High School */}
             <Link
-              className="menu_button schoolItem margin_bottom_15"
+              className="menu_button"
               to="/school/THS"
               partiallyActive={true}
               activeStyle={selectedMenuButtonStyle}

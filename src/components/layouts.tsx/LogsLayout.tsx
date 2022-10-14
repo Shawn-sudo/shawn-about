@@ -15,7 +15,7 @@ function LogsLayout(props: Props) {
 
   return (
     <Layout>
-      <div className="screenWithMenu">
+      <div className="flexBox">
         <div
           className="menu"
           style={{
@@ -24,7 +24,7 @@ function LogsLayout(props: Props) {
         >
           <Link
             to="/logs/atrable"
-            className="menu_button schoolItem"
+            className="menu_button"
             partiallyActive={true}
             activeStyle={selectedMenuButtonStyle}
           >
@@ -32,7 +32,7 @@ function LogsLayout(props: Props) {
           </Link>
           <Link
             to="/logs/music"
-            className="menu_button schoolItem margin_bottom_15"
+            className="menu_button"
             partiallyActive={true}
             activeStyle={selectedMenuButtonStyle}
           >
@@ -40,7 +40,7 @@ function LogsLayout(props: Props) {
           </Link>
           <Link
             to="/logs/interest-in-computers"
-            className="menu_button schoolItem margin_bottom_15"
+            className="menu_button"
             partiallyActive={true}
             activeStyle={selectedMenuButtonStyle}
           >
@@ -48,7 +48,7 @@ function LogsLayout(props: Props) {
           </Link>
           <Link
             to="/logs/etc"
-            className="menu_button schoolItem margin_bottom_15"
+            className="menu_button"
             partiallyActive={true}
             activeStyle={selectedMenuButtonStyle}
           >

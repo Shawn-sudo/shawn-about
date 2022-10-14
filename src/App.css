@@ -60,14 +60,13 @@ code {
   transition: none;
 }
 
-.short_portfolio .portfolio-item_atrable {
+.flexBox {
   display: flex;
-  flex-direction: row;
-  color: grey;
+  justify-content: center;
 }
 
 @media (max-width: 900px) {
-  .short_portfolio .portfolio-item_atrable {
+  .flexBox {
     flex-direction: column;
   }
 }
@@ -77,32 +76,6 @@ code {
   font-weight: bold;
   color: var(--primary-color);
   text-decoration: none;
-}
-
-.flexbox .item {
-  flex: 50%;
-  max-width: 500px;
-}
-
-@media (max-width: 900px) {
-  .flexbox {
-    flex-direction: column;
-  }
-  .flexbox .item {
-    max-width: 100%;
-    width: 95%;
-    margin: auto;
-  }
-
-  .screenWithMenu {
-    flex-direction: column;
-  }
-}
-
-/* School */
-.screenWithMenu {
-  display: flex;
-  justify-content: center;
 }
 
 .menu {
@@ -120,57 +93,25 @@ code {
   border: none;
   border-radius: 15px;
   display: block;
+  /* margin-top: 15px; */
+  /* margin-bottom: 0; */
   margin-top: 15px;
+  margin-bottom: 15px;
   margin-left: auto;
   margin-right: auto;
-  /* margin-bottom: 0; */
   text-decoration: none;
   cursor: pointer;
   width: calc(100% - 30px);
   padding-top: 15px;
   padding-bottom: 15px;
-}
-
-.menu_button:hover {
-  color: var(--primary-color);
-  box-shadow: var(--shadow-big);
-}
-
-.schoolItem {
   font-size: larger;
   font-weight: bold;
   color: black;
 }
 
-.margin_bottom_15 {
-  margin-bottom: 15px;
-}
-
-/* SchoolTHS */
-.SchoolTHS .menu_bar {
-  width: 90%;
-  margin: auto;
-}
-
-.SchoolTHS .menu_bar button {
-  background-color: ghostwhite;
-  border: none;
-  width: 25%;
-  max-width: 450px;
-  min-width: 200px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  font-size: large;
-  font-weight: bold;
-  margin: 5px;
-  border-radius: 15px;
-  cursor: pointer;
-}
-
-.SchoolTHS .menu_bar button:hover {
-  box-shadow: var(--shadow-big);
-  background-color: white;
+.menu_button:hover {
   color: var(--primary-color);
+  box-shadow: var(--shadow-big);
 }
 
 code {

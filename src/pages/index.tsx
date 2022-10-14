@@ -17,7 +17,6 @@ function Home() {
             maxWidth: 1000,
             margin: "auto",
           }}
-          className="short_portfolio"
         >
           <div
             style={{
@@ -51,7 +50,13 @@ function Home() {
             }}
           >
             <Card>
-              <div className="portfolio-item_atrable">
+              <div
+                className="flexBox"
+                style={{
+                  display: "flex",
+                  color: "grey",
+                }}
+              >
                 <div style={{ padding: 20 }}>
                   <h1
                     style={{
