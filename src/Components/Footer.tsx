@@ -55,7 +55,7 @@ function Footer() {
           <img src={githubLogo} alt="github" height={50} />
         </a>
         <a
-          href="https://get.atrable.com"
+          href="https://www.atrable.com"
           target="_blank"
           rel="noopener noreferrer"
         >
