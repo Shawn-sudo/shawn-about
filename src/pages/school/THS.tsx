@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import Card from "../../components/Card";
 import DevelopingLabel from "../../components/DevelopingLabel";
 import SchoolLayout from "../../components/layouts.tsx/SchoolLayout";
