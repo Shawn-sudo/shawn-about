@@ -50,37 +50,34 @@ function AtrableLog() {
           <div className="timeline">
             <div className="container left">
               <div className="content">
-                <h2>Sep-Oct 2022: Changes for v1.2.0</h2>
-                <p>School started, and I was really busy.</p>
+                <h2>Sep - Oct 2022: Changes for v1.2.0</h2>
                 <h3>"Post" → "Diary"</h3>
                 <p>
-                  An uploaded audio was being called as an "Audio Post", but I
-                  realized that "diary" fits better than "post" .
+                  Uploaded audios were being called "Audio Post", but the word
+                  "diary" fits better than "post".
                 </p>
                 <p>
-                  When I say it's a "post", it feels like I'm revealing
-                  something to the public. It's not wrong, but the audios on
-                  Atrable are more like diaries (more daily, personal, and
-                  reflective).
+                  When I say it's a "post", it gives me a feeling of disclosing
+                  myself to the public. It isn't wrong, but the audios are more
+                  daily, personal, reflective, which are closer to diaries.
                 </p>
                 <h3>Post + Chat</h3>
                 <p>
                   I started to think that comments are not for diaries after
-                  changing the wordings from "post" to "diary". Through
-                  comments, you literally "comment" on others. This wouldn't be
-                  desirable for an uploader who just wants to record their day
-                  and share some portion of it with their friends.
+                  changing the wordings. Through comments, you literally
+                  "comment" on others. This wouldn't be desirable for an
+                  uploader who just wants to record their day.
                 </p>
                 <p>
-                  Modifying the preexisting codes for direct messages a bit, you
+                  Changing the preexisting codes for direct messages a bit, you
                   can send your post to your friends and reply to friends'
-                  posts,
+                  posts.
                 </p>
                 <p>Post comments are deprecated.</p>
                 <h3>Post Visibility Setting</h3>
                 <p>
                   The old db structure for post visibility settings didnn't make
-                  sense, so I made some huge changes.
+                  sense, so I made some changes. It was quite a huge change.
                 </p>
                 <h3>Found some Bugs</h3>
                 <a
@@ -140,7 +137,7 @@ function AtrableLog() {
                   Slide the post to listen to the uploader's previous / next
                   post
                 </p>
-                <p>This lets you see the full story, not just a portion</p>
+                <p>This lets you see the full story of a post</p>
                 <h3>Post Comments Design Change</h3>
                 <p>Comments look more like a single chat thread.</p>
                 <h3>New App Details Image</h3>
@@ -180,7 +177,7 @@ function AtrableLog() {
                     Apple App Store
                   </a>
                 </h3>
-                <h3>Attempt to Advertise </h3>
+                <h3>Tried to Advertise </h3>
                 <p>
                   I made a video to submit this app to Congressional App
                   Challenge and advertise it at once. I was trying to kill two
@@ -192,7 +189,7 @@ function AtrableLog() {
                 <h3>Change the Catchphrase</h3>
                 <p>
                   It used to be "Share your day with audio and video." I thought
-                  it was too weak, so I changed it to "Your not-so-special
+                  it was too wordy, so I changed it to "Your not-so-special
                   moments, share it on Atrable"
                 </p>
                 <div>
@@ -249,8 +246,8 @@ function AtrableLog() {
                     replaced it with <code>OnlyFriendsPost</code>s instead.
                   </dl>
                   <dl>
-                    So there are 2 type of posts: <code>PublicPost</code> and{" "}
-                    <code>OnlyFriendsPost</code>. Anybody can view a{" "}
+                    So now, there are 2 type of posts: <code>PublicPost</code>{" "}
+                    and <code>OnlyFriendsPost</code>. Anybody can view a{" "}
                     <code>PublicPost</code>, and only friends can view an{" "}
                     <code>OnlyFriendsPost</code>.
                   </dl>
