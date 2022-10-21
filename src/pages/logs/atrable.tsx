@@ -108,14 +108,14 @@ function AtrableLog() {
                   <StaticImage
                     src="../../assets/atrable/v1.2.0/iPhone_6.5/record_audio_diary.png"
                     alt="Your not-so-special moments,"
-                    style={{
+                    imgStyle={{
                       borderRadius: "20px 0px 0px 20px",
                     }}
                   />
                   <StaticImage
                     src="../../assets/atrable/v1.2.0/iPhone_6.5/send_to_friends.png"
                     alt="Share it on Atrable"
-                    style={{
+                    imgStyle={{
                       borderRadius: "0px 20px 20px 0px",
                     }}
                   />
@@ -149,14 +149,14 @@ function AtrableLog() {
                   <StaticImage
                     src="../../assets/atrable/v1.1.2/iPhone_6.5/Atrable App Image 1.png"
                     alt="Your not-so-special moments,"
-                    style={{
+                    imgStyle={{
                       borderRadius: "20px 0px 0px 20px",
                     }}
                   />
                   <StaticImage
                     src="../../assets/atrable/v1.1.2/iPhone_6.5/Atrable App Image 2.png"
                     alt="Share it on Atrable"
-                    style={{
+                    imgStyle={{
                       borderRadius: "0px 20px 20px 0px",
                     }}
                   />
@@ -198,33 +198,32 @@ function AtrableLog() {
                   <StaticImage
                     src="../../assets/atrable/Atrable App Image 1.png"
                     alt="Your not-so-special moments,"
-                    style={{ width: "50%", borderRadius: "20px 0px 0px 20px" }}
+                    style={{ width: "50%" }}
+                    imgStyle={{ borderRadius: "20px 0px 0px 20px" }}
                   />
                   <StaticImage
                     src="../../assets/atrable/Atrable App Image 2.png"
                     alt="Share it on Atrable"
-                    style={{ width: "50%", borderRadius: "0px 20px 20px 0px" }}
+                    style={{ width: "50%" }}
+                    imgStyle={{ borderRadius: "0px 20px 20px 0px" }}
                   />
                   <StaticImage
                     src="../../assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 21.24.28.png"
                     alt="Atrable app detail - share post"
-                    style={{
-                      width: "33.33%",
-                      borderRadius: 20,
-                    }}
+                    style={{ width: "33.33%" }}
+                    imgStyle={{ borderRadius: 20 }}
                   />
                   <StaticImage
                     src="../../assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 20.47.25.png"
                     alt="Atrable app detail - my page"
-                    style={{
-                      width: "33.33%",
-                      borderRadius: 20,
-                    }}
+                    style={{ width: "33.33%" }}
+                    imgStyle={{ borderRadius: 20 }}
                   />
                   <StaticImage
                     src="../../assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 21.19.37.png"
                     alt="Atrable app detail - post details"
-                    style={{ width: "33.33%", borderRadius: 20 }}
+                    style={{ width: "33.33%" }}
+                    imgStyle={{ borderRadius: 20 }}
                   />
                 </div>
                 <h3>Changes on Fundamental Features</h3>
@@ -340,22 +339,26 @@ function AtrableLog() {
                 <StaticImage
                   src="../../assets/atrable/Simulator_Screen_Shot_Feb7_1.png"
                   alt="Simulator_Screen_Shot_Feb7_1"
-                  style={{ width: "50%", borderRadius: "20px" }}
+                  style={{ width: "50%" }}
+                  imgStyle={{ borderRadius: 20 }}
                 />
                 <StaticImage
                   src="../../assets/atrable/Simulator_Screen_Shot_Feb7_2.png"
                   alt="Simulator_Screen_Shot_Feb7_1"
-                  style={{ width: "50%", borderRadius: "20px" }}
+                  style={{ width: "50%" }}
+                  imgStyle={{ borderRadius: 20 }}
                 />
                 <StaticImage
                   src="../../assets/atrable/Simulator_Screen_Shot_Feb7_3.png"
                   alt="Simulator_Screen_Shot_Feb7_1"
-                  style={{ width: "50%", borderRadius: "20px" }}
+                  style={{ width: "50%" }}
+                  imgStyle={{ borderRadius: 20 }}
                 />
                 <StaticImage
                   src="../../assets/atrable/Simulator_Screen_Shot_Feb7_4.png"
                   alt="Simulator_Screen_Shot_Feb7_1"
-                  style={{ width: "50%", borderRadius: "20px" }}
+                  style={{ width: "50%" }}
+                  imgStyle={{ borderRadius: 20 }}
                 />
               </div>
             </div>
@@ -370,28 +373,26 @@ function AtrableLog() {
                 <StaticImage
                   src="../../assets/atrable/IMG_2848.png"
                   alt="IMG_2848"
-                  style={{ width: "50%", borderRadius: "20px" }}
+                  style={{ width: "50%" }}
+                  imgStyle={{ borderRadius: 20 }}
                 />
                 <StaticImage
                   src="../../assets/atrable/IMG_2850.png"
                   alt="IMG_2850"
-                  style={{ width: "50%", borderRadius: "20px" }}
+                  style={{ width: "50%" }}
+                  imgStyle={{ borderRadius: 20 }}
                 />
                 <StaticImage
                   src="../../assets/atrable/IMG_2849.png"
                   alt="IMG_2849"
-                  style={{
-                    width: "50%",
-                    borderRadius: "20px",
-                  }}
+                  style={{ width: "50%" }}
+                  imgStyle={{ borderRadius: 20 }}
                 />
                 <StaticImage
                   src="../../assets/atrable/IMG_2851.png"
                   alt="IMG_2851"
-                  style={{
-                    width: "50%",
-                    borderRadius: "20px",
-                  }}
+                  style={{ width: "50%" }}
+                  imgStyle={{ borderRadius: 20 }}
                 />
               </div>
             </div>
@@ -467,16 +468,12 @@ function AtrableLog() {
                   <StaticImage
                     src="../../assets/atrable/Aug26_2021_ViewResponses.png"
                     alt="Aug26_2021_ViewResponses"
-                    style={{
-                      borderRadius: 20,
-                    }}
+                    imgStyle={{ borderRadius: 20 }}
                   />
                   <StaticImage
                     src="../../assets/atrable/Aug26_2021.png"
                     alt="Aug26_2021"
-                    style={{
-                      borderRadius: 10,
-                    }}
+                    imgStyle={{ borderRadius: 10 }}
                   />
                 </div>
               </div>

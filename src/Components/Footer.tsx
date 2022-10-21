@@ -24,9 +24,10 @@ function Footer() {
             width: 75,
             objectFit: "cover",
             padding: 7.5,
-            borderRadius: 30,
             boxShadow: "var(--shadow-big)",
+            borderRadius: "25%",
           }}
+          imgStyle={{ borderRadius: "25%" }}
         />
       </Link>
       <p style={{ fontWeight: "bold" }}>Made by Seihyun (Shawn) Lee</p>

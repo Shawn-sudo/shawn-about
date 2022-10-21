@@ -44,6 +44,7 @@ function AppBar() {
               margin: 7.5,
               borderRadius: 17.5,
             }}
+            imgStyle={{ borderRadius: 30 }}
           />
         </Link>
       </div>

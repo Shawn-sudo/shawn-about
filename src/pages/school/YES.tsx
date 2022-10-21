@@ -27,18 +27,14 @@ function SchoolYES() {
             <StaticImage
               src="../../assets/YES/20171112_224402.jpeg"
               alt="made a lego Saturn V"
-              style={{
-                borderRadius: 20,
-                margin: 10,
-              }}
+              style={{ margin: 10 }}
+              imgStyle={{ borderRadius: 20 }}
             />
             <StaticImage
               src="../../assets/YES/20180911_143835.jpeg"
               alt="from a park"
-              style={{
-                borderRadius: 20,
-                margin: 10,
-              }}
+              style={{ margin: 10 }}
+              imgStyle={{ borderRadius: 20 }}
             />
           </div>
         </Card>
