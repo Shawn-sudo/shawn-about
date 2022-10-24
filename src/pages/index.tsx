@@ -3,7 +3,6 @@ import React from "react";
 import Card from "../components/Card";
 import Layout from "../components/layouts.tsx/Layout";
 import { StaticImage } from "gatsby-plugin-image";
-import "../App.css";
 
 function Home() {
   return (
