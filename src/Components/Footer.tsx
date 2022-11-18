@@ -1,15 +1,18 @@
 import React from "react";
-import githubLogo from "../assets/social_media_logo/GitHub_Logo_White.png";
-import atrableLogo from "../assets/appIconRounded.svg";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
+
+const githubLogo = "../assets/social_media_logo/GitHub_Logo_White.png";
+const atrableLogo =
+  "../assets/social_media_logo/atrable_icon2_rounded_512x512.png";
+const youtubeLogo = "../assets/social_media_logo/yt_icon_mono_dark.png";
 
 function Footer() {
   return (
     <footer
       style={{
         textAlign: "center",
-        backgroundColor: "var(--secondary-color-darker)",
+        backgroundColor: "var(--primary-color-darker)",
         color: "white",
       }}
     >
@@ -42,26 +45,55 @@ function Footer() {
         Source code
       </a>
       <p>&copy; 2022. Seihyun Lee </p>
+      <br />
+      <br />
       <div
         style={{
           display: "flex",
-          justifyContent: "space-evenly",
+          flexWrap: "wrap",
+          maxWidth: 900,
+          margin: "auto",
         }}
       >
-        <a
-          href="https://github.com/Shawn-sudo"
-          target="_blank"
-          rel="noopener noreferrer"
+        <h3
+          style={{
+            marginLeft: 30,
+            marginRight: 30,
+          }}
         >
-          <img src={githubLogo} alt="github" height={50} />
-        </a>
-        <a
-          href="https://www.atrable.com"
-          target="_blank"
-          rel="noopener noreferrer"
+          Meet me on
+        </h3>
+        <div
+          style={{
+            flex: "1 1 auto", //expands it
+            display: "flex",
+            justifyContent: "space-evenly",
+          }}
         >
-          <img src={atrableLogo} alt="github" height={50} />
-        </a>
+          <a
+            href="https://github.com/Shawn-sudo"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <StaticImage src={githubLogo} alt="Github" height={50} />
+          </a>
+          <div>
+            <a
+              href="https://www.atrable.com/u/shawn"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <StaticImage src={atrableLogo} alt="Atrable" height={50} />
+            </a>
+          </div>
+          <a
+            href="https://www.youtube.com/@seihyun"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <StaticImage src={youtubeLogo} alt="YouTube" height={40} />
+          </a>
+        </div>
       </div>
       <div style={{ height: 20 }} />
     </footer>

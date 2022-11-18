@@ -14,6 +14,7 @@ code {
 
 :root {
   --primary-color: #69f0ae;
+  --primary-color-darker: #1a7c4d;
   --secondary-color: #ac8af8;
   --secondary-color-darker: #471da3;
   --hint-color: rgba(0, 0, 0, 0.6);
