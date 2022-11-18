@@ -16,7 +16,7 @@ function Footer() {
       <div style={{ height: 20 }} />
       <Link to="/">
         <StaticImage
-          src="../assets/profile/profile.jpg"
+          src="../assets/profile/profile2.png"
           alt="Shawn's face"
           transformOptions={{ fit: "inside" }}
           style={{
