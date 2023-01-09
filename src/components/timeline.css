@@ -92,6 +92,11 @@
   border-radius: 20px;
 }
 
+article {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
 @media screen and (max-width: 1200px) {
   .timeline::after {
     left: 31px;

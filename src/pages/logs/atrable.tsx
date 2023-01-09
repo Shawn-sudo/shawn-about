@@ -471,74 +471,93 @@ function AtrableLog() {
             <div className="container right">
               <div className="content">
                 <h2>Aug 2022: Changes for v1.1.2</h2>
-                <h3>Post Carousel</h3>
-                <p>
-                  You slide the post sideways to listen to the uploader's
-                  previous / next post.
-                </p>
-                <p>This lets you see the full story of the uploader.</p>
-                <h3>Post Comments Design Change</h3>
-                <p>Comments look more like a single chat thread.</p>
-                <h3>New App Details Image</h3>
-                <p>
-                  I thought the old one (from Jul 2022) isn't really appealing,
-                  so I made some modifications.
-                </p>
-                <div style={{ display: "flex" }}>
-                  <StaticImage
-                    src={aug2022_1}
-                    alt="Small yet effortful stories,"
-                    imgStyle={{
-                      borderRadius: "20px 0px 0px 20px",
-                    }}
-                  />
-                  <StaticImage
-                    src={aug2022_2}
-                    alt="Record + share those with audio"
-                    imgStyle={{
-                      borderRadius: "0px 20px 20px 0px",
-                    }}
-                  />
-                </div>
+                <article>
+                  <h3>Post Carousel</h3>
+                  <p>
+                    You slide the post sideways to listen to the uploader's
+                    previous / next post.
+                  </p>
+                  <p>This lets you see the full story of the uploader.</p>
+                </article>
+
+                <article>
+                  <h3>Post Comments Design Change</h3>
+                  <p>Comments look more like a single chat thread.</p>
+                </article>
+
+                <article>
+                  <h3>New App Details Image</h3>
+                  <p>
+                    I thought the old one (from Jul 2022) isn't really
+                    appealing, so I made some modifications.
+                  </p>
+                  <div style={{ display: "flex" }}>
+                    <StaticImage
+                      src={aug2022_1}
+                      alt="Small yet effortful stories,"
+                      imgStyle={{
+                        borderRadius: "20px 0px 0px 20px",
+                      }}
+                    />
+                    <StaticImage
+                      src={aug2022_2}
+                      alt="Record + share those with audio"
+                      imgStyle={{
+                        borderRadius: "0px 20px 20px 0px",
+                      }}
+                    />
+                  </div>
+                </article>
               </div>
             </div>
 
             <div className="container left">
               <div className="content">
                 <h2>Jul 2022: Alpha → Beta</h2>
-                <h3>
-                  Published on{" "}
-                  <a
-                    href="https://get.atrable.com"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                  >
-                    Apple App Store
-                  </a>
-                </h3>
-                <h3>Tried to Advertise </h3>
-                <p>
-                  I made{" "}
-                  <a
-                    href="https://youtu.be/nmAjmrai8dw"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    a video
-                  </a>{" "}
-                  to submit this app to Congressional App Challenge and
-                  advertise it at once. I was trying to kill two "birds" with
-                  one "stone", but I think I lost both birds; I was being too
-                  informal to submit it to the contest, but the video was quite
-                  boring to be a good advertisement. I'm going to refilm it 😼
-                </p>
-                <h3>Change the Catchphrase</h3>
-                <p>
-                  It used to be "Share your day with audio and video." I thought
-                  it was too wordy, so I changed it to "Your not-so-special
-                  moments, share it on Atrable"
-                </p>
-                <div>
+
+                <article>
+                  <h3>
+                    Published on{" "}
+                    <a
+                      href="https://get.atrable.com"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
+                      Apple App Store
+                    </a>
+                  </h3>
+                </article>
+
+                <article>
+                  <h3>Tried to Advertise </h3>
+                  <p>
+                    I made{" "}
+                    <a
+                      href="https://youtu.be/nmAjmrai8dw"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      a video
+                    </a>{" "}
+                    to submit this app to Congressional App Challenge and
+                    advertise it at once. I was trying to kill two "birds" with
+                    one "stone", but I think I lost both birds; I was being too
+                    informal to submit it to the contest, but the video was
+                    quite boring to be a good advertisement. I'm going to refilm
+                    it 😼
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Change the Catchphrase</h3>
+                  <p>
+                    It used to be "Share your day with audio and video." I
+                    thought it was too wordy, so I changed it to "Your
+                    not-so-special moments, share it on Atrable"
+                  </p>
+                </article>
+
+                <article>
                   <h3>App Details Image</h3>
                   <p>I made these pictures using Vectornator.</p>
                   <StaticImage
@@ -571,112 +590,149 @@ function AtrableLog() {
                     style={{ width: "33.33%" }}
                     imgStyle={{ borderRadius: 20 }}
                   />
-                </div>
-                <h3>Changes on Fundamental Features</h3>
-                <ul>
-                  <li>Replace likes with emoji reactions</li>
-                  <dl>
-                    "Likes" give me a feeling that I should post something
-                    "likeable" (or smth that can be loved by the public). I
-                    replaced the likes system with emoji-counting system to feel
-                    free to record and share whatever I wanted to, because emoji
-                    lets reactions with more diverse and actual emotions.
-                  </dl>
-                  <li>
-                    Replace <code>Share With Friends</code> with{" "}
-                    <code>OnlyFriendsPost</code>
-                  </li>
-                  <dl>
-                    The old post visibility settings with{" "}
-                    <code>Share With Friends</code> didn't make sense, so I
-                    replaced it with <code>OnlyFriendsPost</code>s instead.
-                  </dl>
-                  <dl>
-                    So now, there are 2 type of posts: <code>PublicPost</code>{" "}
-                    and <code>OnlyFriendsPost</code>. Anybody can view a{" "}
-                    <code>PublicPost</code>, and only friends can view an{" "}
-                    <code>OnlyFriendsPost</code>.
-                  </dl>
-                </ul>
-                <h3>Fix Bugs</h3>
-                <p>There were a lot a lot 😩😵‍💫</p>
-                <h3>Minor Changes on v1.1.0 </h3>
-                <p>(David strongly suggested)</p>
-                <ul>
-                  <li>Smoother audio player seekbar</li>
-                  <li>Crop profile photo when setting it</li>
-                </ul>
+                </article>
+
+                <article>
+                  <h3>Changes on Fundamental Features</h3>
+                  <ul>
+                    <li>Replace likes with emoji reactions</li>
+                    <dl>
+                      "Likes" give me a feeling that I should post something
+                      "likeable" (or smth that can be loved by the public). I
+                      replaced the likes system with emoji-counting system to
+                      feel free to record and share whatever I wanted to,
+                      because emoji lets reactions with more diverse and actual
+                      emotions.
+                    </dl>
+                    <li>
+                      Replace <code>Share With Friends</code> with{" "}
+                      <code>OnlyFriendsPost</code>
+                    </li>
+                    <dl>
+                      The old post visibility settings with{" "}
+                      <code>Share With Friends</code> didn't make sense, so I
+                      replaced it with <code>OnlyFriendsPost</code>s instead.
+                    </dl>
+                    <dl>
+                      So now, there are 2 type of posts: <code>PublicPost</code>{" "}
+                      and <code>OnlyFriendsPost</code>. Anybody can view a{" "}
+                      <code>PublicPost</code>, and only friends can view an{" "}
+                      <code>OnlyFriendsPost</code>.
+                    </dl>
+                  </ul>
+                </article>
+
+                <article>
+                  <h3>Fix Bugs</h3>
+                  <p>There were a lot a lot 😩😵‍💫</p>
+                </article>
+
+                <article>
+                  <h3>Minor Changes on v1.1.0 </h3>
+                  <p>(David strongly suggested)</p>
+                  <ul>
+                    <li>Smoother audio player seekbar</li>
+                    <li>Crop profile photo when setting it</li>
+                  </ul>
+                </article>
               </div>
             </div>
             <div className="container right">
               <div className="content">
                 <h2>Mar-Jun 2022: Alpha Build</h2>
-                <h3>Play Audios</h3>
-                <p>
-                  Using <code>ManageAudioPlayers</code> (I made it!), each page
-                  can efficiently manage audio plays.
-                </p>
-                <h3>Suggested Posts</h3>
-                <p>
-                  In <code>SuggestedPosts</code> page, random public posts are
-                  fetched and displayed.
-                </p>
-                <p>Audios are automatically played as the page is scrolled.</p>
-                <h3>Post Details</h3>
-                <p>
-                  In <code>PostDetailsPage</code>, the uploader can see the
-                  details of the post (views, likes, and comments). Comments are
-                  accessable here.
-                </p>
-                <h3>Post Likes & Comments & Views</h3>
-                <p>You can like a post by pressing the ❤️ button.</p>
-                <p>
-                  You can comment about a post on the linked{" "}
-                  <code>PostCommentChatroom</code>, which is a public chatroom
-                  for anyone.
-                </p>
-                <p>
-                  View would be counted when more than 1/3 or 10 sec of the
-                  audio is played.
-                </p>
-                <h3>
-                  Post Visibility: <code>Share With Friends</code>
-                </h3>
-                <p>
-                  In <code>SharePost</code>, I replaced <code>send to</code>{" "}
-                  feature, which was used to send post itself through chatroom,
-                  with <code>Share With Friends</code>.
-                </p>
-                <p>
-                  With <code>Share With Friends</code>, people can allow only
-                  some of their friends to view the post.
-                </p>
-                <h3>Chatroom Design Change</h3>
-                <p>
-                  Show the time when the message sent, with a better design.
-                </p>
-                <p>
-                  If it's not a <code>DMChatroom</code>, show people's profiles.
-                </p>
-                <p>Sending indicator with shimmer effect.</p>
-                <h3>Chatroom Pagination</h3>
-                <p>
-                  Much better pagination; I used{" "}
-                  <code>
-                    <a href="https://pub.dev/packages/infinite_scroll_pagination">
-                      infinite_scroll_pagination
-                    </a>
-                  </code>{" "}
-                  to fetch older messages and use FirebaseFirestore realtime
-                  update feature to fetch newer messages in real time.
-                </p>
-                <h3>Etc</h3>
-                <p>
-                  Continue with Apple when signing in/up, don't force/require
-                  people to verify email: only show a popup, allow users to
-                  check past records locally, set correct keyboard text
-                  capitalization settings, dark mode, ...
-                </p>
+
+                <article>
+                  <h3>Play Audios</h3>
+                  <p>
+                    Using <code>ManageAudioPlayers</code> (I made it!), each
+                    page can efficiently manage audio plays.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Suggested Posts</h3>
+                  <p>
+                    In <code>SuggestedPosts</code> page, random public posts are
+                    fetched and displayed.
+                  </p>
+                  <p>
+                    Audios are automatically played as the page is scrolled.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Post Details</h3>
+                  <p>
+                    In <code>PostDetailsPage</code>, the uploader can see the
+                    details of the post (views, likes, and comments). Comments
+                    are accessable here.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Post Likes & Comments & Views</h3>
+                  <p>You can like a post by pressing the ❤️ button.</p>
+                  <p>
+                    You can comment about a post on the linked{" "}
+                    <code>PostCommentChatroom</code>, which is a public chatroom
+                    for anyone.
+                  </p>
+                  <p>
+                    View would be counted when more than 1/3 or 10 sec of the
+                    audio is played.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>
+                    Post Visibility: <code>Share With Friends</code>
+                  </h3>
+                  <p>
+                    In <code>SharePost</code>, I replaced <code>send to</code>{" "}
+                    feature, which was used to send post itself through
+                    chatroom, with <code>Share With Friends</code>.
+                  </p>
+                  <p>
+                    With <code>Share With Friends</code>, people can allow only
+                    some of their friends to view the post.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Chatroom Design Change</h3>
+                  <p>
+                    Show the time when the message sent, with a better design.
+                  </p>
+                  <p>
+                    If it's not a <code>DMChatroom</code>, show people's
+                    profiles.
+                  </p>
+                  <p>Sending indicator with shimmer effect.</p>
+                </article>
+
+                <article>
+                  <h3>Chatroom Pagination</h3>
+                  <p>
+                    Much better pagination; I used{" "}
+                    <code>
+                      <a href="https://pub.dev/packages/infinite_scroll_pagination">
+                        infinite_scroll_pagination
+                      </a>
+                    </code>{" "}
+                    to fetch older messages and use FirebaseFirestore realtime
+                    update feature to fetch newer messages in real time.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Etc</h3>
+                  <p>
+                    Continue with Apple when signing in/up, don't force/require
+                    people to verify email: only show a popup, allow users to
+                    check past records locally, set correct keyboard text
+                    capitalization settings, dark mode, ...
+                  </p>
+                </article>
               </div>
             </div>
 
