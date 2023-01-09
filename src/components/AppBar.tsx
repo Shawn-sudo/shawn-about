@@ -11,9 +11,9 @@ function AppBar() {
 
   return (
     <div
-      className="App-Appbar transition-by-it-self"
+      className="App-Appbar"
       style={{
-        backgroundColor: "rgba(248, 248, 255, 0.72)",
+        backgroundColor: "var(--highlight-color)",
         height: 55,
         width: "100vw",
         display: "flex",
