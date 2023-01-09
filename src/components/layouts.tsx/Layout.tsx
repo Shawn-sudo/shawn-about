@@ -12,8 +12,8 @@ function Layout(props: Props) {
     <div className="App">
       <AppBar />
       <div
-        style={{ minHeight: "100vh", marginTop: 55, width: "100%" }}
-        className={props.className + " transition-by-it-self "}
+        style={{ minHeight: "100vh", paddingTop: 55, width: "100%" }}
+        className={props.className}
       >
         {props.children}
       </div>
