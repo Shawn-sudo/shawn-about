@@ -17,19 +17,40 @@ code {
   --primary-color-darker: #1a7c4d;
   --secondary-color: #ac8af8;
   --secondary-color-darker: #471da3;
+  --highlight-color: rgba(248, 248, 255, 0.72);
+  --highlight-color-deeper: rgba(220, 220, 230, 0.72);
+  --surface-color: ghostwhite;
+  --text-color: black;
   --hint-color: rgba(0, 0, 0, 0.6);
   --shadow-color: rgba(112, 144, 156, 0.3);
   --shadow-big: 0px 5px 10px rgba(112, 144, 156, 0.3);
 }
 
-* {
+/* * {
   transition: 0.25s;
   transition-timing-function: ease-in-out;
-}
+} */
 
 ::selection {
   background-color: var(--primary-color);
   color: gray;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+
+  :root {
+    --highlight-color: rgba(72, 72, 72, 0.72);
+    --highlight-color-deeper: rgba(100, 100, 100, 0.72);
+    --surface-color: rgb(50, 50, 50);
+    --text-color: white;
+  }
+
+  .App-Appbar a {
+    color: white;
+  }
 }
 
 .App-Appbar .navButton {
@@ -38,7 +59,7 @@ code {
   border-radius: 10px;
   font-size: large;
   font-weight: 800;
-  color: black;
+  color: var(--text-color);
   max-width: 100px;
   width: 20vw;
   min-width: 50px;
@@ -49,16 +70,14 @@ code {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
+  transition: 0.25s;
+  transition-timing-function: ease-in-out;
 }
 
 .App-Appbar .navButton:hover {
-  background-color: white;
+  background-color: var(--surface-color);
   color: var(--primary-color);
   box-shadow: var(--shadow-big);
-}
-
-.transition-by-it-self {
-  transition: none;
 }
 
 .flexBox {
@@ -82,7 +101,7 @@ code {
 .menu {
   height: 100%;
   margin: 20px;
-  background-color: ghostwhite;
+  background-color: var(--surface-color);
   border-radius: 20px;
   box-shadow: var(--shadow-big);
   text-align: center;
@@ -90,7 +109,8 @@ code {
 }
 
 .menu_button {
-  background-color: white;
+  background-color: var(--highlight-color);
+  color: var(--text-color);
   border: none;
   border-radius: 15px;
   display: block;
@@ -107,16 +127,16 @@ code {
   padding-bottom: 15px;
   font-size: larger;
   font-weight: bold;
-  color: black;
+  transition: 0.25s;
+  transition-timing-function: ease-in-out;
 }
 
 .menu_button:hover {
-  color: var(--primary-color);
-  box-shadow: var(--shadow-big);
+  background-color: var(--highlight-color-deeper);
 }
 
 code {
-  background-color: #d7dae4;
+  background-color: var(--highlight-color-deeper);
   border-radius: 10px;
   padding-left: 5px;
   padding-right: 5px;
