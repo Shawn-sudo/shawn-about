@@ -6,8 +6,6 @@ const githubLogo = "../assets/social_media_logo/github-mark-white.svg";
 const atrableLogo =
   "../assets/social_media_logo/atrable_icon2_rounded_512x512.png";
 const youtubeLogo = "../assets/social_media_logo/yt_icon_mono_dark.png";
-const twitterLogo =
-  "../assets/social_media_logo/twitter-logo-rounded-square.png";
 
 function Footer() {
   return (
@@ -74,6 +72,8 @@ function Footer() {
         >
           <a
             href="https://github.com/Shawn-sudo"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{ marginTop: "auto", marginBottom: "auto" }}
           >
             <StaticImage src={githubLogo} alt="GitHub" height={35} />
@@ -81,6 +81,8 @@ function Footer() {
 
           <a
             href="https://www.atrable.com/u/shawn"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{ marginTop: "auto", marginBottom: "auto" }}
           >
             <StaticImage src={atrableLogo} alt="Atrable" height={40} />
@@ -88,21 +90,11 @@ function Footer() {
 
           <a
             href="https://www.youtube.com/@seihyun"
+            target="_blank"
+            rel="noopener noreferrer"
             style={{ marginTop: "auto", marginBottom: "auto" }}
           >
             <StaticImage src={youtubeLogo} alt="YouTube" height={35} />
-          </a>
-
-          <a
-            href="https://twitter.com/seihyunlee"
-            style={{ marginTop: "auto", marginBottom: "auto" }}
-          >
-            <StaticImage
-              src={twitterLogo}
-              alt="Twitter"
-              height={35}
-              imgStyle={{ borderRadius: 10 }}
-            />
           </a>
         </div>
       </div>
