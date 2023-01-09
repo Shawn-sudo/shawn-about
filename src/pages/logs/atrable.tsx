@@ -4,6 +4,40 @@ import LogsLayout from "../../components/layouts.tsx/LogsLayout";
 import { StaticImage } from "gatsby-plugin-image";
 import "../../components/timeline.css";
 
+const aug2021_iphone = "../../assets/atrable/Aug26_2021.png";
+const aug2021_iphone_new = "../../assets/atrable/Aug26_2021_ViewResponses.png";
+const dec2021_2848 = "../../assets/atrable/IMG_2848.png";
+const dec2021_2850 = "../../assets/atrable/IMG_2850.png";
+const dec2021_2849 = "../../assets/atrable/IMG_2849.png";
+const dec2021_2851 = "../../assets/atrable/IMG_2851.png";
+const feb2022_1 = "../../assets/atrable/Simulator_Screen_Shot_Feb7_1.png";
+const feb2022_2 = "../../assets/atrable/Simulator_Screen_Shot_Feb7_2.png";
+const feb2022_3 = "../../assets/atrable/Simulator_Screen_Shot_Feb7_3.png";
+const feb2022_4 = "../../assets/atrable/Simulator_Screen_Shot_Feb7_4.png";
+const jul2022_1 = "../../assets/atrable/Atrable App Image 1.png";
+const jul2022_2 = "../../assets/atrable/Atrable App Image 2.png";
+const jul2022_3 =
+  "../../assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 21.24.28.png";
+const jul2022_4 =
+  "../../assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 20.47.25.png";
+const jul2022_5 =
+  "../../assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 21.19.37.png";
+const aug2022_1 =
+  "../../assets/atrable/v1.1.2/iPhone_6.5/Atrable App Image 1.png";
+const aug2022_2 =
+  "../../assets/atrable/v1.1.2/iPhone_6.5/Atrable App Image 2.png";
+
+const oct2022_record_audio_diary =
+  "../../assets/atrable/v1.2.0/iPhone_6.5/record_audio_diary.png";
+const oct2022_send_to_friends =
+  "../../assets/atrable/v1.2.0/iPhone_6.5/send_to_friends.png";
+const nov2022_compactUIForChatroom =
+  "../../assets/atrable/2022_11/IMG_8939.png";
+const dec2022_notificationIndicator =
+  "../../assets/atrable/2022_12/new_friend_request_chat_message_indicator.png";
+const dec2022_displayReactionsAndVisitors =
+  "../../assets/atrable/2022_12/Simulator Screen Shot - iPhone 14 - 2022-12-28 at 10.47.59.png";
+
 function AtrableLog() {
   return (
     <>
@@ -50,82 +84,387 @@ function AtrableLog() {
           <div className="timeline">
             <div className="container left">
               <div className="content">
+                <h2>Dec 2022</h2>
+
+                <article>
+                  <h3>Display reactions and visitors of diary</h3>
+                  <div style={{ textAlign: "center" }}>
+                    <StaticImage
+                      src={dec2022_displayReactionsAndVisitors}
+                      alt=""
+                      height={400}
+                      imgStyle={{ borderRadius: 20 }}
+                    />
+                  </div>
+                  {/* TODO */}
+                </article>
+
+                <article>
+                  <h3>Indicators</h3>
+                  <p>
+                    Those tiny circle dots indicates new friend requests and
+                    chat messages.
+                  </p>
+                  <div style={{ textAlign: "center" }}>
+                    <StaticImage
+                      src={dec2022_notificationIndicator}
+                      alt="New friend request & chat message indicator"
+                      height={400}
+                      imgStyle={{ borderRadius: 20 }}
+                    />
+                  </div>
+                </article>
+
+                <article>
+                  <h3>Deal with foreground notifications on the native side</h3>
+                  <p>
+                    Instead of using{" "}
+                    <a
+                      href="https://pub.dev/packages/flutter_local_notifications"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      flutter_local_notifications
+                    </a>{" "}
+                    to display notificaitons from the Flutter side, I made the
+                    app to sync the currently opened page with the native side
+                    (iOS and Android) and filter the incoming notification based
+                    on the currently opened page.
+                  </p>
+                  {/* TODO */}
+                </article>
+
+                <article>
+                  <h3>Migrate to NextJS (www.atrable.com)</h3>
+                  <p>
+                    As GatsbyJS is not made for Dynamic Server Side Rendering, I
+                    migrated to NextJS.
+                  </p>
+                  <p>
+                    In addition, I also made the website look cooler by
+                    displaying some videos on the homepage.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Created Social Accounts</h3>
+                  <p>
+                    LinkedIn:{" "}
+                    <a
+                      href="https://www.linkedin.com/company/atrable/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      www.linkedin.com/company/atrable/
+                    </a>
+                  </p>
+                  <p>
+                    GitHub:{" "}
+                    <a
+                      href="https://github.com/atrable"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      github.com/atrable
+                    </a>
+                  </p>
+                  <ul>
+                    <li>
+                      <a
+                        href="https://github.com/orgs/atrable/discussions"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Discussions
+                      </a>
+                      : Feature requests, questions, ...
+                    </li>
+                  </ul>
+                </article>
+              </div>
+            </div>
+            <div className="container right">
+              <div className="content">
+                <h2>Nov 2022</h2>
+
+                <article>
+                  <h3>No more jank when the recorder screen opens</h3>
+                  <div
+                    style={{
+                      padding: "216.22% 0 0 0",
+                      position: "relative",
+                    }}
+                  >
+                    <iframe
+                      src="https://player.vimeo.com/video/771777458?h=8bb47bb2d0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                      frameBorder="0"
+                      allow="autoplay; fullscreen; picture-in-picture"
+                      allowFullScreen
+                      style={{
+                        position: "absolute",
+                        top: 0,
+                        left: 0,
+                        width: "100%",
+                        height: "100%",
+                        borderRadius: 20,
+                      }}
+                      title="Much smoother opening for my app"
+                    ></iframe>
+                  </div>
+                  <script src="https://player.vimeo.com/api/player.js"></script>
+                  <p>
+                    When the Past Records page opens, the app used to freeze for
+                    like 1 full second. The function for sorting the past
+                    records was taking a long time, so I wrapped the sorting
+                    thingy with{" "}
+                    <a
+                      href="https://api.flutter.dev/flutter/foundation/compute-constant.html"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      compute
+                    </a>{" "}
+                    to prevent it from blocking the main thread or smth.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Preview audio/video message before sent</h3>
+                  <p>
+                    Previously, the audio and video messages were sent right
+                    after ending the record in a chatroom. I edited it to be
+                    able to display the preview of the audio / video before
+                    sending it.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Compact Diary UI in Chatrooms</h3>
+                  <p>
+                    It now looks more similar to other audio / video messages.
+                  </p>
+                  <div
+                    style={{
+                      textAlign: "center",
+                    }}
+                  >
+                    <StaticImage
+                      src={nov2022_compactUIForChatroom}
+                      alt=""
+                      height={400}
+                      imgStyle={{
+                        borderRadius: 20,
+                      }}
+                    />
+                  </div>
+                </article>
+
+                <article>
+                  <h3>Send audio to others</h3>
+                  <p>
+                    This allows you to send the recorded audio / video to others
+                    through chatroom.
+                  </p>
+                  <div style={{ textAlign: "center" }}>
+                    <StaticImage
+                      src="../../assets/atrable/2022_11/IMG_6FD1B5AADC04-1.jpeg"
+                      alt="screenshot"
+                      height={400}
+                      imgStyle={{ borderRadius: 20 }}
+                    />
+                  </div>
+                </article>
+
+                <article>
+                  <h3>Communication Notification (iOS)</h3>
+                  <p>Notifications on iOS now shows the profile photo.</p>
+                  <p>
+                    I couldn't develop this (Conversation Notification) for
+                    Android, as I couldn't find a way to show profile photos
+                    properly in a notification (
+                    <a
+                      href="https://github.com/firebase/firebase-android-sdk/issues/4500"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      firebase-android-sdk Conversation Notification Support for
+                      Firebase Messaging #4500
+                    </a>
+                    ).
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Profile Link & QR code</h3>
+                  <p>
+                    I wanted to share my Atrable profile with my friends using
+                    QR code, instead of typing the username on the search page.
+                    I first implemented a way to display the profile on the web.
+                    Then I added a button to get profile QR code in the app.
+                  </p>
+                  <p>
+                    I'm using GatsbyJS for{" "}
+                    <a
+                      href="https://www.atrable.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      www.atrable.com
+                    </a>{" "}
+                    now, but I'm starting to see some limitations of
+                    Static-Site-Generation :/ The profile is loaded after the
+                    initial rendering completes. As a result, if the link is
+                    shared through chat apps or social media, the title stays in
+                    the default one (which is literally{" "}
+                    <code>
+                      @&lt;!-- --&gt;[...]&lt;!-- --&gt; | Atrable&lt;!-- --&gt;
+                    </code>
+                    ). Planning to migrate to NextJS soon.
+                  </p>
+                  {/* https://www.gatsbyjs.com/docs/how-to/routing/client-only-routes-and-user-authentication/ */}
+                  <p>
+                    Example:{" "}
+                    <a
+                      href="https://www.atrable.com/u/shawn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      www.atrable.com/u/shawn
+                    </a>
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Squishy Buttons</h3>
+                  <p>The buttons got more squishy.</p>
+                </article>
+
+                <article>
+                  <h3>Select Records in Past Records</h3>
+                  <p>
+                    I modified the Past Records page, so that people can select
+                    the records and delete / upload / share it.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Found some bugs</h3>
+                  <a
+                    href="https://github.com/realm/realm-dart/issues/1023"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    realm-dart [Bug]: Unable to install on iOS #1023
+                  </a>
+                </article>
+
+                <article>
+                  <h3>Good for College Application</h3>
+                  <p>
+                    My friend told me that Atrable would be good for my college
+                    application. I wasn't thinking about it, but I think that's
+                    true 👍.
+                  </p>
+                </article>
+              </div>
+            </div>
+
+            <div className="container left">
+              <div className="content">
                 <h2>Sep - Oct 2022: Changes for v1.2.0</h2>
-                <h3>"Post" → "Diary"</h3>
-                <p>
-                  Uploaded audios were being called "Audio Post", but the word
-                  "diary" fits better than "post".
-                </p>
-                <p>
-                  When I say it's a "post", it gives me a feeling of disclosing
-                  myself to the public. It isn't wrong, but the audios are more
-                  daily, personal, reflective, which are closer to diaries.
-                </p>
-                <h3>Post + Chat</h3>
-                <p>
-                  I started to think that comments are not for diaries after
-                  changing the wordings. Through comments, you literally
-                  "comment" on others. This wouldn't be desirable for an
-                  uploader who just wants to record their day.
-                </p>
-                <p>
-                  Changing the preexisting codes for direct messages a bit, you
-                  can send your post to your friends and reply to friends'
-                  posts.
-                </p>
-                <p>Post comments are deprecated.</p>
-                <h3>Post Visibility Setting</h3>
-                <p>
-                  The old db structure for post visibility settings didnn't make
-                  sense, so I made some changes. It was quite a huge change.
-                </p>
-                <h3>Found some Bugs</h3>
-                <a
-                  href="https://github.com/firebase/flutterfire/issues/9457"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  🐛 [cloud_firestore] collectionGroup using get() throws
-                  [cloud_firestore/unavailable] The service is currently
-                  unavailable. #9457
-                </a>
-                <br />
-                <br />
-                <a
-                  href="https://github.com/fluttercommunity/plus_plugins/issues/1053"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  share_plus Disable touch input on share screen open #1053
-                </a>
-                <p>(Nobody except the manager seems to be interested tho)</p>
-                <h3>New App Details Image</h3>
-                <p>
-                  I thought the old one (from Aug 2022) isn't really appealing,
-                  so I made some modifications.
-                </p>
-                <div style={{ display: "flex" }}>
-                  <StaticImage
-                    src="../../assets/atrable/v1.2.0/iPhone_6.5/record_audio_diary.png"
-                    alt="Your not-so-special moments,"
-                    imgStyle={{
-                      borderRadius: "20px 0px 0px 20px",
-                    }}
-                  />
-                  <StaticImage
-                    src="../../assets/atrable/v1.2.0/iPhone_6.5/send_to_friends.png"
-                    alt="Share it on Atrable"
-                    imgStyle={{
-                      borderRadius: "0px 20px 20px 0px",
-                    }}
-                  />
-                </div>
-                <h3>v1.1.2 release</h3>
-                <p>I released v1.1.2 (Aug 2022 works) on App Store. </p>
-                <p>
-                  My Android friends also want to get this app, so I gotta
-                  release it on the Play Store too.
-                </p>
+                <article>
+                  <h3>"Post" → "Diary"</h3>
+                  <p>
+                    The audios were called "Audio Post", but now I think the
+                    word "diary" fits better than "post".
+                  </p>
+                  <p>
+                    When I say it's a "post", it gives me a feeling of
+                    disclosing myself to the public. It isn't wrong, but the
+                    audios are more daily, personal, reflective, which are
+                    closer to diaries.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Diary + Chat</h3>
+                  <p>
+                    I started to think that comments are not for "diaries".
+                    Through comments, people literally "comment" on others. This
+                    wouldn't be desirable for an uploader who just wants to
+                    record their day.
+                  </p>
+                  <p>Diary comments are deprecated.</p>
+                  <p>
+                    Instead, people can now send their diaries to friends and
+                    the friends can reply to it.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>New Diary Visibility Setting</h3>
+                  <p>
+                    The old db structure for post visibility settings didn't
+                    make sense, so I made some changes. It was quite a huge
+                    change.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Found some Bugs</h3>
+                  <a
+                    href="https://github.com/firebase/flutterfire/issues/9457"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    🐛 [cloud_firestore] collectionGroup using get() throws
+                    [cloud_firestore/unavailable] The service is currently
+                    unavailable. #9457
+                  </a>
+                  <br />
+                  <br />
+                  <a
+                    href="https://github.com/fluttercommunity/plus_plugins/issues/1053"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    share_plus Disable touch input on share screen open #1053
+                  </a>
+                  <p>(Nobody except the manager seems to be interested tho)</p>
+                </article>
+
+                <article>
+                  <h3>New App Details Image</h3>
+                  <p>
+                    I thought the old one (from Aug 2022) isn't really
+                    appealing, so I made some modifications.
+                  </p>
+                  <div style={{ display: "flex" }}>
+                    <StaticImage
+                      src={oct2022_record_audio_diary}
+                      alt="Record your stories with Audio Diary"
+                      imgStyle={{
+                        borderRadius: "20px 0px 0px 20px",
+                      }}
+                    />
+                    <StaticImage
+                      src={oct2022_send_to_friends}
+                      alt="Send it to friends"
+                      imgStyle={{
+                        borderRadius: "0px 20px 20px 0px",
+                      }}
+                    />
+                  </div>
+                </article>
+
+                <article>
+                  <h3>v1.1.2 Release</h3>
+                  <p>I released v1.1.2 (Aug 2022 works) on App Store. </p>
+                  <p>
+                    My Android friends also want to get this app, so I gotta
+                    release it on the Play Store too.
+                  </p>
+                </article>
               </div>
             </div>
 
@@ -134,10 +473,10 @@ function AtrableLog() {
                 <h2>Aug 2022: Changes for v1.1.2</h2>
                 <h3>Post Carousel</h3>
                 <p>
-                  Slide the post to listen to the uploader's previous / next
-                  post
+                  You slide the post sideways to listen to the uploader's
+                  previous / next post.
                 </p>
-                <p>This lets you see the full story of a post</p>
+                <p>This lets you see the full story of the uploader.</p>
                 <h3>Post Comments Design Change</h3>
                 <p>Comments look more like a single chat thread.</p>
                 <h3>New App Details Image</h3>
@@ -147,15 +486,15 @@ function AtrableLog() {
                 </p>
                 <div style={{ display: "flex" }}>
                   <StaticImage
-                    src="../../assets/atrable/v1.1.2/iPhone_6.5/Atrable App Image 1.png"
-                    alt="Your not-so-special moments,"
+                    src={aug2022_1}
+                    alt="Small yet effortful stories,"
                     imgStyle={{
                       borderRadius: "20px 0px 0px 20px",
                     }}
                   />
                   <StaticImage
-                    src="../../assets/atrable/v1.1.2/iPhone_6.5/Atrable App Image 2.png"
-                    alt="Share it on Atrable"
+                    src={aug2022_2}
+                    alt="Record + share those with audio"
                     imgStyle={{
                       borderRadius: "0px 20px 20px 0px",
                     }}
@@ -166,7 +505,7 @@ function AtrableLog() {
 
             <div className="container left">
               <div className="content">
-                <h2>Jul 2022</h2>
+                <h2>Jul 2022: Alpha → Beta</h2>
                 <h3>
                   Published on{" "}
                   <a
@@ -179,12 +518,19 @@ function AtrableLog() {
                 </h3>
                 <h3>Tried to Advertise </h3>
                 <p>
-                  I made a video to submit this app to Congressional App
-                  Challenge and advertise it at once. I was trying to kill two
-                  "birds" with one "stone", but I think I lost both birds; I was
-                  being too informal to submit it to the contest, but the video
-                  was quite boring to be a good advertisement. I'm going to
-                  refilm it 😼
+                  I made{" "}
+                  <a
+                    href="https://youtu.be/nmAjmrai8dw"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    a video
+                  </a>{" "}
+                  to submit this app to Congressional App Challenge and
+                  advertise it at once. I was trying to kill two "birds" with
+                  one "stone", but I think I lost both birds; I was being too
+                  informal to submit it to the contest, but the video was quite
+                  boring to be a good advertisement. I'm going to refilm it 😼
                 </p>
                 <h3>Change the Catchphrase</h3>
                 <p>
@@ -196,31 +542,31 @@ function AtrableLog() {
                   <h3>App Details Image</h3>
                   <p>I made these pictures using Vectornator.</p>
                   <StaticImage
-                    src="../../assets/atrable/Atrable App Image 1.png"
+                    src={jul2022_1}
                     alt="Your not-so-special moments,"
                     style={{ width: "50%" }}
                     imgStyle={{ borderRadius: "20px 0px 0px 20px" }}
                   />
                   <StaticImage
-                    src="../../assets/atrable/Atrable App Image 2.png"
+                    src={jul2022_2}
                     alt="Share it on Atrable"
                     style={{ width: "50%" }}
                     imgStyle={{ borderRadius: "0px 20px 20px 0px" }}
                   />
                   <StaticImage
-                    src="../../assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 21.24.28.png"
+                    src={jul2022_3}
                     alt="Atrable app detail - share post"
                     style={{ width: "33.33%" }}
                     imgStyle={{ borderRadius: 20 }}
                   />
                   <StaticImage
-                    src="../../assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 20.47.25.png"
+                    src={jul2022_4}
                     alt="Atrable app detail - my page"
                     style={{ width: "33.33%" }}
                     imgStyle={{ borderRadius: 20 }}
                   />
                   <StaticImage
-                    src="../../assets/atrable/Simulator Screen Shot - iPhone 11 Pro Max - 2022-06-23 at 21.19.37.png"
+                    src={jul2022_5}
                     alt="Atrable app detail - post details"
                     style={{ width: "33.33%" }}
                     imgStyle={{ borderRadius: 20 }}
@@ -232,8 +578,9 @@ function AtrableLog() {
                   <dl>
                     "Likes" give me a feeling that I should post something
                     "likeable" (or smth that can be loved by the public). I
-                    wanted to feel free to record and share whatever I wanted
-                    to, and emoji lets reactions with more diverse emotions.
+                    replaced the likes system with emoji-counting system to feel
+                    free to record and share whatever I wanted to, because emoji
+                    lets reactions with more diverse and actual emotions.
                   </dl>
                   <li>
                     Replace <code>Share With Friends</code> with{" "}
@@ -263,16 +610,16 @@ function AtrableLog() {
             </div>
             <div className="container right">
               <div className="content">
-                <h2>Mar-Jun 2022: Finalizing App</h2>
+                <h2>Mar-Jun 2022: Alpha Build</h2>
                 <h3>Play Audios</h3>
                 <p>
                   Using <code>ManageAudioPlayers</code> (I made it!), each page
-                  can manage audio plays.
+                  can efficiently manage audio plays.
                 </p>
                 <h3>Suggested Posts</h3>
                 <p>
                   In <code>SuggestedPosts</code> page, random public posts are
-                  displayed.
+                  fetched and displayed.
                 </p>
                 <p>Audios are automatically played as the page is scrolled.</p>
                 <h3>Post Details</h3>
@@ -293,12 +640,16 @@ function AtrableLog() {
                   audio is played.
                 </p>
                 <h3>
-                  Add <code>Share With Friends</code>
+                  Post Visibility: <code>Share With Friends</code>
                 </h3>
                 <p>
-                  In <code>SharePost</code>, replace <code>send to</code>{" "}
-                  feature, which used to send post itself through chatroom, with{" "}
-                  <code>Share With Friends</code>.
+                  In <code>SharePost</code>, I replaced <code>send to</code>{" "}
+                  feature, which was used to send post itself through chatroom,
+                  with <code>Share With Friends</code>.
+                </p>
+                <p>
+                  With <code>Share With Friends</code>, people can allow only
+                  some of their friends to view the post.
                 </p>
                 <h3>Chatroom Design Change</h3>
                 <p>
@@ -307,10 +658,10 @@ function AtrableLog() {
                 <p>
                   If it's not a <code>DMChatroom</code>, show people's profiles.
                 </p>
-                <p>Indicate sending with shimmer effect.</p>
+                <p>Sending indicator with shimmer effect.</p>
                 <h3>Chatroom Pagination</h3>
                 <p>
-                  Much better pagination: fetch the newest message, use{" "}
+                  Much better pagination; I used{" "}
                   <code>
                     <a href="https://pub.dev/packages/infinite_scroll_pagination">
                       infinite_scroll_pagination
@@ -333,67 +684,73 @@ function AtrableLog() {
               <div className="content">
                 <h2>Jan-Feb 2022: Audio!</h2>
                 <p>
-                  Implemented audio-related features: sharing an audio post,
-                  sending an audio message, playing those in a chatroom, etc.,
+                  I implemented audio-related features such as sharing an audio
+                  post, sending an audio message, playing those in a chatroom,
+                  etc.,
                 </p>
-                <StaticImage
-                  src="../../assets/atrable/Simulator_Screen_Shot_Feb7_1.png"
-                  alt="Simulator_Screen_Shot_Feb7_1"
-                  style={{ width: "50%" }}
-                  imgStyle={{ borderRadius: 20 }}
-                />
-                <StaticImage
-                  src="../../assets/atrable/Simulator_Screen_Shot_Feb7_2.png"
-                  alt="Simulator_Screen_Shot_Feb7_1"
-                  style={{ width: "50%" }}
-                  imgStyle={{ borderRadius: 20 }}
-                />
-                <StaticImage
-                  src="../../assets/atrable/Simulator_Screen_Shot_Feb7_3.png"
-                  alt="Simulator_Screen_Shot_Feb7_1"
-                  style={{ width: "50%" }}
-                  imgStyle={{ borderRadius: 20 }}
-                />
-                <StaticImage
-                  src="../../assets/atrable/Simulator_Screen_Shot_Feb7_4.png"
-                  alt="Simulator_Screen_Shot_Feb7_1"
-                  style={{ width: "50%" }}
-                  imgStyle={{ borderRadius: 20 }}
-                />
+                <div style={{ display: "flex", flexWrap: "wrap" }}>
+                  <StaticImage
+                    src={feb2022_1}
+                    alt="Simulator_Screen_Shot_Feb7_1"
+                    style={{ width: "50%" }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                  <StaticImage
+                    src={feb2022_2}
+                    alt="Simulator_Screen_Shot_Feb7_1"
+                    style={{ width: "50%" }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                  <StaticImage
+                    src={feb2022_3}
+                    alt="Simulator_Screen_Shot_Feb7_1"
+                    style={{ width: "50%" }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                  <StaticImage
+                    src={feb2022_4}
+                    alt="Simulator_Screen_Shot_Feb7_1"
+                    style={{ width: "50%" }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                </div>
               </div>
             </div>
             <div className="container right">
               <div className="content">
                 <h2>Nov - Dec 2021</h2>
                 <p>
-                  I made basic features that a social media (SNS specifically)
-                  should provide, such as friend management, viewing others'
-                  profiles, and sending chat messages.
+                  I made basic features that a social networking site should
+                  provide, such as friend relationship management, viewing
+                  others' profiles, heart (like) button, and sending chat
+                  messages.
                 </p>
-                <StaticImage
-                  src="../../assets/atrable/IMG_2848.png"
-                  alt="IMG_2848"
-                  style={{ width: "50%" }}
-                  imgStyle={{ borderRadius: 20 }}
-                />
-                <StaticImage
-                  src="../../assets/atrable/IMG_2850.png"
-                  alt="IMG_2850"
-                  style={{ width: "50%" }}
-                  imgStyle={{ borderRadius: 20 }}
-                />
-                <StaticImage
-                  src="../../assets/atrable/IMG_2849.png"
-                  alt="IMG_2849"
-                  style={{ width: "50%" }}
-                  imgStyle={{ borderRadius: 20 }}
-                />
-                <StaticImage
-                  src="../../assets/atrable/IMG_2851.png"
-                  alt="IMG_2851"
-                  style={{ width: "50%" }}
-                  imgStyle={{ borderRadius: 20 }}
-                />
+                <div style={{ display: "flex", flexWrap: "wrap" }}>
+                  <StaticImage
+                    src={dec2021_2848}
+                    alt="IMG_2848"
+                    style={{ width: "50%" }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                  <StaticImage
+                    src={dec2021_2850}
+                    alt="IMG_2850"
+                    style={{ width: "50%" }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                  <StaticImage
+                    src={dec2021_2849}
+                    alt="IMG_2849"
+                    style={{ width: "50%" }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                  <StaticImage
+                    src={dec2021_2851}
+                    alt="IMG_2851"
+                    style={{ width: "50%" }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                </div>
               </div>
             </div>
             <div className="container left">
@@ -401,15 +758,13 @@ function AtrableLog() {
                 <h2>Oct 2021</h2>
                 <p>
                   I got the idea of an&nbsp;
-                  <span
-                    style={{
-                      fontWeight: "bold",
-                    }}
-                  >
-                    audio
-                  </span>
-                  -based social media, not for podcasts but for personal
-                  recordings and sharing.
+                  <strong>audio</strong>
+                  -based social media. The idea of sharing stuff through{" "}
+                  <strong>audio</strong> was so fascinating for me. The
+                  traditional social media focuses on photos, which makes people
+                  focus on the appearances. On the other hand, audio lets you
+                  focus on the actual stuff that is going on. Audio also gives
+                  rich feeling of being connected, and I loved it.
                 </p>
               </div>
             </div>
@@ -441,8 +796,11 @@ function AtrableLog() {
                   >
                     Get Page
                   </a>
-                  &nbsp;to explain my idea of the app using Google Sites. These
-                  sites explain Atrable differently from now.
+                  &nbsp;to explain my idea of the app using Google Sites. It's
+                  quite different from how Atrable is like now.{" "}
+                  <span style={{ opacity: 0.08 }}>
+                    (now = Dec 30, 2022 21:41:20)
+                  </span>
                 </p>
               </div>
             </div>
@@ -451,14 +809,14 @@ function AtrableLog() {
                 <h2>Jun - Aug 2021</h2>
                 <p>
                   I built an app using Flutter by watching tutorials on YouTube,
-                  reading official/unofficial documents (instructions), and
-                  reading questions & answers on Stack Overflow.
+                  reading official/unofficial documents, and reading questions &
+                  answers on Stack Overflow.
                 </p>
                 <p>
-                  The main focus of the app was to make people share a post and{" "}
+                  The main focus of the app is to make people share a post and{" "}
                   <strong>directly</strong> chat about it.
                 </p>
-                <p>(It's a prototype, so nothing really worked well tho)</p>
+                <p>(It's a prototype, so nothing really works well)</p>
                 <div
                   style={{
                     display: "flex",
@@ -466,12 +824,12 @@ function AtrableLog() {
                   }}
                 >
                   <StaticImage
-                    src="../../assets/atrable/Aug26_2021_ViewResponses.png"
+                    src={aug2021_iphone_new}
                     alt="Aug26_2021_ViewResponses"
                     imgStyle={{ borderRadius: 20 }}
                   />
                   <StaticImage
-                    src="../../assets/atrable/Aug26_2021.png"
+                    src={aug2021_iphone}
                     alt="Aug26_2021"
                     imgStyle={{ borderRadius: 10 }}
                   />
@@ -480,7 +838,7 @@ function AtrableLog() {
             </div>
             <div className="container right">
               <div className="content">
-                <h2>Apr - May 2021</h2>
+                <h2>- May 2021</h2>
                 <p>
                   I tried making a{" "}
                   <a
@@ -489,11 +847,35 @@ function AtrableLog() {
                     rel="noopener noreferrer"
                   >
                     website
-                  </a>{" "}
-                  using React. The purpose was to share your projects and let
-                  others use it, but I'd only implemented fundamental
-                  authentication system.
+                  </a>
+                  , where people can share their travel stories, view other
+                  traveler's stories, and follow travelers. But guess what{" "}
+                  <span style={{ opacity: 0.08 }}>chicken butt</span>, I'd only
+                  implemented fundamental authentication system there.
                 </p>
+                <p>
+                  Check{" "}
+                  <code>
+                    <a
+                      href="https://github.com/Shawn-sudo/space-shuttle"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Shawn-sudo/space-shuttle
+                    </a>{" "}
+                  </code>
+                  for more info
+                </p>
+                <a
+                  href="https://github.com/Shawn-sudo/space-shuttle"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="https://raw.githubusercontent.com/Shawn-sudo/space-shuttle/master/build/assets/logo/logo1.png"
+                    style={{ width: "100%" }}
+                  />
+                </a>
               </div>
             </div>
           </div>
