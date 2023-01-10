@@ -13,7 +13,7 @@ function EtcLog() {
             <div>
               <div
                 style={{
-                  backgroundColor: "white",
+                  backgroundColor: "var(--surface-color)",
                   padding: 15,
                   borderRadius: 20,
                   boxShadow: "var(--shadow-big)",
