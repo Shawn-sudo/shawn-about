@@ -12,6 +12,14 @@ code {
     monospace;
 }
 
+a {
+  color: var(--primary-color);
+}
+
+a:active {
+  color: var(--primary-color-darker);
+}
+
 :root {
   --primary-color: #69f0ae;
   --primary-color-darker: #1a7c4d;
