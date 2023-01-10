@@ -13,7 +13,7 @@ function Card(props: Props) {
         margin: "auto",
         marginTop: 7.5,
         marginBottom: 7.5,
-        backgroundColor: "ghostwhite",
+        backgroundColor: "var(--surface-color)",
         borderRadius: 20,
         boxShadow: "var(--shadow-big)",
       }}
