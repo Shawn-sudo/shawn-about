@@ -42,16 +42,6 @@ function AtrableLog() {
   return (
     <>
       <title>Developing Atrable | About Seihyun Lee</title>
-      {/* <button
-          onClick={() => {
-            window.scrollTo({
-              top: document.body.scrollHeight,
-              behavior: "smooth",
-            });
-          }}
-        >
-          Go to the beginning
-        </button> */}
 
       <LogsLayout>
         <div
@@ -84,10 +74,16 @@ function AtrableLog() {
           <div className="timeline">
             <div className="container left">
               <div className="content">
-                <h2>Dec 2022</h2>
+                <h2>Dec 2022: Stabilize for real-life use [2]</h2>
 
                 <article>
-                  <h3>Display reactions and visitors of diary</h3>
+                  <h3>Reactions and visitors of diary</h3>
+                  <p>
+                    Previously, the views (listens / visitors) and the reactions
+                    were recorded, but there was no way to see who they were. I
+                    wanted to know whom it is that reacted / listened to my
+                    diary, so I made this feature.
+                  </p>
                   <div style={{ textAlign: "center" }}>
                     <StaticImage
                       src={dec2022_displayReactionsAndVisitors}
@@ -118,7 +114,7 @@ function AtrableLog() {
                 <article>
                   <h3>Deal with foreground notifications on the native side</h3>
                   <p>
-                    Instead of using{" "}
+                    Displaying foreground notifications using{" "}
                     <a
                       href="https://pub.dev/packages/flutter_local_notifications"
                       target="_blank"
@@ -126,10 +122,14 @@ function AtrableLog() {
                     >
                       flutter_local_notifications
                     </a>{" "}
-                    to display notificaitons from the Flutter side, I made the
-                    app to sync the currently opened page with the native side
-                    (iOS and Android) and filter the incoming notification based
-                    on the currently opened page.
+                    was too complicated for my use.
+                  </p>
+                  <p>
+                    Instead of using the package to display notificaitons from
+                    the Flutter side, I wrote some code to sync the currently
+                    opened page with the native side (iOS and Android) and
+                    filter the incoming notification based on the currently
+                    opened page.
                   </p>
                   {/* TODO */}
                 </article>
@@ -137,8 +137,9 @@ function AtrableLog() {
                 <article>
                   <h3>Migrate to NextJS (www.atrable.com)</h3>
                   <p>
-                    As GatsbyJS is not made for Dynamic Server Side Rendering, I
-                    migrated to NextJS.
+                    Because GatsbyJS is not made for Dynamic Server Side
+                    Rendering, I migrated to NextJS to fetch some data from the
+                    db for profile pages.
                   </p>
                   <p>
                     In addition, I also made the website look cooler by
@@ -185,7 +186,7 @@ function AtrableLog() {
             </div>
             <div className="container right">
               <div className="content">
-                <h2>Nov 2022</h2>
+                <h2>Nov 2022: Stabilize for real-life use [1]</h2>
 
                 <article>
                   <h3>No more jank when the recorder screen opens</h3>
@@ -593,7 +594,7 @@ function AtrableLog() {
                 </article>
 
                 <article>
-                  <h3>Changes on Fundamental Features</h3>
+                  <h3>Changes on the Fundamental Features</h3>
                   <ul>
                     <li>Replace likes with emoji reactions</li>
                     <dl>
