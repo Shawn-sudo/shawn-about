@@ -72,9 +72,29 @@ function AtrableLog() {
         </div>
         <main>
           <div className="timeline">
+            <div className="container right">
+              <div className="content">
+                <h2>Jan 2022</h2>
+                <p>
+                  Check my{" "}
+                  <a
+                    href="https://github.com/Shawn-sudo"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    GitHub
+                  </a>{" "}
+                  to see what I'm up to lately.
+                </p>
+              </div>
+            </div>
             <div className="container left">
               <div className="content">
                 <h2>Dec 2022: Stabilize for real-life use [2]</h2>
+                <p>
+                  Version <code>1.3.0</code>, which includes these changes,
+                  hasn't been released yet. I'm too lazy for that
+                </p>
 
                 <article>
                   <h3>Reactions and visitors of diary</h3>
