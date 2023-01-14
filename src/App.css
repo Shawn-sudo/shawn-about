@@ -13,11 +13,11 @@ code {
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--primary-color-darker);
 }
 
 a:active {
-  color: var(--primary-color-darker);
+  color: var(--primary-color);
 }
 
 :root {
