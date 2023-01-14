@@ -38,7 +38,7 @@ const dec2022_notificationIndicator =
 const dec2022_displayReactionsAndVisitors =
   "../../assets/atrable/2022_12/Simulator Screen Shot - iPhone 14 - 2022-12-28 at 10.47.59.png";
 
-function AtrableLog() {
+export default function Logs_atrable() {
   return (
     <>
       <title>Developing Atrable | About Seihyun Lee</title>
@@ -56,7 +56,6 @@ function AtrableLog() {
             height="30"
             style={{
               padding: 7.5,
-              paddingLeft: 15,
               display: "inline",
             }}
           />
@@ -736,7 +735,11 @@ function AtrableLog() {
                   <p>
                     Much better pagination; I used{" "}
                     <code>
-                      <a href="https://pub.dev/packages/infinite_scroll_pagination">
+                      <a
+                        href="https://pub.dev/packages/infinite_scroll_pagination"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
                         infinite_scroll_pagination
                       </a>
                     </code>{" "}
@@ -961,5 +964,3 @@ function AtrableLog() {
     </>
   );
 }
-
-export default AtrableLog;
