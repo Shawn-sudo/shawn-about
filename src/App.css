@@ -51,8 +51,12 @@ a:active {
     --text-color: white;
   }
 
-  .App-Appbar a {
-    color: white;
+  a {
+    color: var(--primary-color);
+  }
+
+  a:active {
+    color: var(--primary-color-darker);
   }
 }
 
@@ -113,12 +117,10 @@ a:active {
 
 .menu_button {
   background-color: var(--highlight-color);
-  color: var(--text-color);
+  color: var(--text-color) !important;
   border: none;
   border-radius: 15px;
   display: block;
-  /* margin-top: 15px; */
-  /* margin-bottom: 0; */
   margin-top: 15px;
   margin-bottom: 15px;
   margin-left: auto;
@@ -140,7 +142,7 @@ a:active {
 
 .horizontal_menu_button {
   background-color: var(--highlight-color);
-  color: var(--text-color);
+  color: var(--text-color) !important;
   border: none;
   flex-shrink: 0;
   border-radius: 20px;
