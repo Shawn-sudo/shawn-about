@@ -138,6 +138,30 @@ a:active {
   background-color: var(--highlight-color-deeper);
 }
 
+.horizontal_menu_button {
+  background-color: var(--highlight-color);
+  color: var(--text-color);
+  border: none;
+  flex-shrink: 0;
+  border-radius: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: 15px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: larger;
+  font-weight: bold;
+  transition: 0.25s;
+  transition-timing-function: ease-in-out;
+}
+
+.horizontal_menu_button:hover {
+  background-color: var(--highlight-color-deeper);
+}
+
 code {
   background-color: var(--highlight-color-deeper);
   border-radius: 10px;
