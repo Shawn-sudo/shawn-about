@@ -111,7 +111,6 @@ export default function Logs_atrable() {
                       imgStyle={{ borderRadius: 20 }}
                     />
                   </div>
-                  {/* TODO */}
                 </article>
 
                 <article>
@@ -150,7 +149,6 @@ export default function Logs_atrable() {
                     filter the incoming notification based on the currently
                     opened page.
                   </p>
-                  {/* TODO */}
                 </article>
 
                 <article>
