@@ -17,7 +17,7 @@ const day6_superMarioSimpleRemix =
 export default function Logs_scratch_coding_dec_2022() {
   return (
     <>
-      <title>Coding Class (Dec 2022) | About Seihyun Lee</title>
+      <title>Scratch Coding Class (Dec 2022) | About Seihyun Lee</title>
 
       <LogsLayout>
         <main>
