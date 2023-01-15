@@ -35,6 +35,7 @@ export default function Logs_scratch_coding_dec_2022() {
             <div className="container left">
               <div className="content">
                 <h2>Day 6: Make Esther & Youl's Idea</h2>
+                <h4>Jan 14, 2023</h4>
                 <h3>
                   <a
                     href="https://scratch.mit.edu/projects/775118887/"
@@ -68,6 +69,7 @@ export default function Logs_scratch_coding_dec_2022() {
             <div className="container right">
               <div className="content">
                 <h2>Day 5: Make Rachel's Idea</h2>
+                <h4>Jan 7, 2023</h4>
                 <h3>
                   <a
                     href="https://scratch.mit.edu/projects/780905457/"
@@ -87,6 +89,7 @@ export default function Logs_scratch_coding_dec_2022() {
             <div className="container left">
               <div className="content">
                 <h2>Day 4: What do you want to make?</h2>
+                <h4>Dec 24, 2022</h4>
                 <p>Come up with one thing that you want to make together</p>
                 <h3>Youl: Remix Mario</h3>
                 <StaticImage
@@ -106,6 +109,7 @@ export default function Logs_scratch_coding_dec_2022() {
             <div className="container right">
               <div className="content">
                 <h2>Day 3: Games</h2>
+                <h4>Dec 17, 2022</h4>
                 <h3>
                   <a
                     href="https://scratch.mit.edu/explore/projects/all"
@@ -166,6 +170,7 @@ export default function Logs_scratch_coding_dec_2022() {
             <div className="container left">
               <div className="content">
                 <h2>Day 2: Christmas Cards</h2>
+                <h4>Dec 10, 2022</h4>
                 <h3>
                   Make a card together with Scratch:{" "}
                   <a
@@ -208,6 +213,7 @@ export default function Logs_scratch_coding_dec_2022() {
             <div className="container right">
               <div className="content">
                 <h2>Day 1: Intro</h2>
+                <h4>Dec 3, 2022</h4>
                 <h3>Explain what Scratch is</h3>
                 <h3>Create Scratch account together</h3>
                 <ul>
