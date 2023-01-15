@@ -131,7 +131,8 @@ function Home() {
                   <StaticImage
                     src="../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 7.12.41 PM.png"
                     alt="Game: Super Mario Simple Remix"
-                    style={{ width: "100%", borderRadius: "10px 0px 0px 20px" }}
+                    style={{ width: "100%" }}
+                    imgStyle={{ borderRadius: "10px 0px 0px 20px" }}
                   />
                   <StaticImage
                     src="../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 7.14.12 PM.png"
@@ -141,7 +142,8 @@ function Home() {
                   <StaticImage
                     src="../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 7.14.12 PM.png"
                     alt="Game: Don't get hit by snow"
-                    style={{ width: "100%", borderRadius: "0px 10px 20px 0px" }}
+                    style={{ width: "100%" }}
+                    imgStyle={{ borderRadius: "0px 10px 20px 0px" }}
                   />
                 </div>
               </div>
