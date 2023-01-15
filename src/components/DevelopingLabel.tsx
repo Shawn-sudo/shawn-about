@@ -9,6 +9,7 @@ function DevelopingLabel() {
           fontSize: "larger",
           padding: 20,
           backgroundColor: "#fdd835",
+          color: "black",
           borderRadius: 20,
         }}
       >
