@@ -87,13 +87,13 @@ a:active {
   box-shadow: var(--shadow-big);
 }
 
-.flexBox {
+.responsive-flexBox {
   display: flex;
   justify-content: center;
 }
 
 @media (max-width: 900px) {
-  .flexBox {
+  .responsive-flexBox {
     flex-direction: column;
   }
 }

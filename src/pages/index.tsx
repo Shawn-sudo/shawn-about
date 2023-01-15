@@ -50,13 +50,7 @@ function Home() {
             }}
           >
             <Card>
-              <div
-                className="flexBox"
-                style={{
-                  display: "flex",
-                  color: "grey",
-                }}
-              >
+              <div className="responsive-flexBox" style={{ color: "grey" }}>
                 <div style={{ padding: 20 }}>
                   <h1
                     style={{

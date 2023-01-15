@@ -15,7 +15,7 @@ function SchoolLayout(props: Props) {
 
   return (
     <Layout className="School">
-      <div className="flexBox">
+      <div className="responsive-flexBox">
         <div
           className="menu"
           style={{
