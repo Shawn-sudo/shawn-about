@@ -140,7 +140,7 @@ function Home() {
                     style={{ width: "100%" }}
                   />
                   <StaticImage
-                    src="../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 7.14.12 PM.png"
+                    src="../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 8.19.41 PM.png"
                     alt="Game: Don't get hit by snow"
                     style={{ width: "100%" }}
                     imgStyle={{ borderRadius: "0px 10px 20px 0px" }}
