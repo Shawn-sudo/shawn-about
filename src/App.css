@@ -63,7 +63,7 @@ a:active {
 .App-Appbar .navButton {
   background-color: transparent;
   border: none;
-  border-radius: 10px;
+  border-radius: 15px;
   font-size: large;
   font-weight: 800;
   color: var(--text-color);
@@ -117,7 +117,7 @@ a:active {
 
 .menu_button {
   background-color: var(--highlight-color);
-  color: var(--text-color) !important;
+  color: var(--text-color);
   border: none;
   border-radius: 15px;
   display: block;
@@ -135,14 +135,16 @@ a:active {
   transition: 0.25s;
   transition-timing-function: ease-in-out;
 }
-
 .menu_button:hover {
   background-color: var(--highlight-color-deeper);
+}
+.menu_button:active {
+  color: var(--text-color);
 }
 
 .horizontal_menu_button {
   background-color: var(--highlight-color);
-  color: var(--text-color) !important;
+  color: var(--text-color);
   border: none;
   flex-shrink: 0;
   border-radius: 20px;
@@ -159,9 +161,11 @@ a:active {
   transition: 0.25s;
   transition-timing-function: ease-in-out;
 }
-
 .horizontal_menu_button:hover {
   background-color: var(--highlight-color-deeper);
+}
+.horizontal_menu_button:active {
+  color: var(--text-color);
 }
 
 code {
