@@ -47,6 +47,7 @@ function Home() {
             style={{
               textDecoration: "none",
               borderRadius: 20,
+              margin: 5,
             }}
           >
             <Card>
@@ -54,9 +55,8 @@ function Home() {
                 <div style={{ padding: 20 }}>
                   <h1
                     style={{
-                      color: "white",
+                      color: "rgb(255, 110, 100)",
                       fontSize: 75,
-                      textShadow: "0px 5px 15px var(--shadow-color)",
                       marginTop: 50,
                       marginBottom: 0,
                     }}
@@ -75,26 +75,73 @@ function Home() {
                   <StaticImage
                     src="../assets/atrable/v1.2.0/iPhone_6.5/record_audio_diary.png"
                     alt="Record your stories with Audio Diary"
-                    style={{ width: "25%" }}
+                    style={{ width: "100%" }}
                     imgStyle={{ borderRadius: "15px 0px 0px 15px" }}
                   />
                   <StaticImage
                     src="../assets/atrable/v1.2.0/iPhone_6.5/send_to_friends.png"
                     alt="Send it to friends"
-                    style={{ width: "25%" }}
+                    style={{ width: "100%" }}
                     imgStyle={{ borderRadius: "0px 15px 15px 0px" }}
                   />
                   <StaticImage
                     src="../assets/atrable/v1.2.0/iPhone_6.5/Simulator Screen Shot - iPhone 11 Pro Max - 2022-10-08 at 23.19.04.png"
                     alt="Atrable app detail - uploading audio"
-                    style={{ width: "25%" }}
+                    style={{ width: "100%" }}
                     imgStyle={{ borderRadius: 15 }}
                   />
                   <StaticImage
                     src="../assets/atrable/v1.2.0/iPhone_6.5/Simulator Screen Shot - iPhone 11 Pro Max - 2022-10-08 at 23.22.09.png"
                     alt="Atrable app detail - view profile"
-                    style={{ width: "25%" }}
+                    style={{ width: "100%" }}
                     imgStyle={{ borderRadius: 15 }}
+                  />
+                </div>
+              </div>
+            </Card>
+          </Link>
+          <Link
+            to="/logs/scratch-coding-class-dec-2022"
+            style={{
+              textDecoration: "none",
+              borderRadius: 20,
+              margin: 5,
+            }}
+          >
+            <Card>
+              <div className="responsive-flexBox" style={{ color: "grey" }}>
+                <div style={{ padding: 20, minWidth: 250 }}>
+                  <h1
+                    style={{
+                      color: "var(--primary-color)",
+                      marginTop: 50,
+                      marginBottom: 0,
+                    }}
+                  >
+                    Scratch Coding Class
+                  </h1>
+                  <p>Taught the fun of coding</p>
+                </div>
+                <div
+                  style={{
+                    alignItems: "center",
+                    display: "flex",
+                  }}
+                >
+                  <StaticImage
+                    src="../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 7.12.41 PM.png"
+                    alt="Game: Super Mario Simple Remix"
+                    style={{ width: "100%", borderRadius: "10px 0px 0px 20px" }}
+                  />
+                  <StaticImage
+                    src="../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 7.14.12 PM.png"
+                    alt="Game: Car and Gravity"
+                    style={{ width: "100%" }}
+                  />
+                  <StaticImage
+                    src="../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 7.14.12 PM.png"
+                    alt="Game: Don't get hit by snow"
+                    style={{ width: "100%", borderRadius: "0px 10px 20px 0px" }}
                   />
                 </div>
               </div>
