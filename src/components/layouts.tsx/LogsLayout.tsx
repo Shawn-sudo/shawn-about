@@ -38,7 +38,7 @@ function LogsLayout(props: Props) {
       if (window.location.pathname.includes(page.path)) {
         document
           .getElementById(page.path)
-          ?.scrollIntoView({ inline: "center" });
+          ?.scrollIntoView({ inline: "center", block: "center" });
       }
     });
   });
@@ -51,11 +51,10 @@ function LogsLayout(props: Props) {
           overscrollBehaviorX: "contain",
           width: "100vw",
           display: "flex",
-          position: "fixed",
+          position: "relative",
           backdropFilter: "blur(20px) saturate(180%)",
           WebkitBackdropFilter: "blur(20px) saturate(180%)",
           backgroundColor: "var(--highlight-color)",
-          zIndex: 2,
         }}
       >
         {/* left padding */}
@@ -85,7 +84,7 @@ function LogsLayout(props: Props) {
           maxWidth: 1200,
           width: "100%",
           margin: "auto",
-          marginTop: 100,
+          paddingTop: 10,
         }}
       >
         {props.children}
