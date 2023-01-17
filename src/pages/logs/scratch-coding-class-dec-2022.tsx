@@ -28,7 +28,7 @@ export default function Logs_scratch_coding_dec_2022() {
                 <p>
                   The plan was to make some fun stuff together on Scratch.
                   Although I rushed a bit too much on the last day, it was a
-                  nice experience for me to share the fun of coding with kids.
+                  nice experience to share the fun of coding with kids.
                 </p>
               </div>
             </div>
@@ -68,20 +68,18 @@ export default function Logs_scratch_coding_dec_2022() {
               <div className="content">
                 <h2>Day 5: Make Rachel's Idea</h2>
                 <h4>Jan 7, 2023</h4>
-                <h3>
-                  <a
-                    href="https://scratch.mit.edu/projects/780905457/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Don't get hit by snow
-                  </a>
-                </h3>
-                <StaticImage
-                  src={day5_dontGetHitBySnow}
-                  alt="screenshot of the game"
-                  imgStyle={{ borderRadius: 20 }}
-                />
+                <a
+                  href="https://scratch.mit.edu/projects/780905457/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3>Don't get hit by snow</h3>
+                  <StaticImage
+                    src={day5_dontGetHitBySnow}
+                    alt="screenshot of the game"
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                </a>
               </div>
             </div>
             <div className="container left">
