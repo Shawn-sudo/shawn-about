@@ -36,34 +36,32 @@ export default function Logs_scratch_coding_dec_2022() {
               <div className="content">
                 <h2>Day 6: Make Esther & Youl's Idea</h2>
                 <h4>Jan 14, 2023</h4>
-                <h3>
-                  <a
-                    href="https://scratch.mit.edu/projects/775118887/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Car and Gravity
-                  </a>
-                </h3>
-                <StaticImage
-                  src={day6_carAndGravity}
-                  alt="screenshot of the game"
-                  imgStyle={{ borderRadius: 20 }}
-                />
-                <h3>
-                  <a
-                    href="https://scratch.mit.edu/projects/788031574/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Super Mario Simple Remix
-                  </a>
-                </h3>
-                <StaticImage
-                  src={day6_superMarioSimpleRemix}
-                  alt="screenshot of the game"
-                  imgStyle={{ borderRadius: 20 }}
-                />
+
+                <a
+                  href="https://scratch.mit.edu/projects/788031574/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3>Super Mario Simple Remix</h3>
+
+                  <StaticImage
+                    src={day6_superMarioSimpleRemix}
+                    alt="screenshot of the game"
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                </a>
+                <a
+                  href="https://scratch.mit.edu/projects/775118887/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <h3>Car and Gravity</h3>
+                  <StaticImage
+                    src={day6_carAndGravity}
+                    alt="screenshot of the game"
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                </a>
               </div>
             </div>
             <div className="container right">
