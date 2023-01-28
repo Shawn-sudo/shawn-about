@@ -45,7 +45,7 @@ function Footer() {
         Source code
       </a>
       {/* Copyright sign with the year that it was rendered */}
-      <p>&copy; {new Date().getFullYear()}. Seihyun Lee </p>
+      <p>&copy; 2022-{new Date().getFullYear()}. Seihyun Lee </p>
       <br />
       <br />
       <div
