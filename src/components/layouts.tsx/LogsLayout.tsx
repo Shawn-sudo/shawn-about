@@ -49,7 +49,6 @@ function LogsLayout(props: Props) {
         style={{
           overflowX: "scroll",
           overscrollBehaviorX: "contain",
-          width: "100vw",
           display: "flex",
           position: "relative",
           backdropFilter: "blur(20px) saturate(180%)",
