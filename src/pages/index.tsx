@@ -42,6 +42,7 @@ function Home() {
           </div>
           <h2>Seihyun Lee</h2>
           <p>I'm Seihyun (Shawn) Lee</p>
+          <p>나는 이세현</p>
           <Link
             to="/logs/atrable"
             style={{
