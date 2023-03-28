@@ -6,14 +6,17 @@ import "../../components/timeline.css";
 
 const aug2021_iphone = "../../assets/atrable/Aug26_2021.png";
 const aug2021_iphone_new = "../../assets/atrable/Aug26_2021_ViewResponses.png";
+
 const dec2021_2848 = "../../assets/atrable/IMG_2848.png";
 const dec2021_2850 = "../../assets/atrable/IMG_2850.png";
 const dec2021_2849 = "../../assets/atrable/IMG_2849.png";
 const dec2021_2851 = "../../assets/atrable/IMG_2851.png";
+
 const feb2022_1 = "../../assets/atrable/Simulator_Screen_Shot_Feb7_1.png";
 const feb2022_2 = "../../assets/atrable/Simulator_Screen_Shot_Feb7_2.png";
 const feb2022_3 = "../../assets/atrable/Simulator_Screen_Shot_Feb7_3.png";
 const feb2022_4 = "../../assets/atrable/Simulator_Screen_Shot_Feb7_4.png";
+
 const jul2022_1 = "../../assets/atrable/Atrable App Image 1.png";
 const jul2022_2 = "../../assets/atrable/Atrable App Image 2.png";
 const jul2022_3 =
@@ -31,12 +34,25 @@ const oct2022_record_audio_diary =
   "../../assets/atrable/v1.2.0/iPhone_6.5/record_audio_diary.png";
 const oct2022_send_to_friends =
   "../../assets/atrable/v1.2.0/iPhone_6.5/send_to_friends.png";
+
 const nov2022_compactUIForChatroom =
   "../../assets/atrable/2022_11/IMG_8939.png";
+
 const dec2022_notificationIndicator =
   "../../assets/atrable/2022_12/new_friend_request_chat_message_indicator.png";
 const dec2022_displayReactionsAndVisitors =
   "../../assets/atrable/2022_12/Simulator Screen Shot - iPhone 14 - 2022-12-28 at 10.47.59.png";
+
+const jan2023_thumbnail = "../../assets/atrable/2023_1/video_thumbnail.png";
+const jan2023_openUrl =
+  "../../assets/atrable/2023_1/open_url_email_phoneNumber.png";
+const jan2023_checkNotified = "../../assets/atrable/2023_1/IMG_9642.jpg";
+
+const feb2023_sendPhotos = "../../assets/atrable/2023_2/send_photos.jpg";
+
+const mar2023_screenShot_cover = "../../assets/atrable/2023_3/cover.png";
+const mar2023_screenShot_diary = "../../assets/atrable/2023_3/diary.png";
+const mar2023_screenShot_chat = "../../assets/atrable/2023_3/chat.png";
 
 export default function Logs_atrable() {
   return (
@@ -71,9 +87,9 @@ export default function Logs_atrable() {
         </div>
         <main>
           <div className="timeline">
-            <div className="container right">
+            <div className="container left">
               <div className="content">
-                <h2>Jan 2022</h2>
+                <h2>Apr 2023 -</h2>
                 <p>
                   Check my{" "}
                   <a
@@ -87,16 +103,174 @@ export default function Logs_atrable() {
                 </p>
               </div>
             </div>
+            <div className="container right">
+              <div className="content">
+                <h2>Mar 2023</h2>
+                <h3>Finally released v1.3.2!</h3>
+                <p>
+                  I've been holding releasing v1.3 for a while, I finally
+                  released it now.
+                </p>
+                <article>
+                  <h3>Padding & Constraints for Big Screen UI</h3>
+                  <p>
+                    I put some padding & constraints on widget so that it
+                    doesn't look broken in big screens.
+                  </p>
+                </article>
+                <article>
+                  <h3>Android Conversation Notification</h3>
+                  <p>
+                    The notification shows the profile photo of the user
+                    (Android)
+                  </p>
+                  <p>
+                    I feel like it's still a bit buggy though. Gotta figure out.
+                  </p>
+                </article>
+                <article>
+                  <h3>New App Details Image</h3>
+                  <p>
+                    I thought the old one (from Oct 2022) isn't really
+                    appealing, so I made some modifications.
+                  </p>
+                  <div style={{ display: "flex" }}>
+                    <StaticImage
+                      src={mar2023_screenShot_cover}
+                      alt="Share your actual stories"
+                      imgStyle={{
+                        borderRadius: "20px 0px 0px 20px",
+                      }}
+                    />
+                    <StaticImage
+                      src={mar2023_screenShot_diary}
+                      alt="Record your honest feelings with audio and video"
+                    />
+                    <StaticImage
+                      src={mar2023_screenShot_chat}
+                      alt="Get closer to your friends by chatting about your diaries"
+                      imgStyle={{
+                        borderRadius: "0px 20px 20px 0px",
+                      }}
+                    />
+                  </div>
+                </article>
+                <article>
+                  <h3>New Home Page Design</h3>
+                  <p>Still working on it</p>
+                </article>
+                <article>
+                  <h3>Weekly Summary Notification</h3>
+                  <p>Still working on it</p>
+                </article>
+              </div>
+            </div>
+            <div className="container left">
+              <div className="content">
+                <h2>Feb 2023</h2>
+                <p></p>
+                <article>
+                  <h3>Retry Uploading / Sending if Failed</h3>
+                  <p>
+                    If the app gets terminated while uploading a diary or
+                    sending a chat message, it would ask you if you're going to
+                    retry the uploading / sending it on the next launch.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Camera Controls</h3>
+                  <p>
+                    Camera on/off, flip camera, zoom in/out, flashlight on/off
+                    Ffmpeg was so hard to deal with. I implemented it though 😵‍💫.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Send Photos</h3>
+                  <p>
+                    Send and receive photos. My main focus is on audio and video
+                    rather than photo, but you can send photos if you want to.
+                  </p>
+                  <div style={{ textAlign: "center" }}>
+                    <StaticImage
+                      src={feb2023_sendPhotos}
+                      alt="Send photos"
+                      height={400}
+                      imgStyle={{ borderRadius: 20 }}
+                    />
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div className="container right">
+              <div className="content">
+                <h2>Jan 2023: Stabilize for real-life use [3]</h2>
+
+                <article>
+                  <h3>Save messages locally</h3>
+                  <p>
+                    Previously, all the messages were loaded directly from the
+                    server. Now the messages are permantly saved on your device
+                    once you read it.
+                  </p>
+                  <p>
+                    Audios, videos, and other imports are not saved on the
+                    device, and are saved on the server instead. It'll take up
+                    too much storage if all the audios, videos, and photos get
+                    saved on the device.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>Check if Message is Notified</h3>
+                  <p>
+                    Check if the notification for your new message is
+                    successfully delivered.
+                  </p>
+                  <div style={{ textAlign: "center" }}>
+                    <StaticImage
+                      src={jan2023_checkNotified}
+                      alt="Notified sign under a chat message"
+                      height={200}
+                      imgStyle={{ borderRadius: 20 }}
+                    />
+                  </div>
+                </article>
+
+                <article>
+                  <h3>Open Url and Phone Number</h3>
+                  <p>Open web url and phone number contained in a text.</p>
+                  <div style={{ textAlign: "center" }}>
+                    <StaticImage
+                      src={jan2023_openUrl}
+                      alt="Open url, email, and phone number"
+                      height={200}
+                      imgStyle={{ borderRadius: 20 }}
+                    />
+                  </div>
+                </article>
+
+                <article>
+                  <h3>Thumbnail for Videos</h3>
+                  <p>Thumbnails are now generated and displayed for videos.</p>
+                  <div style={{ textAlign: "center" }}>
+                    <StaticImage
+                      src={jan2023_thumbnail}
+                      alt="Thumbnail for videos"
+                      height={400}
+                      imgStyle={{ borderRadius: 20 }}
+                    />
+                  </div>
+                </article>
+              </div>
+            </div>
             <div className="container left">
               <div className="content">
                 <h2>Dec 2022: Stabilize for real-life use [2]</h2>
-                <p>
-                  Version <code>1.3.0</code>, which includes these changes,
-                  hasn't been released yet. I'm too lazy for that
-                </p>
 
                 <article>
-                  <h3>Reactions and visitors of diary</h3>
+                  <h3>Reactions and Visitors of Diary</h3>
                   <p>
                     Previously, the views (listens / visitors) and the reactions
                     were recorded, but there was no way to see who they were. I
