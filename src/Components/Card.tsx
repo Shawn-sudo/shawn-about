@@ -14,7 +14,7 @@ function Card(props: Props) {
         marginTop: 7.5,
         marginBottom: 7.5,
         backgroundColor: "var(--surface-color)",
-        borderRadius: 20,
+        borderRadius: 30,
         boxShadow: "var(--shadow-big)",
       }}
     >
