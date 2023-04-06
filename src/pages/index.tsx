@@ -53,7 +53,7 @@ function Home() {
           >
             <Card>
               <div className="responsive-flexBox" style={{ color: "grey" }}>
-                <div style={{ padding: 20 }}>
+                <div style={{ margin: 40 }}>
                   <h1
                     style={{
                       color: "rgb(255, 110, 100)",
@@ -71,31 +71,25 @@ function Home() {
                   style={{
                     alignItems: "center",
                     display: "flex",
+                    margin: 15,
                   }}
                 >
                   <StaticImage
-                    src="../assets/atrable/v1.2.0/iPhone_6.5/record_audio_diary.png"
-                    alt="Record your stories with Audio Diary"
+                    src="../assets/atrable/2023_3/cover.png"
+                    alt="Share your actual stories"
                     style={{ width: "100%" }}
-                    imgStyle={{ borderRadius: "15px 0px 0px 15px" }}
+                    imgStyle={{ borderRadius: "20px 0px 0px 20px" }}
                   />
                   <StaticImage
-                    src="../assets/atrable/v1.2.0/iPhone_6.5/send_to_friends.png"
-                    alt="Send it to friends"
+                    src="../assets/atrable/2023_3/diary.png"
+                    alt="Record your honest feelings with audio and video"
                     style={{ width: "100%" }}
-                    imgStyle={{ borderRadius: "0px 15px 15px 0px" }}
                   />
                   <StaticImage
-                    src="../assets/atrable/v1.2.0/iPhone_6.5/Simulator Screen Shot - iPhone 11 Pro Max - 2022-10-08 at 23.19.04.png"
-                    alt="Atrable app detail - uploading audio"
+                    src="../assets/atrable/2023_3/chat.png"
+                    alt="Get closer to your friends by chatting about your diaries"
                     style={{ width: "100%" }}
-                    imgStyle={{ borderRadius: 15 }}
-                  />
-                  <StaticImage
-                    src="../assets/atrable/v1.2.0/iPhone_6.5/Simulator Screen Shot - iPhone 11 Pro Max - 2022-10-08 at 23.22.09.png"
-                    alt="Atrable app detail - view profile"
-                    style={{ width: "100%" }}
-                    imgStyle={{ borderRadius: 15 }}
+                    imgStyle={{ borderRadius: "0px 20px 20px 0px" }}
                   />
                 </div>
               </div>
