@@ -9,19 +9,206 @@ function EtcLog() {
       <title>Resume as of Jan 2022 | About Seihyun Lee</title>
       <LogsLayout>
         <main>
+          <div
+            style={{
+              margin: 20,
+            }}
+          >
+            <h1>Resume (CV)</h1>
+            <div style={{ display: "flex", justifyContent: "space-between" }}>
+              <h3>As of Mar 2023</h3>
+              <h3 style={{ color: "var(--hint-color)" }}>
+                Seihyun (Shawn) Lee
+              </h3>
+            </div>
+          </div>
+          <Card>
+            <h2>Summary</h2>
+            <p>
+              I'm a student who is interested in living a happy life using
+              technologies.
+            </p>
+
+            <h1>Projects</h1>
+            <h2>
+              <a
+                href="https://www.atrable.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Atrable
+              </a>{" "}
+              (Aug 2021 - present)
+            </h2>
+            <p>
+              I am creating a social media platform where people can share
+              honest stories about themselves with their friends
+              (https://www.atrable.com). I came to this idea after seeing how
+              many people create artificial images of themselves on social media
+              and how these artificial images impact others. I hope to combat
+              this through Atrable, where people can easily share authentic
+              videos and audio clips of themselves instead of photos.
+            </p>
+            <p>
+              For Atrable, I'm using Flutter and Firebase. With my programming
+              knowledge, I fix real world problems such as loading diaries
+              (posts) with pagination, saving chat messages on the user's
+              device, sending and receiving notifications, recording and
+              uploading audios, etc.
+            </p>
+            <p>
+              To see my works, go to{" "}
+              <a href="/logs/atrable" target="_blank" rel="noopener noreferrer">
+                /logs/atrable
+              </a>
+            </p>
+
+            <h2>DNA Barcoding Project (Team name: Watdr) (2022-2023)</h2>
+            <p>
+              I am researching the relationship between pH rate and moss with my
+              friend Pranav. We first went to different water streams in our
+              town and collected water and moss samples. Then, we went to the
+              Harlem DNA Barcoding Lab and analyzed the diversity of the moss
+              dwelling around the stream. We are currently figuring out the
+              relationship between pH rate and moss diversity.
+            </p>
+
+            <h2>
+              <a href="/" target="_blank" rel="noopener noreferrer">
+                Personal Website
+              </a>{" "}
+              (Feb 2022 - present)
+            </h2>
+            <p>
+              I am making a personal website to record and organize my journeys.
+              On the website, I put what I've been doing lately. For the
+              website, I'm using Gatsby, which is a React framework for
+              generating static websites like blogs. Along with the fancy
+              framework, I also use the plain web language such as HTML and CSS.
+            </p>
+
+            <h2>
+              <a
+                href="https://sites.google.com/tenafly.k12.nj.us/shawn/home"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                What is the relationship between the pandemic and depression?
+              </a>{" "}
+              (Mar 2021)
+            </h2>
+            <p>
+              As a middle school graduation project, I researched the
+              relationship between the pandemic and depression. I learned that
+              depression happens more widely than I thought, which is mainly
+              caused by the COVID pandemic.
+            </p>
+            <p>
+              For the project, I made a simple depression test based on PHQ-9
+              using HTML5, CSS, and Javascript (
+              <a
+                href="https://shawn-school.web.app"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://shawn-school.web.app
+              </a>
+              ).
+            </p>
+            <p>
+              Later on (around mid 2022), I noticed that the depression rate
+              didn't rapidly decrease although the pandemic was nearly over. I
+              realized that the pandemic was just an indirect cause of increased
+              depression rate; the direct cause was increased usage of social
+              media, where people often promote fake images of themselves. I
+              wanted to make a better place for people to record and share their
+              lives than other social media, so I brought many shifts in the app
+              that I was making at that time. For example, I implemented audio
+              and video features for the app, so that people can easily focus on
+              their story itself, rather than how they appear to others.
+            </p>
+
+            <h1>Academic Achievements</h1>
+            <h2>Qualified for AIME (2021 Fall & 2022)</h2>
+            <p>
+              I qualified for AIME twice! I scored in the top 2.5% on AMC 10.
+            </p>
+            <h2>
+              First Place in Bergen County Math League (2021-2022 & 2022-2023)
+            </h2>
+            <p>
+              After participating in the competition in the school math club, I
+              got first place in BCML Group 3 twice.
+            </p>
+
+            <h2>99th percentile on PSAT (Oct 2022)</h2>
+            <p>
+              I thought my English was bad, but I guess it improved over time.
+            </p>
+
+            <h1>School Clubs</h1>
+            <h2>Math Club (Sep 2022 - present)</h2>
+            <p>
+              Every week, we participate in math competitions, such as NJML,
+              BCML, and AMC.
+            </p>
+            <h2>Chemistry Club (Sep 2022 - present)</h2>
+            <p>
+              I learned about interesting chemical reactions by listening to
+              others' presentations. I also made a presentation about how water
+              dissolves ions and polar molecules with its exceptionally high
+              electronegativity.
+            </p>
+            <p>
+              As a team, we made a website to explain the Flint water crisis (
+              <a
+                href="https://njchemolympics2022master.gatsbyjs.io"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://njchemolympics2022master.gatsbyjs.io
+              </a>
+              ).
+            </p>
+            <h2>International Student Advisory Board (Dec 2022 - present)</h2>
+            <p>
+              We go to Tenafly Middle School ELL class every Thursday and help
+              students adapt into American culture. As I came to America just 2
+              years ago, I can relate with and help them very well.
+            </p>
+
+            <h1>Volunteers</h1>
+            <h2>Scratch Coding Class (Dec 2022 - Jan 2023)</h2>
+            <p>
+              I taught the fun of coding with Scratch coding. I made students
+              come up with their own ideas and we implemented it together.
+            </p>
+            <p>
+              To see more information, go to{" "}
+              <a
+                href="/logs/scratch-coding-class-dec-2022"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                /logs/scratch-coding-class-dec-2022
+              </a>
+            </p>
+            <h2>Church Volunteer</h2>
+            <p>
+              I help children to focus on worship and get closer to the stories
+              in the Bible.
+            </p>
+          </Card>
+          <div
+            style={{
+              margin: 20,
+              marginTop: 40,
+            }}
+          >
+            <h3>Resume written on Jan 2022</h3>
+          </div>
           <Card>
             <div>
-              <div
-                style={{
-                  backgroundColor: "var(--surface-color)",
-                  padding: 15,
-                  borderRadius: 20,
-                  boxShadow: "var(--shadow-big)",
-                }}
-              >
-                <h2>Resume written on Jan 2022 for Science Research Program</h2>
-                <p>(Tried to look as genius as possible)</p>
-              </div>
               <h2>Tenafly Middle School, March 2021</h2>
               <h3>
                 What is the relationship between the pandemic and depression?
@@ -44,7 +231,7 @@ function EtcLog() {
               </p>
               <h2>Chemistry Club, September 2021 to present</h2>
               <p>
-                By listening to others’ presentations, I learned about the
+                By listening to others' presentations, I learned about the
                 interesting chemical reactions and how they are researched. I
                 gave a presentation on how water dissolves ions and polar
                 molecules with an explanation of electronegativity.
@@ -82,7 +269,7 @@ function EtcLog() {
                 about a topic related to the presentation, like Is there any
                 problem with recombinant DNA technology?. I gave a presentation
                 on how viruses work, especially about coronaviruses, and our
-                body’s reaction to them.
+                body's reaction to them.
               </p>
               <h2>
                 Korea Workers' Compensation & Welfare Service Ansan Hospital,
