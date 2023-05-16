@@ -290,8 +290,8 @@ export default function Logs_atrable() {
                 <article>
                   <h3>Indicators</h3>
                   <p>
-                    Those tiny circle dots indicates new friend requests and
-                    chat messages.
+                    Those tiny circle dots indicate new friend requests and chat
+                    messages.
                   </p>
                   <div style={{ textAlign: "center" }}>
                     <StaticImage
@@ -333,8 +333,8 @@ export default function Logs_atrable() {
                     db for profile pages.
                   </p>
                   <p>
-                    In addition, I also made the website look cooler by
-                    displaying some videos on the homepage.
+                    I also made the website look cooler by displaying some
+                    videos on the homepage.
                   </p>
                 </article>
 
