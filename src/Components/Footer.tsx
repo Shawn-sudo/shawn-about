@@ -62,7 +62,6 @@ function Footer() {
           }}
         />
       </a>
-{/* TODO ; buy me a cookie */}
       <br />
       <br />
       <div
