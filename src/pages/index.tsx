@@ -65,6 +65,7 @@ function Home() {
                     Atrable
                   </h1>
                   <p>A personal project</p>
+                  <p>Jun 2021 - Now</p>
                   <h3 className="learn-more">Developing Story →</h3>
                 </div>
                 <div
@@ -115,7 +116,7 @@ function Home() {
                   >
                     Scratch Coding Class
                   </h1>
-                  <p>Taught the fun of coding</p>
+                  <p>Dec 2022 - Jan 2023</p>
                 </div>
                 <div
                   style={{
