@@ -2,11 +2,6 @@ import React from "react";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
-const githubLogo = "../assets/social_media_logo/github-mark-white.svg";
-const atrableLogo =
-  "../assets/social_media_logo/atrable_icon2_rounded_512x512.png";
-const youtubeLogo = "../assets/social_media_logo/yt_icon_mono_dark.png";
-
 function Footer() {
   return (
     <footer
@@ -67,6 +62,7 @@ function Footer() {
           }}
         />
       </a>
+{/* TODO ; buy me a cookie */}
       <br />
       <br />
       <div
