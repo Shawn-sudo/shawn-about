@@ -44,8 +44,29 @@ function Footer() {
       >
         Source code
       </a>
-      {/* Copyright sign with the year that it was rendered */}
+      {/* Copyright sign with the year that the page was rendered */}
       <p>&copy; 2022-{new Date().getFullYear()}. Seihyun Lee </p>
+      <a
+        href="https://www.buymeacoffee.com/seihyun"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{
+          margin: "auto",
+          marginTop: 30,
+          marginBottom: 20,
+          display: "inline-block",
+        }}
+      >
+        <img
+          src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
+          alt="Buy Me A Coffee"
+          style={{
+            height: 60,
+            width: 217,
+            borderRadius: 20,
+          }}
+        />
+      </a>
       <br />
       <br />
       <div
@@ -55,47 +76,47 @@ function Footer() {
           maxWidth: 900,
           margin: "auto",
         }}
+        className="meetMeOn"
       >
-        <h3
-          style={{
-            marginLeft: 30,
-            marginRight: 30,
-          }}
-        >
-          Meet me on
-        </h3>
         <div
           style={{
             flex: "1 1 auto", //expands it
             display: "flex",
             justifyContent: "space-evenly",
+            flexWrap: "wrap",
           }}
         >
+          <h3
+            style={{
+              marginLeft: 30,
+              marginRight: 30,
+            }}
+          >
+            Meet me on
+          </h3>
+
           <a
             href="https://github.com/Shawn-sudo"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ marginTop: "auto", marginBottom: "auto" }}
           >
-            <StaticImage src={githubLogo} alt="GitHub" height={35} />
+            <strong>GitHub @shawn-sudo</strong>
           </a>
 
           <a
             href="https://www.atrable.com/u/shawn"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ marginTop: "auto", marginBottom: "auto" }}
           >
-            <StaticImage src={atrableLogo} alt="Atrable" height={40} />
+            <strong>Atrable @shawn</strong>
           </a>
 
           <a
             href="https://www.youtube.com/@seihyun"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ marginTop: "auto", marginBottom: "auto" }}
           >
-            <StaticImage src={youtubeLogo} alt="YouTube" height={35} />
+            <strong>YouTube @seihyun</strong>
           </a>
         </div>
       </div>
