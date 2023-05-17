@@ -42,7 +42,7 @@ function Footer() {
       {/* Copyright sign with the year that the page was rendered */}
       <p>&copy; 2022-{new Date().getFullYear()}. Seihyun Lee </p>
       <a
-        href="https://www.buymeacoffee.com/seihyun"
+        href="https://ko-fi.com/seihyun"
         target="_blank"
         rel="noopener noreferrer"
         style={{
@@ -53,13 +53,10 @@ function Footer() {
         }}
       >
         <img
-          src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
-          alt="Buy Me A Coffee"
-          style={{
-            height: 60,
-            width: 217,
-            borderRadius: 20,
-          }}
+          height="36"
+          style={{ border: 0, height: 50 }}
+          src="https://storage.ko-fi.com/cdn/kofi3.png?v=3"
+          alt="Buy Me a Coffee at ko-fi.com"
         />
       </a>
       <br />
