@@ -2,11 +2,13 @@ import React from "react";
 
 type Props = {
   children?: React.ReactNode;
+  id?: string | undefined;
 };
 
 function Card(props: Props) {
   return (
     <div
+      id={props.id}
       style={{
         width: "calc(100% - 60px)",
         padding: 15,
