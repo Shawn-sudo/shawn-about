@@ -17,9 +17,7 @@ function EtcLog() {
             <h1>Resume (CV)</h1>
             <div style={{ display: "flex", justifyContent: "space-between" }}>
               <h3>As of Mar 2023</h3>
-              <h3 style={{ color: "var(--hint-color)" }}>
-                Seihyun (Shawn) Lee
-              </h3>
+              <h3>Seihyun (Shawn) Lee</h3>
             </div>
           </div>
           <Card>
