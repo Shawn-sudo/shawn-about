@@ -1,7 +1,7 @@
 import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import LogsLayout from "../../components/layouts.tsx/LogsLayout";
-import "../../components/timeline.css";
+import "../../components/styles/timeline.css";
 
 const day4_rachel =
   "../../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 6.51.04 PM.png";

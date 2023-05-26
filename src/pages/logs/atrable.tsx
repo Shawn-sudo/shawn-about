@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../../assets/appIconRounded.svg";
 import LogsLayout from "../../components/layouts.tsx/LogsLayout";
 import { StaticImage } from "gatsby-plugin-image";
-import "../../components/timeline.css";
+import "../../components/styles/timeline.css";
 
 const aug2021_iphone = "../../assets/atrable/Aug26_2021.png";
 const aug2021_iphone_new = "../../assets/atrable/Aug26_2021_ViewResponses.png";
