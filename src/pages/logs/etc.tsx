@@ -62,16 +62,6 @@ function EtcLog() {
               </a>
             </p>
 
-            <h2>DNA Barcoding Project (Team name: Watdr) (2022-2023)</h2>
-            <p>
-              I am researching the relationship between pH rate and moss with my
-              friend Pranav. We first went to different water streams in our
-              town and collected water and moss samples. Then, we went to the
-              Harlem DNA Barcoding Lab and analyzed the diversity of the moss
-              dwelling around the stream. We are currently figuring out the
-              relationship between pH rate and moss diversity.
-            </p>
-
             <h2>
               <a href="/" target="_blank" rel="noopener noreferrer">
                 Personal Website
@@ -80,10 +70,45 @@ function EtcLog() {
             </h2>
             <p>
               I am making a personal website to record and organize my journeys.
-              On the website, I put what I've been doing lately. For the
-              website, I'm using Gatsby, which is a React framework for
+              For the website, I'm using Gatsby, which is a React framework for
               generating static websites like blogs. Along with the fancy
               framework, I also use the plain web language such as HTML and CSS.
+            </p>
+
+            <h2>DNA Barcoding Project (Team name: Watdr) (2022-2023)</h2>
+            <p>
+              I researched the relationship between pH rate and moss with my
+              friend Pranav.
+            </p>
+            <p>
+              pH is important in the freshwater ecosystem as it sets up the
+              conditions for how easily nutrients are available and how easily
+              things like heavy metals can dissolve in the water. Different
+              water bodies have different levels of pH, depending on location,
+              temperature, and other factors. Moss is a bioindicator, meaning
+              that it is a naturally occurring indicator of pollution, air
+              quality, and water quality. We wanted to investigate if the
+              difference in pH level would affect biodiversity of the inhabiting
+              moss. We also wondered if there will be an ideal pH level that
+              allows many different species of moss to inhabit. Our hypothesis
+              was that biodiversity would peak as the pH level of surrounding
+              water gets closer to 7.
+            </p>
+            <p>
+              We first went to different water streams in our town and collected
+              water and moss samples. Then, we went to the Harlem DNA Barcoding
+              Lab and analyzed the diversity of the moss that we collected. We
+              plotted out the relationship between pH rate and moss diversity,
+              and figured out that moss thrives in the environment with pH
+              around 7.5
+            </p>
+            <p>
+              One thing I'm unsatisfied: For the value to be more accurate and
+              more applicable, we would've had to collect hundreds of samples.
+              However, we couldn't do so because of our limitation of time and
+              energy that we can spend as high school students.
+              {/* we couldn't collect hundreds of samples due
+              to our limitation of time{" "} */}
             </p>
 
             <h2>
