@@ -1,0 +1,14 @@
+#resume h1 {
+  padding-left: 1rem;
+}
+
+#resume h2 {
+  padding-left: 2rem;
+}
+
+#resume h3,
+#resume h4,
+#resume h5,
+#resume p {
+  padding-left: 2.5rem;
+}

@@ -2,6 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import Card from "../../components/Card";
 import LogsLayout from "../../components/layouts.tsx/LogsLayout";
+import "../../components/styles/resume.css";
 
 function EtcLog() {
   return (
@@ -20,8 +21,8 @@ function EtcLog() {
               <h3>Seihyun (Shawn) Lee</h3>
             </div>
           </div>
-          <Card>
             <h2>Summary</h2>
+          <Card id="resume">
             <p>
               I'm a student who is interested in living a happy life using
               technologies.
