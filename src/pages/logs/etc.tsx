@@ -177,7 +177,9 @@ function EtcLog() {
               Every week, we participate in math competitions, such as NJML,
               BCML, and AMC.
             </p>
+
             <h2>Chemistry Club (Sep 2022 - present)</h2>
+            <h3>2022-2023</h3>
             <p>
               I learned about interesting chemical reactions by listening to
               others' presentations. I also made a presentation about how water
@@ -185,7 +187,8 @@ function EtcLog() {
               electronegativity.
             </p>
             <p>
-              As a team, we made a website to explain the Flint water crisis (
+              As a team, we made a website to explain the Flint water crisis to
+              compete in NJCO (NJ Chemistry Olympics) (
               <a
                 href="https://njchemolympics2022master.gatsbyjs.io"
                 target="_blank"
@@ -195,6 +198,12 @@ function EtcLog() {
               </a>
               ).
             </p>
+            <h3>2023-2024</h3>
+            <p>
+              NJCO was done in-person this time! I didn't win a prize, but it
+              was a fun experience.
+            </p>
+
             <h2>International Student Advisory Board (Dec 2022 - present)</h2>
             <p>
               We go to Tenafly Middle School ELL class every Thursday and help
