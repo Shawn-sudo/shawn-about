@@ -40,13 +40,13 @@ function EtcLog() {
               (Aug 2021 - present)
             </h2>
             <p>
-              I am creating a social media platform where people can share
-              honest stories about themselves with their friends
-              (https://www.atrable.com). I came to this idea after seeing how
-              many people create artificial images of themselves on social media
-              and how these artificial images impact others. I hope to combat
-              this through Atrable, where people can easily share authentic
-              videos and audio clips of themselves instead of photos.
+              I'm developing a social media platform where people can share
+              honest stories about themselves with their friends. I came to this
+              idea after seeing how many people create artificial images of
+              themselves on social media and how these artificial images impact
+              others. I hope to combat this through Atrable, where people can
+              easily share authentic videos and audio clips of themselves
+              instead of photos.
             </p>
             <p>
               For Atrable, I'm using Flutter and Firebase. With my programming
