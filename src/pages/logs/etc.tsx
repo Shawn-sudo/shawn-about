@@ -204,6 +204,15 @@ function EtcLog() {
               was a fun experience.
             </p>
 
+            <h2>Tutoring Club</h2>
+            <p>
+              I participated in our school's tutoring club to help kids learning
+              math. I learned that it is not easy to explain the mathematical
+              concepts to others, even though I've been knowing those concepts
+              for years. I guess "just knowing" and "being able to teach" are
+              really different.
+            </p>
+
             <h2>International Student Advisory Board (Dec 2022 - present)</h2>
             <p>
               We go to Tenafly Middle School ELL class every Thursday and help
