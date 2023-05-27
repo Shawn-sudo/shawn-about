@@ -25,7 +25,7 @@ function EtcLog() {
             <h1>Summary</h1>
             <p>
               I'm a student who is interested in living a happy life using
-              technologies.
+              technology.
             </p>
 
             <h1>Projects</h1>
@@ -50,10 +50,10 @@ function EtcLog() {
             </p>
             <p>
               For Atrable, I'm using Flutter and Firebase. With my programming
-              knowledge, I fix real world problems such as loading diaries
+              knowledge, I fix real-world problems such as loading diaries
               (posts) with pagination, saving chat messages on the user's
               device, sending and receiving notifications, recording and
-              uploading audios, etc.
+              uploading audio, ...
             </p>
             <p>
               To see my works, go to{" "}
@@ -72,7 +72,7 @@ function EtcLog() {
               I am making a personal website to record and organize my journeys.
               For the website, I'm using Gatsby, which is a React framework for
               generating static websites like blogs. Along with the fancy
-              framework, I also use the plain web language such as HTML and CSS.
+              framework, I also use plain web languages such as HTML and CSS.
             </p>
 
             <h2>DNA Barcoding Project (Team name: Watdr) (2022-2023)</h2>
@@ -88,25 +88,25 @@ function EtcLog() {
               temperature, and other factors. Moss is a bioindicator, meaning
               that it is a naturally occurring indicator of pollution, air
               quality, and water quality. We wanted to investigate if the
-              difference in pH level would affect biodiversity of the inhabiting
-              moss. We also wondered if there will be an ideal pH level that
-              allows many different species of moss to inhabit. Our hypothesis
-              was that biodiversity would peak as the pH level of surrounding
-              water gets closer to 7.
+              difference in pH level would affect the biodiversity of the
+              inhabiting moss. We also wondered if there will be an ideal pH
+              level that allows many different species of moss to inhabit. Our
+              hypothesis was that biodiversity would peak as the pH level of
+              surrounding water gets closer to 7.
             </p>
             <p>
               We first went to different water streams in our town and collected
               water and moss samples. Then, we went to the Harlem DNA Barcoding
               Lab and analyzed the diversity of the moss that we collected. We
-              plotted out the relationship between pH rate and moss diversity,
-              and figured out that moss thrives in the environment with pH
-              around 7.5
+              plotted out the relationship between pH rate and moss diversity
+              and figured out that moss thrives in an environment with a pH of
+              7.5
             </p>
             <p>
               One thing I'm unsatisfied: For the value to be more accurate and
-              more applicable, we would've had to collect hundreds of samples.
-              However, we couldn't do so because of our limitation of time and
-              energy that we can spend as high school students.
+              applicable, we had to collect hundreds of samples. However, we
+              couldn't do so because of the limitation of time and energy that
+              we can spend as high school students.
               {/* we couldn't collect hundreds of samples due
               to our limitation of time{" "} */}
             </p>
@@ -140,9 +140,9 @@ function EtcLog() {
               ).
             </p>
             <p>
-              Later on (around mid 2022), I noticed that the depression rate
+              Later on (around mid-2022), I noticed that the depression rate
               didn't rapidly decrease even though the pandemic was nearly over.
-              I realized that the pandemic was just an indirect cause of
+              I realized that the pandemic was just an indirect cause of the
               increased depression rate; the direct cause was increased usage of
               social media, where people often promote fake images of
               themselves. I wanted to make a better place for people to record
@@ -200,14 +200,14 @@ function EtcLog() {
             </p>
             <h3>2023-2024</h3>
             <p>
-              NJCO was done in-person this time! I didn't win a prize, but it
+              NJCO was done in person this time! I didn't win a prize, but it
               was a fun experience.
             </p>
 
             <h2>Tutoring Club</h2>
             <p>
-              I participated in our school's tutoring club to help kids learning
-              math. I learned that it is not easy to explain the mathematical
+              I participated in our school's tutoring club to help kids learn
+              math. I learned that it is not easy to explain mathematical
               concepts to others, even though I've been knowing those concepts
               for years. I guess "just knowing" and "being able to teach" are
               really different.
@@ -216,7 +216,7 @@ function EtcLog() {
             <h2>International Student Advisory Board (Dec 2022 - present)</h2>
             <p>
               We go to Tenafly Middle School ELL class every Thursday and help
-              students adapt into American culture. As I came to America just 2
+              students adapt to American culture. As I came to America just 2
               years ago, I can relate with and help them very well.
             </p>
 
@@ -274,7 +274,7 @@ function EtcLog() {
               </p>
               <h2>Chemistry Club, September 2021 to present</h2>
               <p>
-                By listening to others' presentations, I learned about the
+                By listening to others' presentations, I learned about
                 interesting chemical reactions and how they are researched. I
                 gave a presentation on how water dissolves ions and polar
                 molecules with an explanation of electronegativity.
@@ -282,8 +282,8 @@ function EtcLog() {
               <h2>Math Club, September 2021 to present</h2>
               <p>
                 Every week, we participate in math competitions, such as NJML,
-                BCML, AMC. I am qualified for AIME for being in the top 2.5% of
-                AMC 10.
+                BCML, and AMC. I got qualified for AIME for being in the top
+                2.5% of AMC 10!
               </p>
               <h2>Creating a Social Media, August 2021 to present</h2>
               <p>
@@ -308,9 +308,9 @@ function EtcLog() {
               <p>
                 We gave a presentation for an hour about science technologies in
                 many different fields, such as global warming, recombinant DNA
-                technology, teeth health, viruses. For another hour, we debated
-                about a topic related to the presentation, like Is there any
-                problem with recombinant DNA technology?. I gave a presentation
+                technology, teeth health, and viruses. For another hour, we
+                debated a topic related to the presentation, like "Is there any
+                problem with recombinant DNA technology?". I gave a presentation
                 on how viruses work, especially about coronaviruses, and our
                 body's reaction to them.
               </p>
@@ -333,7 +333,7 @@ function EtcLog() {
                 be concentrated.
               </p>
               <h2>
-                First place for the School Math Contest (교내 수학학력경진대회),
+                First place in the School Math Contest (교내 수학학력경진대회),
                 2015 to 2018
               </h2>
               <p>
@@ -366,7 +366,7 @@ function EtcLog() {
                 the weather; if it rained, the water was more polluted than it
                 was on a sunny day.
               </p>
-              <h2>Music creation, 2019 to present</h2>
+              <h2>Music Creation, 2019 to present</h2>
               <p>
                 Started with some silly melodies, now making not-bad-not-good
                 songs. <Link to="/music">here</Link>
