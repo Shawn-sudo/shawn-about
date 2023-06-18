@@ -2,6 +2,7 @@ import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 import LogsLayout from "../../components/layouts.tsx/LogsLayout";
 import "../../components/styles/timeline.css";
+import Card from "../../components/Card";
 
 const day4_rachel =
   "../../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 6.51.04 PM.png";
@@ -21,17 +22,68 @@ export default function Logs_scratch_coding_dec_2022() {
 
       <LogsLayout>
         <main>
-          <div className="timeline">
-            <div className="container right">
-              <div className="content">
-                <h2>Reflection</h2>
+          <div
+            style={{
+              maxWidth: 700,
+              margin: "auto",
+            }}
+          >
+            <Card className="paragraph-with-padding">
+              <h2>Reflection</h2>
+              <p>
+                <strong>It was quite difficult </strong>
+                than I expected it to be.
+              </p>
+              <dl>
                 <p>
-                  The plan was to make some fun stuff together on Scratch.
-                  Although I rushed a bit too much on the last day, it was a
-                  nice experience to share the fun of coding with kids.
+                  My students were little kids (1st-4th grade), but we tried to
+                  make something that was too advanced for our level.
                 </p>
-              </div>
-            </div>
+                <p>
+                  <strong>On the 1st day</strong>, I asked my students to
+                  explore through{" "}
+                  <a
+                    href="https://scratch.mit.edu/explore/projects/all"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    the Scratch website
+                  </a>{" "}
+                  and pick what they would like to make. Of course, the projects
+                  on that page are the most advanced ones, involving many math
+                  and physics concepts that my students weren't familiar with. I
+                  should've went with more of the easier ones before showing
+                  that page.
+                </p>
+                <p>
+                  <strong>On the 4th day</strong>, I asked my students to come
+                  up with their own project idea. I thought this would be a
+                  great way to let my students expand creativity, but there was
+                  one problem: they all wanted to make something too advanced
+                  for our level. Most of my students had a hard time
+                  implementing it, because they weren't familiar with the math &
+                  physics concepts that were necessary to know to make it. I
+                  also had a hard time, because I had to teach them... quite a
+                  lot. We all sufferred, but I couldn't revert the plan because
+                  I already promised my students that we'll bring all of their
+                  ideas come true 😎😬.
+                </p>
+                <p>
+                  I should've acknowledged that my students needed help with the
+                  fundamental concepts before starting implementing advanced
+                  ones.
+                </p>
+                <p>
+                  In the future, I'll use this course plan to teach higher
+                  grades (4th-6th grade I guess). For lower grades, I'm just
+                  going to make stuff together in somewhere like our school
+                  library tutoring club.
+                </p>
+              </dl>
+            </Card>
+          </div>
+          <div className="timeline">
+            <div style={{ height: 50 }} />
             <div className="container left">
               <div className="content">
                 <h2>Day 6: Make Esther & Youl's Idea</h2>
