@@ -2,13 +2,13 @@ import React from "react";
 
 type Props = {
   children?: React.ReactNode;
-  id?: string | undefined;
+  className?: string;
 };
 
 function Card(props: Props) {
   return (
     <div
-      id={props.id}
+      className={props.className}
       style={{
         width: "calc(100% - 60px)",
         padding: 15,

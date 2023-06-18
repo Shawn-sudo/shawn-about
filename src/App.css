@@ -1,3 +1,4 @@
+/* Font styles */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -10,6 +11,13 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+  background-color: var(--highlight-color-deeper);
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  font-size: 14px;
 }
 
 a {
@@ -20,6 +28,29 @@ a:active {
   color: var(--primary-color);
 }
 
+.paragraph-with-padding h1 {
+  /* padding-left: 1rem; */
+  margin-left: 0rem;
+}
+
+.paragraph-with-padding h2 {
+  margin-left: 0.5rem;
+}
+
+.paragraph-with-padding h3,
+.paragraph-with-padding h4,
+.paragraph-with-padding h5,
+.paragraph-with-padding p,
+.paragraph-with-padding dl {
+  margin-left: 1.5rem;
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: gray;
+}
+
+/* Color set */
 :root {
   --primary-color: #69f0ae;
   --primary-color-darker: #1a7c4d;
@@ -32,11 +63,6 @@ a:active {
   --hint-color: rgba(0, 0, 0, 0.6);
   --shadow-color: rgba(112, 144, 156, 0.3);
   --shadow-big: 0px 5px 10px rgba(112, 144, 156, 0.3);
-}
-
-::selection {
-  background-color: var(--primary-color);
-  color: gray;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -60,6 +86,7 @@ a:active {
   }
 }
 
+/* Buttons */
 .App-Appbar .navButton {
   background-color: transparent;
   border: none;
@@ -94,17 +121,6 @@ footer .meetMeOn a {
   margin-left: 1rem;
   margin-right: 1rem;
   font-size: large;
-}
-
-.responsive-flexBox {
-  display: flex;
-  justify-content: center;
-}
-
-@media (max-width: 900px) {
-  .responsive-flexBox {
-    flex-direction: column;
-  }
 }
 
 .learn-more {
@@ -177,12 +193,14 @@ footer .meetMeOn a {
   color: var(--text-color);
 }
 
-code {
-  background-color: var(--highlight-color-deeper);
-  border-radius: 10px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 2.5px;
-  padding-bottom: 2.5px;
-  font-size: 14px;
+/* UI */
+.responsive-flexBox {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .responsive-flexBox {
+    flex-direction: column;
+  }
 }
