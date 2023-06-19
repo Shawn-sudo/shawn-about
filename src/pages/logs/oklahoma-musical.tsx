@@ -4,7 +4,22 @@ import Card from "../../components/Card";
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 
+const myOklahomaProfile = "../../assets/oklahoma-musical/IMG_2913.jpg";
+const kansasCity = "../../assets/oklahoma-musical/DSC02321.jpg";
+const itsAScandal = "../../assets/oklahoma-musical/DSC02333-2.jpg";
+const oklahoma = "../../assets/oklahoma-musical/DSC02377.jpg";
+const endingScene = "../../assets/oklahoma-musical/DSC02391.jpg";
+
 function OklahomaMusical() {
+  const imgStyle_outer: React.CSSProperties = {
+    width: "60vw",
+    maxWidth: 300,
+    margin: 5,
+    boxShadow: "var(--shadow-big)",
+    borderRadius: 20,
+  };
+  const imgStyle_inner: React.CSSProperties = { borderRadius: 20 };
+
   return (
     <>
       <title>Oklahoma! | About Seihyun Lee</title>
@@ -59,19 +74,19 @@ function OklahomaMusical() {
         >
           <div style={{ margin: "auto" }}>
             <StaticImage
-              src="../../assets/oklahoma-musical/IMG_2913.jpg"
+              src={myOklahomaProfile}
               alt="My profile photo for the musical"
-              style={{ width: "60vw", maxWidth: 300, margin: 5 }}
-              imgStyle={{ borderRadius: 20 }}
+              style={imgStyle_outer}
+              imgStyle={imgStyle_inner}
             />
             <p>"Hi I'm Slim!"</p>
           </div>
           <div style={{ margin: "auto" }}>
             <StaticImage
-              src="../../assets/oklahoma-musical/DSC02321.jpg"
+              src={kansasCity}
               alt="A scene from our musical"
-              style={{ width: "60vw", maxWidth: 300, margin: 5 }}
-              imgStyle={{ borderRadius: 20 }}
+              style={imgStyle_outer}
+              imgStyle={imgStyle_inner}
             />
             <p>
               <i>Kansas City</i>
@@ -79,10 +94,10 @@ function OklahomaMusical() {
           </div>
           <div style={{ margin: "auto" }}>
             <StaticImage
-              src="../../assets/oklahoma-musical/DSC02333-2.jpg"
+              src={itsAScandal}
               alt="A scene from our musical"
-              style={{ width: "60vw", maxWidth: 300, margin: 5 }}
-              imgStyle={{ borderRadius: 20 }}
+              style={imgStyle_outer}
+              imgStyle={imgStyle_inner}
             />
             <p>
               <i>It's a Scandal! It's a Outrage!</i>
@@ -90,19 +105,19 @@ function OklahomaMusical() {
           </div>
           <div style={{ margin: "auto" }}>
             <StaticImage
-              src="../../assets/oklahoma-musical/DSC02377.jpg"
+              src={oklahoma}
               alt="A scene from our musical"
-              style={{ width: "60vw", maxWidth: 300, margin: 5 }}
-              imgStyle={{ borderRadius: 20 }}
+              style={imgStyle_outer}
+              imgStyle={imgStyle_inner}
             />
             <p>"🎶 OOOOOO-klahoma where the wind comes... 🎵"</p>
           </div>
           <div style={{ margin: "auto" }}>
             <StaticImage
-              src="../../assets/oklahoma-musical/DSC02391.jpg"
+              src={endingScene}
               alt="Ending bye bye scene"
-              style={{ width: "60vw", maxWidth: 300, margin: 5 }}
-              imgStyle={{ borderRadius: 20 }}
+              style={imgStyle_outer}
+              imgStyle={imgStyle_inner}
             />
             <p>Bye</p>
           </div>
@@ -114,7 +129,7 @@ function OklahomaMusical() {
             <p>
               My director Mr. AC gave me the role of <strong>Slim</strong>, who
               is an energetic dude with a big voice and a friend of Will Parker.
-              I'm guessing that he made me act out Slim because I am literally
+              I'm guessing that he made me act out Slim because I am actually
               slim.
             </p>
             <h2>VVIP seat for the live music 😎🎧</h2>
@@ -151,6 +166,7 @@ function OklahomaMusical() {
             </p>
           </Card>
         </div>
+        <div style={{ height: 100 }} />
       </LogsLayout>
     </>
   );
