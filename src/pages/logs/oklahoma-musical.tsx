@@ -137,30 +137,30 @@ function OklahomaMusical() {
               One of the best things of being part of this musical was that I
               could listen to the wonderful live orchestra & gorgeous voices
               right next to me. I experienced some sort of ecstasy when I heard
-              the music live. The live music can't compare with the recorded
-              ones like{" "}
+              the music live. The recorded ones (like{" "}
               <a
                 href="https://www.instagram.com/p/CrTda2APii3/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                this one
+                this
               </a>{" "}
-              or{" "}
+              and{" "}
               <a
                 href="https://www.instagram.com/p/CrTepTqsKe7/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                this one
-              </a>{" "}
-              — it's just so much better!
+                this
+              </a>
+              ) still sound good, but the live music can't be compared with the
+              recorded ones — it's just so much better!
             </p>
             <h2>What I learned</h2>
             <p>
               I learned that acting is not my thing, but I also learned that{" "}
               <strong>music</strong> is definitely my thing. I started a new
-              club where we can perform music during lunch time in school, so{" "}
+              club where we can perform music in school every week, so{" "}
               <Link to="/logs/busking-club">check it out</Link> if you're
               interested.
             </p>
