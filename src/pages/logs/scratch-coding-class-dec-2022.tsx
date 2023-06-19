@@ -294,6 +294,7 @@ export default function Logs_scratch_coding_dec_2022() {
                 </a>
               </div>
             </div>
+            <div style={{ height: 100 }} />
           </div>
         </main>
       </LogsLayout>

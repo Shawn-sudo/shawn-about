@@ -1130,6 +1130,7 @@ export default function Logs_atrable() {
                 </a>
               </div>
             </div>
+            <div style={{ height: 100 }} />
           </div>
         </main>
       </LogsLayout>
