@@ -20,6 +20,7 @@ function LogsLayout(props: Props) {
 
   const logPages: LogPage[] = [
     { path: "/logs/atrable", title: "Developing Atrable" },
+    { path: "/logs/oklahoma-musical", title: "Oklahoma!" },
     {
       path: "/logs/scratch-coding-class-dec-2022",
       title: "Scratch Coding Class (Dec 2022)",

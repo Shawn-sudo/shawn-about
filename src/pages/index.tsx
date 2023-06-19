@@ -97,6 +97,60 @@ function Home() {
             </Card>
           </Link>
           <Link
+            to="/logs/oklahoma-musical"
+            style={{
+              textDecoration: "none",
+              borderRadius: 20,
+              margin: 5,
+            }}
+          >
+            <Card>
+              <div className="responsive-flexBox" style={{ color: "grey" }}>
+                <div style={{ padding: 20 }}>
+                  <h1
+                    style={{
+                      color: "orange",
+                      fontSize: 60,
+                      fontWeight: "800",
+                      fontStyle: "italic",
+                      marginBottom: 0,
+                    }}
+                  >
+                    Oklahoma!
+                  </h1>
+                  <p>A school musical</p>
+                  <p>Feb 2023 - Apr 2023</p>
+                </div>
+                <div
+                  style={{
+                    alignItems: "center",
+                    display: "flex",
+                    margin: 15,
+                  }}
+                >
+                  <StaticImage
+                    src="../assets/oklahoma-musical/IMG_2913.jpg"
+                    alt="My profile photo for the musical"
+                    style={{ width: "100%", margin: 5 }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                  <StaticImage
+                    src="../assets/oklahoma-musical/DSC02321.jpg"
+                    alt="A scene from our musical"
+                    style={{ width: "100%", margin: 5 }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                  <StaticImage
+                    src="../assets/oklahoma-musical/DSC02391.jpg"
+                    alt="Ending bye bye scene"
+                    style={{ width: "100%", margin: 5 }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                </div>
+              </div>
+            </Card>
+          </Link>
+          <Link
             to="/logs/scratch-coding-class-dec-2022"
             style={{
               textDecoration: "none",
