@@ -164,6 +164,7 @@ function OklahomaMusical() {
               <Link to="/logs/busking-club">check it out</Link> if you're
               interested.
             </p>
+            <p style={{ textAlign: "end" }}>- Written on Jun. 19, 2023</p>
           </Card>
         </div>
         <div style={{ height: 100 }} />

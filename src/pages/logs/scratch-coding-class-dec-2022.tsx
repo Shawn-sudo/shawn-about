@@ -80,6 +80,7 @@ export default function Logs_scratch_coding_dec_2022() {
                   library tutoring club.
                 </p>
               </dl>
+              <p style={{ textAlign: "end" }}>- Written on Jun. 18, 2023</p>
             </Card>
           </div>
           <div className="timeline">

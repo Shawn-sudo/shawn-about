@@ -109,6 +109,7 @@ function InterestInComputersLog() {
               I am also building my website (this one). This website would be
               gradually developed as I keep doing activities 💪.
             </p>
+            <p style={{ textAlign: "end" }}>- Written on Mar. 22, 2022</p>
           </Card>
         </div>
       </LogsLayout>
