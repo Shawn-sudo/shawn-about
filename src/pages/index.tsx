@@ -160,12 +160,13 @@ function Home() {
           >
             <Card>
               <div className="responsive-flexBox" style={{ color: "grey" }}>
-                <div style={{ padding: 20, minWidth: 250 }}>
+                <div style={{ padding: 20 }}>
                   <h1
                     style={{
                       color: "var(--primary-color)",
                       marginTop: 50,
                       marginBottom: 0,
+                      minWidth: 250,
                     }}
                   >
                     Scratch Coding Class
