@@ -122,7 +122,7 @@ function OklahomaMusical() {
             <p>Bye</p>
           </div>
         </div>
-        <div style={{ maxWidth: 700, margin: "auto" }}>
+        <div style={{ maxWidth: 750, margin: "auto" }}>
           <Card className="paragraph-with-padding">
             <p>My first musical!</p>
             <h2>I am Slim 🕺</h2>
