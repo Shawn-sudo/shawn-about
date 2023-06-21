@@ -27,7 +27,7 @@ function BuskingClub() {
         <div style={{ maxWidth: 750, margin: "auto" }}>
           <Card>
             <p>
-              <strong>Busking = performing music on street</strong>
+              <strong>Busking = performing music on the street</strong>
             </p>
             <p>
               I've been wanting to do busking after hearing that Busker Busker,
@@ -42,13 +42,12 @@ function BuskingClub() {
               , used to do busking in their early 20s.
             </p>
             <p>
-              I wanted to do busking in school during lunchtime, so I'm making
+              I wanted to do it in school during lunchtime, so I'm making
               Busking Club with my friend Ian. We recently did a demo busking,
               and it was great! Everybody loved the idea of seeing their friends
               singing some songs for them. Even the teachers loved it; one of
               them told us how great it is to bring positive energy to our
-              community by busking during the lunch time. I think it's great
-              too!
+              community by busking during lunchtime. I think it's great too!
             </p>
             <p>
               I filmed some videos while doing the busking demo. I'll put it

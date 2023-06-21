@@ -41,7 +41,7 @@ export default function Logs_scratch_coding_dec_2022() {
                 </p>
                 <p>
                   <strong>On the 1st day</strong>, I asked my students to
-                  explore through{" "}
+                  explore{" "}
                   <a
                     href="https://scratch.mit.edu/explore/projects/all"
                     target="_blank"
@@ -52,32 +52,32 @@ export default function Logs_scratch_coding_dec_2022() {
                   and pick what they would like to make. Of course, the projects
                   on that page are the most advanced ones, involving many math
                   and physics concepts that my students weren't familiar with. I
-                  should've went with more of the easier ones before showing
+                  should've gone with more of the easier ones before showing
                   that page.
                 </p>
                 <p>
                   <strong>On the 4th day</strong>, I asked my students to come
                   up with their own project idea. I thought this would be a
-                  great way to let my students expand creativity, but there was
-                  one problem: they all wanted to make something too advanced
-                  for our level. Most of my students had a hard time
-                  implementing it, because they weren't familiar with the math &
+                  great way to let my students expand their creativity, but
+                  there was one problem: they all wanted to make something too
+                  advanced for our level. Most of my students had a hard time
+                  implementing it because they weren't familiar with the math &
                   physics concepts that were necessary to know to make it. I
                   also had a hard time, because I had to teach them... quite a
-                  lot. We all sufferred, but I couldn't revert the plan because
-                  I already promised my students that we'll bring all of their
-                  ideas come true 😎😬.
+                  lot. We all suffered, but I couldn't revert the plan because I
+                  already promised my students that we'll bring all of their
+                  ideas to come true 😎😬.
                 </p>
                 <p>
                   I should've acknowledged that my students needed help with the
-                  fundamental concepts before starting implementing advanced
+                  fundamental concepts before starting to implement advanced
                   ones.
                 </p>
                 <p>
                   In the future, I'll use this course plan to teach higher
                   grades (4th-6th grade I guess). For lower grades, I'm just
-                  going to make stuff together in somewhere like our school
-                  library tutoring club.
+                  going to make stuff together somewhere like our school library
+                  tutoring club.
                 </p>
               </dl>
               <p style={{ textAlign: "end" }}>- Written on Jun. 18, 2023</p>
