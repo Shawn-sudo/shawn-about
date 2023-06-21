@@ -4,6 +4,16 @@ import Card from "../components/Card";
 import Layout from "../components/layouts.tsx/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 
+const myOklahomaProfile = "../assets/oklahoma-musical/IMG_2913.jpg";
+const kansasCity = "../assets/oklahoma-musical/DSC02321.jpg";
+const endingScene = "../assets/oklahoma-musical/DSC02391.jpg";
+
+const frontOfCafeteria_1 =
+  "../assets/busking-club/Screenshot 2023-06-19 at 1.14.58 PM.png";
+const frontOfCafeteria_2 =
+  "../assets/busking-club/Screenshot 2023-06-19 at 1.14.04 PM.png";
+const inGym = "../assets/busking-club/Screenshot 2023-06-19 at 1.51.18 PM.png";
+
 function Home() {
   return (
     <>
@@ -66,7 +76,7 @@ function Home() {
                   </h1>
                   <p>A personal project</p>
                   <p>Jun 2021 - Now</p>
-                  <h3 className="learn-more">Developing Story →</h3>
+                  <div className="learn-more">Developing Story →</div>
                 </div>
                 <div
                   style={{
@@ -97,6 +107,62 @@ function Home() {
             </Card>
           </Link>
           <Link
+            to="/logs/busking-club"
+            style={{
+              textDecoration: "none",
+              borderRadius: 20,
+              margin: 5,
+            }}
+          >
+            <Card>
+              <div className="responsive-flexBox" style={{ color: "grey" }}>
+                <div style={{ padding: 20 }}>
+                  <h1
+                    style={{
+                      color: "orange",
+                      fontSize: 50,
+                      minWidth: 320,
+                      marginTop: 50,
+                    }}
+                  >
+                    Busking Club
+                  </h1>
+                  <p>A school club (that I'm making!)</p>
+                  <p>May 2023 - Now</p>
+                  <div className="learn-more">Learn More →</div>
+                </div>
+                <div
+                  style={{
+                    alignItems: "center",
+                    display: "flex",
+                    flexWrap: "wrap",
+                    justifyContent: "center",
+                    margin: 15,
+                  }}
+                >
+                  <StaticImage
+                    src={frontOfCafeteria_1}
+                    alt="In front of cafeteria 1"
+                    style={{ width: "100%", maxWidth: 250, margin: 5 }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                  <StaticImage
+                    src={frontOfCafeteria_2}
+                    alt="In front of cafeteria 2"
+                    style={{ width: "100%", maxWidth: 250, margin: 5 }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                  <StaticImage
+                    src={inGym}
+                    alt="In the gym"
+                    style={{ width: "100%", maxWidth: 250, margin: 5 }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                </div>
+              </div>
+            </Card>
+          </Link>
+          <Link
             to="/logs/oklahoma-musical"
             style={{
               textDecoration: "none",
@@ -110,16 +176,18 @@ function Home() {
                   <h1
                     style={{
                       color: "orange",
-                      fontSize: 60,
+                      fontSize: 50,
                       fontWeight: "800",
                       fontStyle: "italic",
-                      marginBottom: 0,
+                      marginTop: 25,
+                      marginBottom: 25,
                     }}
                   >
                     Oklahoma!
                   </h1>
                   <p>A school musical</p>
                   <p>Feb 2023 - Apr 2023</p>
+                  <div className="learn-more">Learn More →</div>
                 </div>
                 <div
                   style={{
@@ -129,19 +197,19 @@ function Home() {
                   }}
                 >
                   <StaticImage
-                    src="../assets/oklahoma-musical/IMG_2913.jpg"
+                    src={myOklahomaProfile}
                     alt="My profile photo for the musical"
                     style={{ width: "100%", margin: 5 }}
                     imgStyle={{ borderRadius: 20 }}
                   />
                   <StaticImage
-                    src="../assets/oklahoma-musical/DSC02321.jpg"
+                    src={kansasCity}
                     alt="A scene from our musical"
                     style={{ width: "100%", margin: 5 }}
                     imgStyle={{ borderRadius: 20 }}
                   />
                   <StaticImage
-                    src="../assets/oklahoma-musical/DSC02391.jpg"
+                    src={endingScene}
                     alt="Ending bye bye scene"
                     style={{ width: "100%", margin: 5 }}
                     imgStyle={{ borderRadius: 20 }}
@@ -164,14 +232,15 @@ function Home() {
                   <h1
                     style={{
                       color: "var(--primary-color)",
-                      marginTop: 50,
-                      marginBottom: 0,
+                      marginTop: 25,
+                      marginBottom: 25,
                       minWidth: 250,
                     }}
                   >
                     Scratch Coding Class
                   </h1>
                   <p>Dec 2022 - Jan 2023</p>
+                  <div className="learn-more">Learn More →</div>
                 </div>
                 <div
                   style={{
