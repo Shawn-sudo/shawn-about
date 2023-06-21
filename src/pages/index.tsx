@@ -4,6 +4,12 @@ import Card from "../components/Card";
 import Layout from "../components/layouts.tsx/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 
+const profilePhoto = "../assets/profile/profile2.png";
+
+const atrable_cover = "../assets/atrable/2023_3/cover.png";
+const atrable_diary = "../assets/atrable/2023_3/diary.png";
+const atrable_chat = "../assets/atrable/2023_3/chat.png";
+
 const myOklahomaProfile = "../assets/oklahoma-musical/IMG_2913.jpg";
 const kansasCity = "../assets/oklahoma-musical/DSC02321.jpg";
 const endingScene = "../assets/oklahoma-musical/DSC02391.jpg";
@@ -13,6 +19,13 @@ const frontOfCafeteria_1 =
 const frontOfCafeteria_2 =
   "../assets/busking-club/Screenshot 2023-06-19 at 1.14.04 PM.png";
 const inGym = "../assets/busking-club/Screenshot 2023-06-19 at 1.51.18 PM.png";
+
+const game_superMarioRemix =
+  "../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 7.12.41 PM.png";
+const game_carAndGravity =
+  "../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 7.14.12 PM.png";
+const game_dontGetHit =
+  "../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 8.19.41 PM.png";
 
 function Home() {
   return (
@@ -38,7 +51,7 @@ function Home() {
               }}
             />
             <StaticImage
-              src="../assets/profile/profile2.png"
+              src={profilePhoto}
               alt="Shawn's face"
               transformOptions={{ fit: "inside" }}
               style={{
@@ -86,18 +99,18 @@ function Home() {
                   }}
                 >
                   <StaticImage
-                    src="../assets/atrable/2023_3/cover.png"
+                    src={atrable_cover}
                     alt="Share your actual stories"
                     style={{ width: "100%" }}
                     imgStyle={{ borderRadius: "20px 0px 0px 20px" }}
                   />
                   <StaticImage
-                    src="../assets/atrable/2023_3/diary.png"
+                    src={atrable_diary}
                     alt="Record your honest feelings with audio and video"
                     style={{ width: "100%" }}
                   />
                   <StaticImage
-                    src="../assets/atrable/2023_3/chat.png"
+                    src={atrable_chat}
                     alt="Get closer to your friends by chatting about your diaries"
                     style={{ width: "100%" }}
                     imgStyle={{ borderRadius: "0px 20px 20px 0px" }}
@@ -249,18 +262,18 @@ function Home() {
                   }}
                 >
                   <StaticImage
-                    src="../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 7.12.41 PM.png"
+                    src={game_superMarioRemix}
                     alt="Game: Super Mario Simple Remix"
                     style={{ width: "100%" }}
                     imgStyle={{ borderRadius: "10px 0px 0px 20px" }}
                   />
                   <StaticImage
-                    src="../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 7.14.12 PM.png"
+                    src={game_carAndGravity}
                     alt="Game: Car and Gravity"
                     style={{ width: "100%" }}
                   />
                   <StaticImage
-                    src="../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 8.19.41 PM.png"
+                    src={game_dontGetHit}
                     alt="Game: Don't get hit by snow"
                     style={{ width: "100%" }}
                     imgStyle={{ borderRadius: "0px 10px 20px 0px" }}
