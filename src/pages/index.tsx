@@ -192,6 +192,7 @@ function Home() {
                       fontSize: 50,
                       fontWeight: "800",
                       fontStyle: "italic",
+                      fontFamily: "American Typewriter",
                       marginTop: 25,
                       marginBottom: 25,
                     }}
