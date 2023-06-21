@@ -124,9 +124,17 @@ footer .meetMeOn a {
 }
 
 .learn-more {
-  font-size: 22.5px;
+  font-size: 20px;
   font-weight: bold;
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--hint-color);
+  border-radius: 20px;
+  width: fit-content;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
   text-decoration: none;
 }
 
