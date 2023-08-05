@@ -54,6 +54,9 @@ const mar2023_screenShot_cover = "../../assets/atrable/2023_3/cover.png";
 const mar2023_screenShot_diary = "../../assets/atrable/2023_3/diary.png";
 const mar2023_screenShot_chat = "../../assets/atrable/2023_3/chat.png";
 
+const apr2023_weeklySummaryNotification =
+  "../../assets/atrable/2023_4/weekly_summary_notification.png";
+
 export default function Logs_atrable() {
   return (
     <>
@@ -89,7 +92,7 @@ export default function Logs_atrable() {
           <div className="timeline">
             <div className="container left">
               <div className="content">
-                <h2>Apr 2023 -</h2>
+                <h2>Aug 2023 -</h2>
                 <p>
                   Check my{" "}
                   <a
@@ -101,6 +104,42 @@ export default function Logs_atrable() {
                   </a>{" "}
                   to see what I'm up to lately.
                 </p>
+              </div>
+            </div>
+            <div className="container left">
+              <div className="content">
+                <h2>Apr 2023</h2>
+                <article>
+                  <h3>Weekly Summary Notification for diaries</h3>
+                  <p>
+                    My friends often forget about Atrable, so I thought
+                    reminding them every week would bring them to engage more.
+                  </p>
+                  <p>
+                    Now (= Aug 5, 2023), I learned that this feature doesn't
+                    bring people to engage that much (it probably does make
+                    people to open the app once or twice, but it doesn't give
+                    people enough motivation to start recording diaries). I'm
+                    going to deprecate this after implementing something else
+                    😼.
+                  </p>
+                  <StaticImage
+                    src={apr2023_weeklySummaryNotification}
+                    alt="Screenshot of weekly summary notification"
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                </article>
+                <article>
+                  <h3>Notification Settings page easier to use</h3>
+                  <p>Switching the toggle would be saved right away.</p>
+                </article>
+                <article>
+                  <h3>Fold long text</h3>
+                  <p>
+                    to prevent David from bugging the app UI using endlessly
+                    long text.
+                  </p>
+                </article>
               </div>
             </div>
             <div className="container right">
