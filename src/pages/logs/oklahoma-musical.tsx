@@ -153,7 +153,7 @@ function OklahomaMusical() {
               >
                 this
               </a>
-              ) still sound good, but the live music can't be compared with the
+              ) sound good, but the live music can't be compared with the
               recorded ones — it's just so much better!
             </p>
             <h2>What I learned</h2>
