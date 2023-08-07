@@ -1076,12 +1076,11 @@ export default function Logs_atrable() {
                 <p>
                   I got the idea of an&nbsp;
                   <strong>audio</strong>
-                  -based social media. The idea of sharing stuff through{" "}
-                  <strong>audio</strong> was so fascinating for me. The
-                  traditional social media focuses on photos, which makes people
-                  focus on the appearances. On the other hand, audio lets you
-                  focus on the actual stuff that is going on. Audio also gives
-                  rich feeling of being connected, and I loved it.
+                  -based social media. Existing social media platforms focus on
+                  photos, which makes people focus on the appearances. On the
+                  other hand, audio lets you focus on the actual stuff that is
+                  going on. Audio also gives rich feeling of being connected,
+                  and I loved it.
                 </p>
               </div>
             </div>
