@@ -1037,7 +1037,7 @@ export default function Logs_atrable() {
               <div className="content">
                 <h2>Nov - Dec 2021</h2>
                 <p>
-                  I made basic features that a social networking site should
+                  I made basic features that a social networking platform should
                   provide, such as friend relationship management, viewing
                   others' profiles, heart (like) button, and sending chat
                   messages.
