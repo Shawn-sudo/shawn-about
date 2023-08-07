@@ -136,7 +136,7 @@ export default function Logs_atrable() {
               <div className="content">
                 <h2>Apr 2023</h2>
                 <article>
-                  <h3>Weekly Summary Notification for diaries</h3>
+                  <h3>Weekly Summary Notification for Diaries</h3>
                   <p>
                     My friends often forget about Atrable, so I thought
                     reminding them every week would bring them to engage more.
@@ -160,7 +160,7 @@ export default function Logs_atrable() {
                   <p>Switching the toggle would be saved right away.</p>
                 </article>
                 <article>
-                  <h3>Fold long text</h3>
+                  <h3>Fold Long Text</h3>
                   <p>
                     to prevent David from bugging the app UI using endlessly
                     long text.
@@ -171,11 +171,13 @@ export default function Logs_atrable() {
             <div className="container right">
               <div className="content">
                 <h2>Mar 2023</h2>
-                <h3>Finally released v1.3.2!</h3>
-                <p>
-                  I've been holding releasing v1.3 for a while, I finally
-                  released it now.
-                </p>
+                <article>
+                  <h3>Finally released v1.3.2!</h3>
+                  <p>
+                    I've been holding releasing v1.3 for a while, I finally
+                    released it!
+                  </p>
+                </article>
                 <article>
                   <h3>Padding & Constraints for Big Screen UI</h3>
                   <p>
@@ -222,10 +224,6 @@ export default function Logs_atrable() {
                 </article>
                 <article>
                   <h3>New Home Page Design</h3>
-                  <p>Still working on it</p>
-                </article>
-                <article>
-                  <h3>Weekly Summary Notification</h3>
                   <p>Still working on it</p>
                 </article>
               </div>
