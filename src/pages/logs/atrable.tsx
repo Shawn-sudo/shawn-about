@@ -935,7 +935,7 @@ export default function Logs_atrable() {
                     for anyone.
                   </p>
                   <p>
-                    View would be counted when more than 1/3 or 10 sec of the
+                    View would be counted when more than 1/3 or 3 sec of the
                     audio is played.
                   </p>
                 </article>
