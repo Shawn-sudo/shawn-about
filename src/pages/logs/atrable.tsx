@@ -223,7 +223,7 @@ export default function Logs_atrable() {
                   />
                 </article>
                 <article>
-                  <h3>Notification Settings page easier to use</h3>
+                  <h3>Easier to Use Notification Settings Page</h3>
                   <p>Switching the toggle would be saved right away.</p>
                 </article>
                 <article>
