@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const profilePhoto = "../assets/profile/profile2.png";
 
-const atrable_cover = "../assets/atrable/2023_3/cover.png";
+const atrable_cover = "../assets/atrable/2023_7/cover5.png";
 const atrable_diary = "../assets/atrable/2023_3/diary.png";
 const atrable_chat = "../assets/atrable/2023_3/chat.png";
 
