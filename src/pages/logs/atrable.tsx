@@ -59,6 +59,11 @@ const apr2023_weeklySummaryNotification =
 
 const may2023_new_home_page_ui =
   "../../assets/atrable/2023_5/new_home_page_ui.png";
+
+const jul2023_newPostDetailsPage = "../../assets/atrable/2023_7/IMG_1977.jpg";
+const jul2023_newHomePageUI = "../../assets/atrable/2023_7/IMG_1980.png";
+const jul2023_appDetailsCoverImage = "../../assets/atrable/2023_7/cover5.png";
+
 export default function Logs_atrable() {
   return (
     <>
@@ -106,6 +111,68 @@ export default function Logs_atrable() {
                   </a>{" "}
                   to see what I'm up to lately.
                 </p>
+              </div>
+            </div>
+            <div className="container right">
+              <div className="content">
+                <h2>Jul 2023</h2>
+                <article>
+                  <h3>New Buttons on Diary Details Page</h3>
+                  <p>Share Link and Export Audio/Video</p>
+                  <div style={{ textAlign: "center" }}>
+                    <StaticImage
+                      src={jul2023_newPostDetailsPage}
+                      alt=""
+                      height={200}
+                      imgStyle={{ borderRadius: 20 }}
+                    />
+                  </div>
+                </article>
+                <article>
+                  <h3>New Home Page UI</h3>
+                  <ul>
+                    <li>Display your diaries on the top of the page</li>
+                    <li>Make Explore tab more accessible</li>
+                  </ul>
+                  <div style={{ textAlign: "center" }}>
+                    <StaticImage
+                      src={jul2023_newHomePageUI}
+                      alt="Screenshot of the new home page"
+                      height={400}
+                      imgStyle={{ borderRadius: 20 }}
+                    />
+                  </div>
+                </article>
+                <article>
+                  <h3>New App Details Cover Image</h3>
+                  <p>
+                    "Share your actual stories" → "Record your life stories."
+                    {/* I made some modifications from the old one (from Mar 2023) */}
+                  </p>
+                  <p>
+                    Saying "share your <u>actual</u> stories" kinda gives the
+                    feeling that they should only share the stories that they
+                    think is meaningful, so I changed the motto to "Record your
+                    life stories."
+                  </p>
+                  <div style={{ textAlign: "center" }}>
+                    <StaticImage
+                      src={jul2023_appDetailsCoverImage}
+                      alt="Record your life stories"
+                      height={400}
+                      imgStyle={{ borderRadius: 20 }}
+                    />
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div className="container left">
+              <div className="content">
+                <h2>Jun 2023</h2>
+                <article>
+                  <h3>Nothing Much</h3>
+                  <p>I was super busy with Busking Club and final exams 😵</p>
+                </article>
               </div>
             </div>
             <div className="container right">
