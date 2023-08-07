@@ -1164,8 +1164,8 @@ export default function Logs_atrable() {
                     rel="noopener noreferrer"
                   >
                     website
-                  </a>
-                  , where people can share their travel stories, view other
+                  </a>{" "}
+                  where people can share their travel stories, view other
                   traveler's stories, and follow travelers. But guess what{" "}
                   <span style={{ opacity: 0.08 }}>chicken butt</span>, I'd only
                   implemented fundamental authentication system there.
