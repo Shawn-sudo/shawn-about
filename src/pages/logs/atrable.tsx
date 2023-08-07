@@ -57,6 +57,8 @@ const mar2023_screenShot_chat = "../../assets/atrable/2023_3/chat.png";
 const apr2023_weeklySummaryNotification =
   "../../assets/atrable/2023_4/weekly_summary_notification.png";
 
+const may2023_new_home_page_ui =
+  "../../assets/atrable/2023_5/new_home_page_ui.png";
 export default function Logs_atrable() {
   return (
     <>
@@ -104,6 +106,30 @@ export default function Logs_atrable() {
                   </a>{" "}
                   to see what I'm up to lately.
                 </p>
+              </div>
+            </div>
+            <div className="container right">
+              <div className="content">
+                <h2>May 2023</h2>
+                <article>
+                  <h3>Compact UI for Home Page</h3>
+                  <p>and it looks like this 😎</p>
+                  <div style={{ textAlign: "center" }}>
+                    <StaticImage
+                      src={may2023_new_home_page_ui}
+                      alt="new home page UI"
+                      height={400}
+                      imgStyle={{
+                        borderRadius: 20,
+                      }}
+                    />
+                  </div>
+                </article>
+                <article>
+                  <h3>2-Step Verification</h3>
+                  <p>Extra layer of security with phone number</p>
+                  <p>Gotta support secondary method soon</p>
+                </article>
               </div>
             </div>
             <div className="container left">
