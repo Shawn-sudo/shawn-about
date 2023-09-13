@@ -74,6 +74,7 @@ function EtcLog() {
               framework, I also use plain web languages such as HTML and CSS.
             </p>
 
+            <h1>Research</h1>
             <h2>DNA Barcoding Project (Team name: Watdr) (2022-2023)</h2>
             <p>
               I researched the relationship between pH rate and moss with my
