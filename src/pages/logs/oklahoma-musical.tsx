@@ -157,9 +157,10 @@ function OklahomaMusical() {
             </p>
             <h2>What I learned</h2>
             <p>
-              I learned that acting is not my thing, but I also learned that{" "}
-              <strong>music</strong> is definitely my thing. I started a new
-              club where we can perform music in school every week, so{" "}
+              I learned that I don't like being someone I'm not. Acting is not
+              my thing, but I also learned that <strong>music</strong> is
+              definitely my thing. I started a new club where we can perform
+              music in school during lunchtime, so{" "}
               <Link to="/logs/busking-club">check it out</Link> if you're
               interested.
             </p>
