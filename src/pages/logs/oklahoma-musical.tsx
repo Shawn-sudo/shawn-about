@@ -129,8 +129,7 @@ function OklahomaMusical() {
             <p>
               My director Mr. AC gave me the role of <strong>Slim</strong>, who
               is an energetic dude with a big voice and a friend of Will Parker.
-              I'm guessing that he made me act out Slim because I am actually
-              slim.
+              I'm guessing he made me act out Slim because I am actually slim.
             </p>
             <h2>VVIP seat for the live music 😎🎧</h2>
             <p>
