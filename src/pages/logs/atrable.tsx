@@ -64,6 +64,11 @@ const jul2023_newPostDetailsPage = "../../assets/atrable/2023_7/IMG_1977.jpg";
 const jul2023_newHomePageUI = "../../assets/atrable/2023_7/IMG_1980.png";
 const jul2023_appDetailsCoverImage = "../../assets/atrable/2023_7/cover5.png";
 
+const aug2023_doneButton1 = "../../assets/atrable/2023_8/IMG_3110.jpg";
+const aug2023_doneButton2 = "../../assets/atrable/2023_8/IMG_3111.jpg";
+const aug2023_diaryView =
+  "../../assets/atrable/2023_8/screenshot_diaryView.png";
+
 export default function Logs_atrable() {
   return (
     <>
@@ -99,7 +104,6 @@ export default function Logs_atrable() {
           <div className="timeline">
             <div className="container left">
               <div className="content">
-                <h2>Aug 2023 -</h2>
                 <p>
                   Check my{" "}
                   <a
@@ -111,6 +115,49 @@ export default function Logs_atrable() {
                   </a>{" "}
                   to see what I'm up to lately.
                 </p>
+              </div>
+            </div>
+            <div className="container left">
+              <div className="content">
+                <h2>Aug 2023</h2>
+                <article>
+                  <h3>Show Date & Visibility for Diary</h3>
+                  <p>Check the date & visibility of diaries right away</p>
+                  <div style={{ textAlign: "center" }}>
+                    <StaticImage
+                      src={aug2023_diaryView}
+                      alt="Screenshot of diary view"
+                      imgStyle={{ borderRadius: 20 }}
+                      height={450}
+                    />
+                  </div>
+                </article>
+                <article>
+                  <h3>"Done" Button to Close Keyboard (iOS)</h3>
+                  <p style={{ color: "var(--hint-color)" }}>
+                    For "Upload Diary" page
+                  </p>
+                  <p>
+                    iPhones don't have back button, I have to implement it
+                    separately.
+                  </p>
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <StaticImage
+                      src={aug2023_doneButton1}
+                      alt="Screenshot of the Upload Diary page without keyboard opened"
+                      imgStyle={{ borderRadius: 20 }}
+                      style={{ margin: 5 }}
+                      height={450}
+                    />
+                    <StaticImage
+                      src={aug2023_doneButton2}
+                      alt="Screenshot of the Upload Diary page with keyboard opened"
+                      imgStyle={{ borderRadius: 20 }}
+                      style={{ margin: 5 }}
+                      height={450}
+                    />
+                  </div>
+                </article>
               </div>
             </div>
             <div className="container right">
