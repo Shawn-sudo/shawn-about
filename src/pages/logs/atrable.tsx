@@ -262,7 +262,7 @@ export default function Logs_atrable() {
                   <div style={{ textAlign: "center" }}>
                     <StaticImage
                       src={jul2023_newPostDetailsPage}
-                      alt=""
+                      alt="Screenshot of the new details page"
                       height={200}
                       imgStyle={{ borderRadius: 20 }}
                     />
