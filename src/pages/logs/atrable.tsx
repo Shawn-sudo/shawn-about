@@ -226,7 +226,7 @@ export default function Logs_atrable() {
                   </div>
                 </article>
                 <article>
-                  <h3>"Done" Button to Close Keyboard (iOS)</h3>
+                  <h3>iOS: "Done" Button to Close Keyboard</h3>
                   <p style={{ color: "var(--hint-color)" }}>
                     For "Upload Diary" page
                   </p>
