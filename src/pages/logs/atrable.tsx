@@ -232,7 +232,7 @@ export default function Logs_atrable() {
                   </p>
                   <p>
                     iPhones don't have back button, I have to implement it
-                    separately.
+                    separately :0
                   </p>
                   <div style={{ display: "flex", justifyContent: "center" }}>
                     <StaticImage
