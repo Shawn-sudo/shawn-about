@@ -7,9 +7,9 @@ type Props = {
 };
 
 function SchoolLayout(props: Props) {
-  const selectedMenuButtonStyle = {
+  const selectedMenuButtonStyle: React.CSSProperties = {
     backgroundColor: "var(--primary-color)",
-    color: "var(--hint-color)",
+    color: "var(--button-text-color)",
     boxShadow: "0 0 0 var(--shadow-color)",
   };
 

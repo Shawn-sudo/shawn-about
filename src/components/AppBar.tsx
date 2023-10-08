@@ -3,9 +3,9 @@ import { StaticImage } from "gatsby-plugin-image";
 import React from "react";
 
 function AppBar() {
-  const selectedActionButtonStyle = {
+  const selectedActionButtonStyle: React.CSSProperties = {
     backgroundColor: "var(--primary-color)",
-    color: "var(--hint-color)",
+    color: "var(--button-text-color)",
     boxShadow: "0 0 0 var(--shadow-color)",
   };
 

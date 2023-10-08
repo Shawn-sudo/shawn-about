@@ -4,12 +4,6 @@ import DevelopingLabel from "../../components/DevelopingLabel";
 import SchoolLayout from "../../components/layouts.tsx/SchoolLayout";
 
 function SchoolTHS() {
-  const selectedButtonStyle = {
-    backgroundColor: "var(--primary-color)",
-    color: "var(--hint-color)",
-    boxShadow: "0 0 0 var(--shadow-color)",
-  };
-
   return (
     <>
       <title>My Stories from Tenafly High School | About Seihyun Lee</title>
