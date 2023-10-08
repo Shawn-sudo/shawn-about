@@ -69,6 +69,18 @@ const aug2023_doneButton2 = "../../assets/atrable/2023_8/IMG_3111.jpg";
 const aug2023_diaryView =
   "../../assets/atrable/2023_8/screenshot_diaryView.png";
 
+const sep2023_getNotifiedButton =
+  "../../assets/atrable/2023_9/Screenshot 2023-10-07 at 9.44.10 PM.png";
+const sep2023_notifyFriendsCheckbox =
+  "../../assets/atrable/2023_9/IMG_3110.jpg";
+const sep2023_greetings_whatsGoingOn =
+  "../../assets/atrable/2023_9/greetings_whatsGoingOn.png";
+const sep2023_greetings_goodMorning =
+  "../../assets/atrable/2023_9/greetings_goodMorning.png";
+const sep2023_changePassword = "../../assets/atrable/2023_9/IMG_3112.jpg";
+const sep2023_android_conversationNotification =
+  "../../assets/atrable/2023_9/screenshot_android_conversationNotification.png";
+
 export default function Logs_atrable() {
   return (
     <>
@@ -104,6 +116,7 @@ export default function Logs_atrable() {
           <div className="timeline">
             <div className="container left">
               <div className="content">
+                <h2>Oct 2023 -</h2>
                 <p>
                   Check my{" "}
                   <a
@@ -115,6 +128,86 @@ export default function Logs_atrable() {
                   </a>{" "}
                   to see what I'm up to lately.
                 </p>
+              </div>
+            </div>
+            <div className="container right">
+              <div className="content">
+                <h2>Sep 2023</h2>
+                <article>
+                  <h3>Subscribe to Friends</h3>
+                  <p>Get notified when your friends upload a diary.</p>
+                  <p>TODO: Subscribe to a public figure</p>
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <StaticImage
+                      src={sep2023_getNotifiedButton}
+                      alt="Get Notified button"
+                      imgStyle={{ borderRadius: 20 }}
+                      style={{ margin: 5 }}
+                      height={450}
+                    />
+                    <StaticImage
+                      src={sep2023_notifyFriendsCheckbox}
+                      alt="Notify friends checkbox in Upload Diary page"
+                      imgStyle={{ borderRadius: 20 }}
+                      style={{ margin: 5 }}
+                      height={450}
+                    />
+                  </div>
+                </article>
+                <article>
+                  <h3>Friendly Message under Record Button</h3>
+                  <p>I like greeting people</p>
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <StaticImage
+                      src={sep2023_greetings_goodMorning}
+                      alt="Greetings - Good morning"
+                      imgStyle={{ borderRadius: 20 }}
+                    />
+                    <StaticImage
+                      src={sep2023_greetings_whatsGoingOn}
+                      alt="Greetings - What's going on?"
+                      imgStyle={{ borderRadius: 20 }}
+                    />
+                  </div>
+                </article>
+                <article>
+                  <h3>Change Password Without Leaving the App</h3>
+                  <p>
+                    Opening an external link to change the password doesn't give
+                    you a good experience. It's better to change it without
+                    leaving the app.
+                  </p>
+                  <p>
+                    If you go through "Forgot Password", it'll still guide you
+                    using external link though.
+                  </p>
+                  <div style={{ textAlign: "center" }}>
+                    <StaticImage
+                      src={sep2023_changePassword}
+                      alt="Account Settings page"
+                      imgStyle={{ borderRadius: 20 }}
+                      height={450}
+                    />
+                  </div>
+                </article>
+                <article>
+                  <h3>Android: Fix Conversation Notifications Appearance</h3>
+                  <p>
+                    Atrable chat notifications were shown way below the
+                    notification center with no profile photo on Android, and I
+                    found the reason why! The conversation notification requires
+                    Shortcuts to be implemented, but I forgot to do that. I did
+                    it now though.
+                  </p>
+                  <div style={{ textAlign: "center" }}>
+                    <StaticImage
+                      src={sep2023_android_conversationNotification}
+                      alt="Screenshot of Android chat notification"
+                      imgStyle={{ borderRadius: 20 }}
+                      height={450}
+                    />
+                  </div>
+                </article>
               </div>
             </div>
             <div className="container left">
