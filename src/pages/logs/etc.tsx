@@ -144,7 +144,15 @@ function EtcLog() {
             </p>
 
             <h1>Research</h1>
+            <h2>
+              Would sharing life stories reduce jealousy and hatred online?
+              (2023 - present)
+            </h2>
             <p>
+              On-going research. Trying to figure out a way to design a better
+              social media platform.
+            </p>
+
             <h2>DNA Barcoding Project (2022 - 2023)</h2>
             <p>
               Pranav and I researched the relationship between the pH of streams
