@@ -135,8 +135,7 @@ function OklahomaMusical() {
             <p>
               One of the best things of being part of this musical was that I
               could listen to the wonderful live orchestra & gorgeous voices
-              right next to me. I experienced some sort of ecstasy when I heard
-              the music live. The recorded ones (like{" "}
+              right next to me. The recorded ones (like{" "}
               <a
                 href="https://www.instagram.com/p/CrTda2APii3/"
                 target="_blank"
@@ -153,7 +152,7 @@ function OklahomaMusical() {
                 this
               </a>
               ) sound good, but the live music can't compare with the recorded
-              ones — it's just so much better!
+              ones — it was just so much better!
             </p>
             <h2>What I learned</h2>
             <p>
