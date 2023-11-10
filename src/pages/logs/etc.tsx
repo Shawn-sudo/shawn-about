@@ -170,7 +170,7 @@ function EtcLog() {
               that it is a naturally occurring indicator of pollution, air
               quality, and water quality. We wanted to investigate if the
               difference in pH level would affect the biodiversity of the
-              inhabiting moss. We also wondered if there will be an ideal pH
+              inhabiting moss. We also wondered if there would be an ideal pH
               level that allows many different species of moss to inhabit. Our
               hypothesis was that biodiversity would peak as the pH level of
               surrounding water gets closer to 7.
@@ -184,12 +184,9 @@ function EtcLog() {
               7.5
             </p>
             <p>
-              One thing I'm unsatisfied: For the value to be more accurate and
-              applicable, we had to collect hundreds of samples. However, we
-              couldn't do so because of the limitation of time and energy that
-              we can spend as high school students.
-              {/* we couldn't collect hundreds of samples due
-              to our limitation of time{" "} */}
+              One unsatisfying part: for our results to be more accurate and
+              widely applicable, we had to collect much more samples. As high
+              schoolers, we had no time nor energy to do so :/
             </p>
 
             <h2>
