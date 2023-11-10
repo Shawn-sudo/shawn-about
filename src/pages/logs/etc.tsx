@@ -190,11 +190,11 @@ function EtcLog() {
               As a team, we made a website to explain the Flint water crisis to
               compete in NJCO (NJ Chemistry Olympics) (
               <a
-                href="https://njchemolympics2022master.gatsbyjs.io"
+                href="https://github.com/Shawn-sudo/nj-chem-olympics-2022"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                https://njchemolympics2022master.gatsbyjs.io
+                https://github.com/Shawn-sudo/nj-chem-olympics-2022
               </a>
               ).
             </p>
