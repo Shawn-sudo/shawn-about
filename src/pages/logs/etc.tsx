@@ -144,10 +144,22 @@ function EtcLog() {
             </p>
 
             <h1>Research</h1>
-            <h2>DNA Barcoding Project (Team name: Watdr) (2022-2023)</h2>
             <p>
-              I researched the relationship between pH rate and moss with my
-              friend Pranav.
+            <h2>DNA Barcoding Project (2022 - 2023)</h2>
+            <p>
+              Pranav and I researched the relationship between the pH of streams
+              and the biodiversity of the dwelling moss population nearby. We
+              researched it as a part of the{" "}
+              <a
+                href="https://dnabarcoding101.org/programs/ubp/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Urban Barcode Project (UBP)
+              </a>{" "}
+              in our school's Methodology of Science Research class, with the
+              team name "Watdr". Roll your tongue a little bit at the end to
+              pronounce it correctly.
             </p>
             <p>
               pH is important in the freshwater ecosystem as it sets up the
