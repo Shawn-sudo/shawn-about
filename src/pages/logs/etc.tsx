@@ -36,20 +36,74 @@ function EtcLog() {
               (Aug 2021 - present)
             </h2>
             <p>
-              I'm developing a social media platform where people can share
-              honest stories about themselves with their friends. I came to this
-              idea after seeing how many people create artificial images of
-              themselves on social media and how these artificial images impact
-              others. I hope to combat this through Atrable, where people can
-              easily share authentic videos and audio clips of themselves
-              instead of photos.
+              I'm developing a social platform where people can record their
+              lives with friends using audio and video. Simply put,{" "}
+              <b>vlogs for friends</b>.
             </p>
             <p>
-              For Atrable, I'm using Flutter and Firebase. With my programming
-              knowledge, I fix real-world problems such as loading diaries
-              (posts) with pagination, saving chat messages on the user's
-              device, sending and receiving notifications, recording and
-              uploading audio, ...
+              I was pretty lonely during the pandemic era. I thought using{" "}
+              <i>social</i> networking platforms would help me gain more friends
+              and deepen my friendships. It did help me increase the number of
+              my friends, but I couldn't really deepen my relationships with
+              them. Watching YouTuber{" "}
+              <a
+                href="https://www.youtube.com/@PaniBottle"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pani Bottle
+              </a>
+              's vlogs, I felt so much deeper connection with him, and I
+              realized that it is possible to form deep relationships on the
+              internet when people become more honest with each other. I tried
+              making a vlog like him, but it was not easy to be honest and fully
+              open up myself when I'm publishing the video to the general
+              public, potentially including hundreds of doubters and haters.
+              There was no platform to share vlogs only with friends, and that's
+              why I started developing Atrable.{" "}
+              <a
+                href="https://www.atrable.com/#motivation"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Read More
+              </a>
+            </p>
+            <p>
+              For Atrable, I use{" "}
+              <a
+                href="https://flutter.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Flutter
+              </a>
+              ,{" "}
+              <a
+                href="https://nextjs.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Next.js
+              </a>
+              , and{" "}
+              <a
+                href="https://firebase.google.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Firebase
+              </a>
+              . I spend half of my time bug fixing, a quarter brainstorming, and
+              the last quarter implementing new features. Check my{" "}
+              <a
+                href="https://github.com/Shawn-sudo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub contributions
+              </a>{" "}
+              if you're doubtful 🧐.{" "}
             </p>
             <p>
               To see my works, go to{" "}
