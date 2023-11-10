@@ -119,10 +119,28 @@ function EtcLog() {
               (Feb 2022 - present)
             </h2>
             <p>
-              I am making a personal website to record and organize my journeys.
-              For the website, I'm using Gatsby, which is a React framework for
-              generating static websites like blogs. Along with the fancy
-              framework, I also use plain web languages such as HTML and CSS.
+              I'm making a personal website to record and organize my journeys.
+            </p>
+            <p>
+              For the website, I use{" "}
+              <a
+                href="https://www.gatsbyjs.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Gatsby
+              </a>
+              , which is a React framework for generating static websites.
+            </p>
+            <p>
+              To see the source code, go to{" "}
+              <a
+                href="https://github.com/Shawn-sudo/shawn-about"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                github.com/Shawn-sudo/shawn-about
+              </a>
             </p>
 
             <h1>Research</h1>
