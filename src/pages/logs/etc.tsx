@@ -22,10 +22,7 @@ function EtcLog() {
           </div>
           <Card className="paragraph-with-padding">
             <h1>Summary</h1>
-            <p>
-              I'm a student who is interested in living a happy life using
-              technology.
-            </p>
+            <p>I'm interested in living a happy life using technology.</p>
 
             <h1>Projects</h1>
             <h2>
