@@ -43,6 +43,7 @@ a:active {
 .paragraph-with-padding p,
 .paragraph-with-padding dl {
   margin-left: 1.5rem;
+  line-height: 1.5;
 }
 
 ::selection {
