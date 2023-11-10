@@ -56,11 +56,11 @@ function EtcLog() {
               's vlogs, I felt so much deeper connection with him, and I
               realized that it is possible to form deep relationships on the
               internet when people become more honest with each other. I tried
-              making a vlog like him, but it was not easy to be honest and fully
-              open up myself when I'm publishing the video to the general
-              public, potentially including hundreds of doubters and haters.
-              There was no platform to share vlogs only with friends, and that's
-              why I started developing Atrable.{" "}
+              making a vlog like him, but it was not easy to fully open up
+              myself when I was publishing the video to the general public,
+              potentially including hundreds of doubters and haters. There was
+              no platform to share vlogs only with friends, and that's why I
+              started developing Atrable.{" "}
               <a
                 href="https://www.atrable.com/#motivation"
                 target="_blank"
