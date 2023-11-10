@@ -93,6 +93,11 @@
   border-radius: 20px;
 }
 
+/* More space in-between lines */
+.content p {
+  line-height: 1.5;
+}
+
 article {
   margin-top: 50px;
   margin-bottom: 10px;
