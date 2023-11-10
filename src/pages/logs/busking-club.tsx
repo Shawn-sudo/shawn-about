@@ -25,10 +25,8 @@ function BuskingClub() {
       <title>Busking Club | About Seihyun Lee</title>
       <LogsLayout>
         <div style={{ maxWidth: 750, margin: "auto" }}>
-          <Card>
-            <p>
-              <strong>Busking = performing music on the street</strong>
-            </p>
+          <Card className="paragraph-with-padding">
+            <h2>Busking = Street Performance</h2>
             <p>
               I've been wanting to do busking after hearing that Busker Busker,
               a famous band in Korea that made many songs like{" "}
