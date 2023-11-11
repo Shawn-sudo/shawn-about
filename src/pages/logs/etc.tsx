@@ -416,7 +416,7 @@ function EtcLog() {
               really different.
             </p>
 
-            <h2>International Student Advisory Board (Dec 2022 - present)</h2>
+            <h2>International Student Advisory Board (Dec 2022 - Mar 2023)</h2>
             <p>
               We went to Tenafly Middle School ELL class every Thursday and
               helped ELL students adapt to American culture. Because I came to
