@@ -384,6 +384,12 @@ function EtcLog() {
             <h2>Chemistry Club (Sep 2021 - present)</h2>
             <h3>2022-2023</h3>
             <p>
+              NJCO was done in person this time! Eric and I didn't win a prize,
+              but it was fun.
+            </p>
+
+            <h3>2021-2022</h3>
+            <p>
               I learned about interesting chemical reactions by listening to
               others' presentations. I also made a presentation about how water
               dissolves ions and polar molecules with its exceptionally high
@@ -401,10 +407,7 @@ function EtcLog() {
               </a>
               ).
             </p>
-            <h3>2023-2024</h3>
             <p>
-              NJCO was done in person this time! I didn't win a prize, but it
-              was a fun experience.
             </p>
 
             <h2>Tutoring Club</h2>
