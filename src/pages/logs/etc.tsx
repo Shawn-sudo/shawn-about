@@ -185,11 +185,10 @@ function EtcLog() {
             </p>
             <p>
               We first went to different water streams in our town and collected
-              water and moss samples. Then, we went to the Harlem DNA Barcoding
-              Lab and analyzed the diversity of the moss that we collected. We
-              plotted out the relationship between pH rate and moss diversity
-              and figured out that moss thrives in an environment with a pH of
-              7.5
+              water and moss samples. Then, we went to the Harlem DNA Lab and
+              analyzed the diversity of the moss that we collected. We plotted
+              out the relationship between pH rate and moss diversity and
+              figured out that moss thrives in an environment with a pH of 7.5
             </p>
             <p>
               One unsatisfying part: for our results to be more accurate and
