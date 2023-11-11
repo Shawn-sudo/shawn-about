@@ -153,7 +153,7 @@ function EtcLog() {
               social media platform.
             </p>
 
-            <h2>DNA Barcoding Project (2022 - 2023)</h2>
+            <h2>DNA Barcoding Project (Sep 2022 - May 2023)</h2>
             <p>
               Pranav and I researched the relationship between the pH of streams
               and the biodiversity of the dwelling moss population nearby. We
