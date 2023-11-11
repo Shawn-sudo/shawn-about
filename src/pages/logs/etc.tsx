@@ -145,8 +145,8 @@ function EtcLog() {
 
             <h1>Research</h1>
             <h2>
-              Would sharing life stories reduce jealousy and hatred online?
-              (2023 - present)
+              Would sharing life stories reduce jealousy and hatred online? (Jun
+              2023 - present)
             </h2>
             <p>
               On-going research. Trying to figure out a way to design a better
