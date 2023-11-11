@@ -196,7 +196,7 @@ function EtcLog() {
               schoolers, we had no time to do more :/
             </p>
             <p>
-              To check our poster, go to{" "}
+              To see our poster, go to{" "}
               <a
                 href="https://dnabarcoding101.org/symposium/details/3870"
                 target="_blank"
