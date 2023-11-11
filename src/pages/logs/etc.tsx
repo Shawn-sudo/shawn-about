@@ -310,14 +310,17 @@ function EtcLog() {
             <p>I'm one of the global top 500 finalists!</p>
             <p>
               I'm not one of the top 100 winners though :/ I think I made a
-              similar mistake again! This time, I thoroughly explained the
-              mental health epidemic caused by social media and how my app can
-              fix it, but the competition was seeking the <b>effects</b> that I
-              brought to my community. I never talked about it there. Uh oh.
+              similar mistake again! In the presentation, I spent most of my
+              time thoroughly explaining the mental health epidemic caused by
+              current social media platforms, so I had not much time left to
+              explain the specific mechanism of how my app can fix it. Uh oh.
             </p>
             <p>Next time, no more mistakes!</p>
             <p>
               I thought my English was bad, but I guess it improved over time.
+              For the following summer, RISE provided free core programs,
+              including Run the Future, and I improved my presentation skills
+              there.
             </p>
 
             <h1>School Clubs</h1>
