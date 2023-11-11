@@ -195,6 +195,16 @@ function EtcLog() {
               widely applicable, we had to collect much more samples. As high
               schoolers, we had no time to do more :/
             </p>
+            <p>
+              To check our poster, go to{" "}
+              <a
+                href="https://dnabarcoding101.org/symposium/details/3870"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                dnabarcoding101.org/symposium/details/3870
+              </a>
+            </p>
 
             <h2>
               <a
