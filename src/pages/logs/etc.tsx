@@ -291,8 +291,31 @@ function EtcLog() {
               other social media platforms. I only explained the features of the
               app without connecting back to the vision. Uh oh.
             </p>
+            <p>
+              They sent me an email about the RISE program, so I tried it out in
+              the following spring.
+            </p>
 
             <h2>99th percentile on PSAT (Oct 2022)</h2>
+            <h2>
+              <a
+                href="https://risefortheworld.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                RISE
+              </a>{" "}
+              - Global Top 500 Finalist (2023)
+            </h2>
+            <p>I'm one of the global top 500 finalists!</p>
+            <p>
+              I'm not one of the top 100 winners though :/ I think I made a
+              similar mistake again! This time, I thoroughly explained the
+              mental health epidemic caused by social media and how my app can
+              fix it, but the competition was seeking the <b>effects</b> that I
+              brought to my community. I never talked about it there. Uh oh.
+            </p>
+            <p>Next time, no more mistakes!</p>
             <p>
               I thought my English was bad, but I guess it improved over time.
             </p>
