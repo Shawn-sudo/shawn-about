@@ -274,6 +274,23 @@ function EtcLog() {
               <b>Tenafly High School</b>.
             </p>
 
+            <h1>Other Achievements & Programs</h1>
+            <h2>
+              <a
+                href="https://www.congressionalappchallenge.us"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Congressional App Challenge
+              </a>{" "}
+              - 3rd Place in NJ09 (2022)
+            </h2>
+            <p>
+              I guess I should've articulated specifically <b>how</b> Atrable
+              can be a social platform with much less mental health issues than
+              other social media platforms. I only explained the features of the
+              app without connecting back to the vision. Uh oh.
+            </p>
 
             <h2>99th percentile on PSAT (Oct 2022)</h2>
             <p>
