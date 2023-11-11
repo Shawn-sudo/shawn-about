@@ -314,8 +314,9 @@ function EtcLog() {
               I'm not one of the top 100 winners though :/ I think I made a
               similar mistake again! In the presentation, I spent most of my
               time thoroughly explaining the mental health epidemic caused by
-              current social media platforms, so I had not much time left to
-              explain the specific mechanism of how my app can fix it. Uh oh.
+              current social media platforms, so I didn't have much time left to
+              explain specifically how my app can fix the mental health issues.
+              Uh oh.
             </p>
             <p>Next time, no more mistakes!</p>
             <p>
