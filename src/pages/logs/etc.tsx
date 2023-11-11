@@ -418,7 +418,7 @@ function EtcLog() {
 
             <h2>International Student Advisory Board (Dec 2022 - Mar 2023)</h2>
             <p>
-              We went to Tenafly Middle School ELL class every Thursday and
+              We went to Tenafly Middle School's ELL class every Thursday and
               helped ELL students adapt to American culture. Because I came to
               America just 2 years ago, I could relate with and help them pretty
               well.
