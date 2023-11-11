@@ -249,12 +249,13 @@ function EtcLog() {
             </p>
 
             <h1>Academic Achievements</h1>
-            <h2>Qualified for AIME (2021 Fall & 2022)</h2>
+            <h2>AIME - Qualified (2021 Fall & 2022)</h2>
             <p>
               I qualified for AIME twice! I scored in the top 2.5% on AMC 10.
             </p>
             <h2>
-              First Place in Bergen County Math League (2021-2022 & 2022-2023)
+              Bergen County Math League (BCML) - First Place in Group 3
+              (2021-2022 & 2022-2023)
             </h2>
             <p>
               After participating in the competition in the school math club, I
