@@ -375,7 +375,7 @@ function EtcLog() {
             </p>
 
             <h1>School Clubs</h1>
-            <h2>Math Club (Sep 2022 - present)</h2>
+            <h2>Math Club (Sep 2021 - present)</h2>
             <p>
               Every week, we participate in math competitions, such as NJML,
               BCML, and AMC.
