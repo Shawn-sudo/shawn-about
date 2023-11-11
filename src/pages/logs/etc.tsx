@@ -261,6 +261,19 @@ function EtcLog() {
               After participating in the competition in the school math club, I
               got first place in BCML Group 3 twice.
             </p>
+            <p>
+              <a
+                href="https://bergencountymathleague.com/about"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                BCML Group 3
+              </a>{" "}
+              includes Bergenfield High School, Dumont High School, New Milford
+              High School, River Dell High School, and{" "}
+              <b>Tenafly High School</b>.
+            </p>
+
 
             <h2>99th percentile on PSAT (Oct 2022)</h2>
             <p>
