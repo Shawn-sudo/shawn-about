@@ -352,9 +352,9 @@ function EtcLog() {
               sense of community.
             </p>
             <p>
-              There were many people who did a mental-health related project for
-              their RISE, and it was a great experience to talk with them and
-              share our journey of tackling mental-health issues.
+              Many people did a mental-health related project for their RISE,
+              and it was a great experience to talk with them and share our
+              journey of tackling mental-health issues.
             </p>
             <p>
               Towards the end of the course, we all made a pitch deck for our
