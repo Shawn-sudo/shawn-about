@@ -325,6 +325,55 @@ function EtcLog() {
               there.
             </p>
 
+            <h2>
+              <a
+                href="https://formation.ventures"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Run the Future
+              </a>{" "}
+              (Summer 2023)
+            </h2>
+            <p>
+              Run the Future taught me the basics of entrepreneurship. Around 30
+              of the RISE finalists joined it, and we met on Zoom calls every
+              Monday and Wednesday morning. I could meet a lot of like-minded
+              people from all around the world, including Ukraine, India,
+              Kazakhstan, Turkey, ..., and it was really fun to talk with them.
+            </p>
+            <p>
+              One thing I especially liked about this program was the supportive
+              and engaging community. Teachers like Hassan and Godwin had a
+              special formula to keep a positive vibe 😎. They strongly
+              encouraged us to come up with our ideas and give feedback to each
+              other, with the mindset of "Whatever idea you've got, it'll work
+              out!" We didn't even meet in person, but I could feel a strong
+              sense of community.
+            </p>
+            <p>
+              There were many people who did a mental-health related project for
+              their RISE, and it was a great experience to talk with them and
+              share our journey of tackling mental-health issues.
+            </p>
+            <p>
+              Towards the end of the course, we all made a pitch deck for our
+              business plan. I made one for Atrable too:{" "}
+              <a
+                href="https://docs.google.com/presentation/d/1HEmMa5NHHuB6MHsCs7BcdK_AeJqpaPHZ4Pz8QOvshgc/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Atrable Pitch Deck
+              </a>
+            </p>
+            <p>
+              I made many nice friends there. Now that the summer ended,
+              however, I lost touch with them. I have their WhatsApp, but we
+              don't have things to talk about. I guess Atrable can come into
+              play in such situations one day in the future 😼.
+            </p>
+
             <h1>School Clubs</h1>
             <h2>Math Club (Sep 2022 - present)</h2>
             <p>
