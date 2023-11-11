@@ -274,6 +274,9 @@ function EtcLog() {
               <b>Tenafly High School</b>.
             </p>
 
+            <h2>PSAT - 99th percentile (Oct 2022)</h2>
+            <p>I thought my English was bad. I guess I improved over time 👍</p>
+
             <h1>Other Achievements & Programs</h1>
             <h2>
               <a
@@ -296,7 +299,6 @@ function EtcLog() {
               the following spring.
             </p>
 
-            <h2>99th percentile on PSAT (Oct 2022)</h2>
             <h2>
               <a
                 href="https://risefortheworld.org"
@@ -317,7 +319,6 @@ function EtcLog() {
             </p>
             <p>Next time, no more mistakes!</p>
             <p>
-              I thought my English was bad, but I guess it improved over time.
               For the following summer, RISE provided free core programs,
               including Run the Future, and I improved my presentation skills
               there.
