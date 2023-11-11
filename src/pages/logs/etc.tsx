@@ -407,7 +407,14 @@ function EtcLog() {
               </a>
               ).
             </p>
+
+            <h2>Tutoring Club (Sep 2022 - present)</h2>
             <p>
+              We meet every Tuesday afternoon and help kids with their homework
+              and schoolwork. I help kids with math and coding. I learned that
+              it's not easy to explain mathematical concepts to others, even
+              though I've known those concepts for years. I guess "just knowing"
+              and "being able to teach" are really different.
             </p>
 
             <h2>Tutoring Club</h2>
