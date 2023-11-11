@@ -193,7 +193,7 @@ function EtcLog() {
             <p>
               One unsatisfying part: for our results to be more accurate and
               widely applicable, we had to collect much more samples. As high
-              schoolers, we had no time nor energy to do so :/
+              schoolers, we had no time to do more :/
             </p>
 
             <h2>
