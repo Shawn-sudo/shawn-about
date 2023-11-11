@@ -432,13 +432,20 @@ function EtcLog() {
               and "being able to teach" are really different.
             </p>
 
-            <h2>Tutoring Club</h2>
+            <h2>The Echo (Sep 2022 - present)</h2>
             <p>
-              I participated in our school's tutoring club to help kids learn
-              math. I learned that it is not easy to explain mathematical
-              concepts to others, even though I've been knowing those concepts
-              for years. I guess "just knowing" and "being able to teach" are
-              really different.
+              The Echo is our school newspaper. Writing articles helps me foster
+              my English writing skills 👍
+            </p>
+            <p>
+              To see my articles, go to{" "}
+              <a
+                href="https://thetenaflyecho.com/staff_name/seihyun-shawn-lee/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                thetenaflyecho.com/staff_name/seihyun-shawn-lee
+              </a>
             </p>
 
             <h2>International Student Advisory Board (Dec 2022 - Mar 2023)</h2>
