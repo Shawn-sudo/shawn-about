@@ -418,9 +418,10 @@ function EtcLog() {
 
             <h2>International Student Advisory Board (Dec 2022 - present)</h2>
             <p>
-              We go to Tenafly Middle School ELL class every Thursday and help
-              students adapt to American culture. As I came to America just 2
-              years ago, I can relate with and help them very well.
+              We went to Tenafly Middle School ELL class every Thursday and
+              helped ELL students adapt to American culture. Because I came to
+              America just 2 years ago, I could relate with and help them pretty
+              well.
             </p>
 
             <h1>Volunteers</h1>
