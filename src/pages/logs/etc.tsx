@@ -381,7 +381,7 @@ function EtcLog() {
               BCML, and AMC.
             </p>
 
-            <h2>Chemistry Club (Sep 2022 - present)</h2>
+            <h2>Chemistry Club (Sep 2021 - present)</h2>
             <h3>2022-2023</h3>
             <p>
               I learned about interesting chemical reactions by listening to
