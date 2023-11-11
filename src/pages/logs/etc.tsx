@@ -380,6 +380,21 @@ function EtcLog() {
               Every week, we participate in math competitions, such as NJML,
               BCML, and AMC.
             </p>
+            <h3>2023-2024</h3>
+            <p>
+              With Alon leading us as the president, math club is becoming more
+              fun! I'll update this soon.
+            </p>
+            {/* PUMaC */}
+            <p>I'm a secretary / treasurer along with Heeseo.</p>
+            <h3>2022-2023</h3>
+            <p>I won the exact same award & qualification as last year.</p>
+            <p>I was a treasurer along with Justin.</p>
+            <h3>2021-2022</h3>
+            <p>
+              I won first place in BCML Group 3 & qualified for AIME after
+              taking AMC 10!
+            </p>
 
             <h2>Chemistry Club (Sep 2021 - present)</h2>
             <h3>2022-2023</h3>
