@@ -390,8 +390,8 @@ function EtcLog() {
               electronegativity.
             </p>
             <p>
-              As a team, we made a website to explain the Flint water crisis to
-              compete in NJCO (NJ Chemistry Olympics) (
+              As a team, Andy, Ethan, and I made a website to explain the Flint
+              water crisis to compete in NJCO (NJ Chemistry Olympics) (
               <a
                 href="https://github.com/Shawn-sudo/nj-chem-olympics-2022"
                 target="_blank"
