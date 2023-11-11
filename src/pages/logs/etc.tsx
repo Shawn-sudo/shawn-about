@@ -239,13 +239,13 @@ function EtcLog() {
               didn't rapidly decrease even though the pandemic was nearly over.
               I realized that the pandemic was just an indirect cause of the
               increased depression rate; the direct cause was increased usage of
-              social media, where people often promote fake images of
-              themselves. I wanted to make a better place for people to record
-              and share their lives than other social media, so I brought many
-              shifts in the app that I was making at that time. For example, I
-              implemented audio and video features for the app, so that people
-              can easily focus on their story itself, rather than how they
-              appear to others.
+              social media, where people often promote unrealistic images of
+              themselves or get exhausted from endless entertainment. I wanted
+              to make a better place for people to record and share their lives,
+              so I brought many shifts to the app that I was making at that
+              time. For example, I started focusing on the audio and video on
+              the app to encourage people to share their life stories more than
+              their appearances.
             </p>
 
             <h1>Academic Achievements</h1>
