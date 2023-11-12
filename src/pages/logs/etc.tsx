@@ -277,27 +277,6 @@ function EtcLog() {
             <h2>PSAT - 99th percentile (Oct 2022)</h2>
             <p>I thought my English was bad. I guess I improved over time 👍</p>
 
-            <h2>
-              <a
-                href="https://www.congressionalappchallenge.us"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Congressional App Challenge
-              </a>{" "}
-              - 3rd Place in NJ09 (2022)
-            </h2>
-            <p>
-              I guess I should've articulated specifically <b>how</b> Atrable
-              can be a social platform with much less mental health issues than
-              other social media platforms. I only explained the features of the
-              app without connecting back to the vision. Uh oh.
-            </p>
-            <p>
-              They sent me an email about the RISE program, so I tried it out in
-              the following spring.
-            </p>
-
             <h1>Other Activities</h1>
             <h2>
               <a
@@ -325,7 +304,7 @@ function EtcLog() {
               there.
             </p>
 
-            <h2>
+            <h3>
               <a
                 href="https://formation.ventures"
                 target="_blank"
@@ -334,7 +313,7 @@ function EtcLog() {
                 Run the Future
               </a>{" "}
               (Summer 2023)
-            </h2>
+            </h3>
             <p>
               Run the Future taught me the basics of entrepreneurship. Around 30
               of the RISE finalists joined it, and we met on Zoom calls every
@@ -372,6 +351,27 @@ function EtcLog() {
               however, I lost touch with them. I have their WhatsApp, but we
               don't have things to talk about. I guess Atrable can come into
               play in such situations one day in the future 😼.
+            </p>
+
+            <h2>
+              <a
+                href="https://www.congressionalappchallenge.us"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Congressional App Challenge
+              </a>{" "}
+              - 3rd Place in NJ09 (2022)
+            </h2>
+            <p>
+              I guess I should've articulated specifically <b>how</b> Atrable
+              can be a social platform with much less mental health issues than
+              other social media platforms. I only explained the features of the
+              app without connecting back to the vision. Uh oh.
+            </p>
+            <p>
+              They sent me an email about the RISE program, so I tried it out in
+              the following spring.
             </p>
 
             <h1>School Clubs</h1>
