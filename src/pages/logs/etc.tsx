@@ -277,7 +277,6 @@ function EtcLog() {
             <h2>PSAT - 99th percentile (Oct 2022)</h2>
             <p>I thought my English was bad. I guess I improved over time 👍</p>
 
-            <h1>Other Achievements & Programs</h1>
             <h2>
               <a
                 href="https://www.congressionalappchallenge.us"
@@ -299,6 +298,7 @@ function EtcLog() {
               the following spring.
             </p>
 
+            <h1>Other Activities</h1>
             <h2>
               <a
                 href="https://risefortheworld.org"
