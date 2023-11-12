@@ -375,6 +375,19 @@ function EtcLog() {
             </p>
 
             <h1>School Clubs</h1>
+            <h2>Busking Club (Jun 2023 - present)</h2>
+            <p>I founded this club!</p>
+            <p>
+              We go anywhere in our school and perform music during lunchtime
+              🎤.
+            </p>
+            <p>
+              Studying in school as a student, teaching and grading students as
+              a teacher, and keeping our school clean as a custodian can be
+              exhausting sometimes. We hope that our friends will get positive
+              vibes in their daily lives through our music!
+            </p>
+
             <h2>Math Club (Sep 2021 - present)</h2>
             <p>
               Every week, we participate in math competitions, such as NJML,
