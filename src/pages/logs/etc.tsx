@@ -353,6 +353,22 @@ function EtcLog() {
               play in such situations one day in the future 😼.
             </p>
 
+            <h2>Oklahoma! (Spring 2023)</h2>
+            <p>
+              I participated in our school's production of the musical{" "}
+              <i>Oklahoma!</i>
+            </p>
+            <p>
+              To read more about my experience, go to{" "}
+              <a
+                href="/logs/oklahoma-musical"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                /logs/oklahoma-musical
+              </a>
+            </p>
+
             <h2>
               <a
                 href="https://www.congressionalappchallenge.us"
