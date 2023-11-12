@@ -501,7 +501,7 @@ function EtcLog() {
                 /logs/scratch-coding-class-dec-2022
               </a>
             </p>
-            <h2>Church Volunteer</h2>
+            <h2>Church Volunteer (Sep 2022 - present)</h2>
             <p>
               I help children to focus on worship and get closer to the stories
               in the Bible.
