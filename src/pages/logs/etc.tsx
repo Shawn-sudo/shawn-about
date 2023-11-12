@@ -387,6 +387,16 @@ function EtcLog() {
               exhausting sometimes. We hope that our friends will get positive
               vibes in their daily lives through our music!
             </p>
+            <p>
+              To read more about it, go to{" "}
+              <a
+                href="/logs/busking-club"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                /logs/busking-club
+              </a>
+            </p>
 
             <h2>Math Club (Sep 2021 - present)</h2>
             <p>
