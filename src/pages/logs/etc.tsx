@@ -480,6 +480,12 @@ function EtcLog() {
             </p>
 
             <h1>Volunteers</h1>
+            <h2>Tutoring Club</h2>
+            <p>Check the explanation above ↑</p>
+
+            <h2>International Student Advisory Board</h2>
+            <p>Check the explanation above ↑</p>
+
             <h2>Scratch Coding Class (Dec 2022 - Jan 2023)</h2>
             <p>
               I taught the fun of coding with Scratch coding. I made students
