@@ -492,7 +492,7 @@ function EtcLog() {
               come up with their own ideas and we implemented it together.
             </p>
             <p>
-              To see more information, go to{" "}
+              To read more about it, go to{" "}
               <a
                 href="/logs/scratch-coding-class-dec-2022"
                 target="_blank"
