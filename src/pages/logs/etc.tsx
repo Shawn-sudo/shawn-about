@@ -280,6 +280,26 @@ function EtcLog() {
             <h1>Other Activities</h1>
             <h2>
               <a
+                href="https://www.congressionalappchallenge.us"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Congressional App Challenge
+              </a>{" "}
+              - 3rd Place in NJ09 (2022)
+            </h2>
+            <p>
+              I guess I should've articulated specifically <b>how</b> Atrable
+              can be a social platform with much less mental health issues than
+              other social media platforms. I only explained the features of the
+              app without connecting back to the vision. Uh oh.
+            </p>
+            <p>
+              They sent me an email about the RISE program, so I tried it out in
+              the following spring.
+            </p>
+            <h2>
+              <a
                 href="https://risefortheworld.org"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -367,27 +387,6 @@ function EtcLog() {
               >
                 /logs/oklahoma-musical
               </a>
-            </p>
-
-            <h2>
-              <a
-                href="https://www.congressionalappchallenge.us"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Congressional App Challenge
-              </a>{" "}
-              - 3rd Place in NJ09 (2022)
-            </h2>
-            <p>
-              I guess I should've articulated specifically <b>how</b> Atrable
-              can be a social platform with much less mental health issues than
-              other social media platforms. I only explained the features of the
-              app without connecting back to the vision. Uh oh.
-            </p>
-            <p>
-              They sent me an email about the RISE program, so I tried it out in
-              the following spring.
             </p>
 
             <h1>School Clubs</h1>
