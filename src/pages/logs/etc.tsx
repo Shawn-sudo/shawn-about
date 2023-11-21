@@ -314,8 +314,8 @@ function EtcLog() {
               similar mistake again! In the presentation, I spent most of my
               time thoroughly explaining the mental health epidemic caused by
               current social media platforms, so I didn't have much time left to
-              explain specifically how my app can fix the mental health issues.
-              Uh oh.
+              explain specifically <b>how</b> my app can fix the mental health
+              issues. Uh oh.
             </p>
             <p>Next time, no more mistakes!</p>
             <p>
