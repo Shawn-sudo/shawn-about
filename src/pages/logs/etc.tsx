@@ -389,6 +389,27 @@ function EtcLog() {
               </a>
             </p>
 
+            <h2>Vlogging on YouTube</h2>
+            <p>
+              When I'm free, I edit videos that I filmed in the past and post
+              them on YouTube. It's fun.
+            </p>
+            <p>
+              When I want to share some personal recordings with my friends, but
+              don't want to make them public, I use Atrable instead of YouTube.
+              You should try Atrable too lol.
+            </p>
+            <p>
+              To see my videos, go to{" "}
+              <a
+                href="https://www.youtube.com/@seihyun"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                youtube.com/@seihyun
+              </a>
+            </p>
+
             <h2>Occasional Contribution to Open Source Projects</h2>
             <p>
               Go to{" "}
