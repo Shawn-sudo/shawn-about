@@ -389,6 +389,20 @@ function EtcLog() {
               </a>
             </p>
 
+            <h2>Occasional Contribution to Open Source Projects</h2>
+            <p>
+              Go to{" "}
+              <a
+                href="https://github.com/shawn-sudo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                my GitHub
+              </a>
+              , scroll down a bit, and press the "Show more activity" button
+              until you see something.
+            </p>
+
             <h1>School Clubs</h1>
             <h2>Busking Club (Jun 2023 - present)</h2>
             <p>I founded this club!</p>
