@@ -253,6 +253,7 @@ function EtcLog() {
             <p>
               I qualified for AIME twice! I scored in the top 2.5% on AMC 10.
             </p>
+
             <h2>
               Bergen County Math League (BCML) - First Place in Group 3
               (2021-2022 & 2022-2023)
@@ -276,6 +277,12 @@ function EtcLog() {
 
             <h2>PSAT - 99th percentile (Oct 2022)</h2>
             <p>I thought my English was bad. I guess I improved over time 👍</p>
+
+            <h2>Highest Honor Roll (2021 - 2022 & 2022 - 2023)</h2>
+            <p>
+              I don't know the specific cutoffs, but it says it's based on the
+              cumulative GPA.
+            </p>
 
             <h1>Other Activities</h1>
             <h2>
