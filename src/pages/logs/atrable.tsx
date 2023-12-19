@@ -128,6 +128,17 @@ export default function Logs_atrable() {
                   </a>{" "}
                   to see what I'm up to lately.
                 </p>
+                <p>
+                  Go to{" "}
+                  <a
+                    href="https://www.atrable.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    atrable.com
+                  </a>{" "}
+                  to learn more about Atrable.
+                </p>
               </div>
             </div>
             <div className="container right">
