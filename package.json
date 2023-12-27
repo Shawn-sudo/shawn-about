@@ -22,10 +22,8 @@
     "gatsby-plugin-sharp": "^5.13.0",
     "gatsby-source-filesystem": "^5.13.0",
     "gatsby-transformer-sharp": "^5.13.0",
-    "node": "^21.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "ua-parser-js": "^1.0.37"
+    "node": "20.9.0",
+    "react": "^18.2.0"
   },
   "devDependencies": {
     "@types/node": "^20.10.5",
@@ -35,6 +33,6 @@
     "typescript": "^5.3.3"
   },
   "engines": {
-    "node": "18.12.1"
+    "node": "20.9.0"
   }
 }
