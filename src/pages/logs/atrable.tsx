@@ -1256,10 +1256,10 @@ export default function Logs_atrable() {
                 <h2>Mar-Jun 2022: Alpha Build</h2>
 
                 <article>
-                  <h3>Play Audios</h3>
+                  <h3>Play Audios Efficiently</h3>
                   <p>
-                    Using <code>ManageAudioPlayers</code> (I made it!), each
-                    page can efficiently manage audio plays.
+                    Using a class named <code>ManageAudioPlayers</code> (I made
+                    it!), each page can efficiently manage audio plays.
                   </p>
                 </article>
 
