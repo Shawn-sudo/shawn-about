@@ -81,6 +81,16 @@ const sep2023_changePassword = "../../assets/atrable/2023_9/IMG_3112.jpg";
 const sep2023_android_conversationNotification =
   "../../assets/atrable/2023_9/screenshot_android_conversationNotification.png";
 
+const oct2023_rewind_skip_content =
+  "../../assets/atrable/2023_10/rewind_skip_content.png";
+const oct2023_there_are_new_diaries =
+  "../../assets/atrable/2023_10/IMG_4210.jpg";
+const oct2023_sort_by_uploaded_created =
+  "../../assets/atrable/2023_10/IMG_4212.jpg";
+const oct2023_compactDiaryUIAfter = "../../assets/atrable/2023_10/IMG_4214.jpg";
+const oct2023_compactDiaryUIBefore =
+  "../../assets/atrable/2023_10/IMG_4216.jpg";
+
 export default function Logs_atrable() {
   return (
     <>
@@ -139,6 +149,102 @@ export default function Logs_atrable() {
                   </a>{" "}
                   to learn more about Atrable.
                 </p>
+              </div>
+            </div>
+            <div className="container left">
+              <div className="content">
+                <h2>Oct 2023</h2>
+
+                <article>
+                  <h3>David & Mark joined for marketing!</h3>
+                  <p>
+                    We've made several videos for advertisement. We're going to
+                    publish them once I implement the new core features.
+                  </p>
+                </article>
+
+                <article>
+                  <h3>5 sec skip / rewind</h3>
+                  <p>
+                    For audios, tap the button ◀◀ and ▶▶. For videos, double tap
+                    to skip or rewind.
+                  </p>
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <StaticImage
+                      src={oct2023_rewind_skip_content}
+                      alt="Screenshot"
+                      imgStyle={{ borderRadius: 20 }}
+                      style={{ margin: "auto" }}
+                      height={450}
+                    />
+                  </div>
+                </article>
+
+                <article>
+                  <h3>Update "There are new diaries" banner</h3>
+                  <p>
+                    Previously, the app checked the database every time you went
+                    back to the home page. Now it's updated in real time.
+                  </p>
+                  <StaticImage
+                    src={oct2023_there_are_new_diaries}
+                    alt="Screenshot"
+                    imgStyle={{ borderRadius: 20 }}
+                    style={{ margin: 5 }}
+                    height={450}
+                  />
+                </article>
+
+                <article>
+                  <h3>Sort diaries by time uploaded / recorded</h3>
+                  <p>
+                    Diaries on the home are sorted by the time uploaded, and the
+                    diaries on the profile page are sorted by the time created.
+                  </p>
+                  <div style={{ display: "flex", justifyContent: "center" }}>
+                    <StaticImage
+                      src={oct2023_sort_by_uploaded_created}
+                      alt="Screenshot"
+                      imgStyle={{ borderRadius: 20 }}
+                      style={{ margin: 5 }}
+                      height={200}
+                    />
+                  </div>
+                </article>
+
+                <article>
+                  <h3>More compact design for diaries in home</h3>
+                  <p>It shrinks friends' profiles on the home by default.</p>
+                  <p>Based on the feedback from David</p>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "center",
+                      textAlign: "center",
+                    }}
+                  >
+                    <div>
+                      <StaticImage
+                        src={oct2023_compactDiaryUIBefore}
+                        alt="Screenshot"
+                        imgStyle={{ borderRadius: 20 }}
+                        style={{ margin: 5 }}
+                        height={450}
+                      />
+                      <p style={{ fontWeight: "bold" }}>Before</p>
+                    </div>
+                    <div>
+                      <StaticImage
+                        src={oct2023_compactDiaryUIAfter}
+                        alt="Screenshot"
+                        imgStyle={{ borderRadius: 20 }}
+                        style={{ margin: 5 }}
+                        height={450}
+                      />
+                      <p style={{ fontWeight: "bold" }}>After</p>
+                    </div>
+                  </div>
+                </article>
               </div>
             </div>
             <div className="container right">
