@@ -124,7 +124,7 @@ export default function Logs_atrable() {
         </div>
         <main>
           <div className="timeline">
-            <div className="container left">
+            <div className="container right">
               <div className="content">
                 <h2>Nov 2023 -</h2>
                 <p>
