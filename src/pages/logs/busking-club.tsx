@@ -54,9 +54,9 @@ function BuskingClub() {
                   }}
                 />
                 <p style={{ color: "var(--hint-color)" }}>
-                  I rendered the video 17 times to put on YouTube because of
+                  I re-rendered the video 17 times to put on YouTube because of
                   some weird visual effect caused by video file corruption. I
-                  personally liked it, but I thought I was the only one who
+                  personally liked it, but I thought I would be the only one who
                   liked it, so I tried removing those effects.
                 </p>
                 <div style={{ display: "flex" }}>
