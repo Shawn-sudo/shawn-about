@@ -1268,6 +1268,35 @@ export default function Logs_atrable() {
                 </article>
 
                 <article>
+                  <h3>Record and Play Videos</h3>
+                  <p>
+                    It was time-consuming but easier than I thought. I
+                    implemented a way to turn on the camera when the audio
+                    recording is going on, mix the recorded audio and video, and
+                    play the video files using the{" "}
+                    <a
+                      href="https://pub.dev/packages/video_player"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      video_player
+                    </a>{" "}
+                    package.
+                  </p>
+                  <p>
+                    I was sad because of the limited functionality of the{" "}
+                    <a
+                      href="https://pub.dev/packages/video_player"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      video_player
+                    </a>{" "}
+                    package, but it works!
+                  </p>
+                </article>
+
+                <article>
                   <h3>Suggested Posts</h3>
                   <p>
                     On the <code>SuggestedPosts</code> page, random public posts
