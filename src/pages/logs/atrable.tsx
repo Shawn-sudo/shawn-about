@@ -409,8 +409,9 @@ export default function Logs_atrable() {
                   <p>
                     Saying "share your <u>actual</u> stories" kinda gives the
                     feeling that they should only share the stories that they
-                    think is meaningful, so I changed the motto to "Record your
-                    life stories."
+                    think is meaningful, which is not good because we want to be
+                    more welcoming. So, I changed the motto to "Record your life
+                    stories."
                   </p>
                   <div style={{ textAlign: "center" }}>
                     <StaticImage
