@@ -166,7 +166,7 @@ export default function Logs_atrable() {
                 <article>
                   <h3>5 sec skip / rewind</h3>
                   <p>
-                    For audios, tap the button ◀◀ and ▶▶. For videos, double tap
+                    For audio, tap the buttons ◀◀ and ▶▶. For videos, double-tap
                     to skip or rewind.
                   </p>
                   <div style={{ display: "flex", justifyContent: "center" }}>
@@ -181,10 +181,10 @@ export default function Logs_atrable() {
                 </article>
 
                 <article>
-                  <h3>Update "There are new diaries" banner</h3>
+                  <h3>Update the "There are new diaries" banner</h3>
                   <p>
                     Previously, the app checked the database every time you went
-                    back to the home page. Now it's updated in real time.
+                    back to the home page. Now it's updated in real-time.
                   </p>
                   <StaticImage
                     src={oct2023_there_are_new_diaries}
@@ -213,7 +213,7 @@ export default function Logs_atrable() {
                 </article>
 
                 <article>
-                  <h3>More compact design for diaries in home</h3>
+                  <h3>More compact design for diaries in the home</h3>
                   <p>It shrinks friends' profiles on the home by default.</p>
                   <p>Based on the feedback from David</p>
                   <div
@@ -296,7 +296,7 @@ export default function Logs_atrable() {
                   </p>
                   <p>
                     If you go through "Forgot Password", it'll still guide you
-                    using external link though.
+                    using an external link though.
                   </p>
                   <div style={{ textAlign: "center" }}>
                     <StaticImage
@@ -348,7 +348,7 @@ export default function Logs_atrable() {
                     For "Upload Diary" page
                   </p>
                   <p>
-                    iPhones don't have back button, I have to implement it
+                    iPhones don't have the back button, I have to implement it
                     separately :0
                   </p>
                   <div style={{ display: "flex", justifyContent: "center" }}>
@@ -374,7 +374,7 @@ export default function Logs_atrable() {
               <div className="content">
                 <h2>Jul 2023</h2>
                 <article>
-                  <h3>New Buttons on Diary Details Page</h3>
+                  <h3>New Buttons on the Diary Details Page</h3>
                   <p>Share Link and Export Audio/Video</p>
                   <div style={{ textAlign: "center" }}>
                     <StaticImage
@@ -389,7 +389,7 @@ export default function Logs_atrable() {
                   <h3>New Home Page UI</h3>
                   <ul>
                     <li>Display your diaries on the top of the page</li>
-                    <li>Make Explore tab more accessible</li>
+                    <li>Make the Explore tab more accessible</li>
                   </ul>
                   <div style={{ textAlign: "center" }}>
                     <StaticImage
@@ -407,10 +407,10 @@ export default function Logs_atrable() {
                     {/* I made some modifications from the old one (from Mar 2023) */}
                   </p>
                   <p>
-                    Saying "share your <u>actual</u> stories" kinda gives the
-                    feeling that they should only share the stories that they
-                    think is meaningful, which is not good because we want to be
-                    more welcoming. So, I changed the motto to "Record your life
+                    The word "actual" in the phrase "share your <u>actual</u>{" "}
+                    stories" kinda gives the feeling that they should only share
+                    the stories that they think are meaningful. We want to be
+                    more welcoming, so I changed the motto to "Record your life
                     stories."
                   </p>
                   <div style={{ textAlign: "center" }}>
@@ -466,8 +466,8 @@ export default function Logs_atrable() {
                 </article>
                 <article>
                   <h3>2-Step Verification</h3>
-                  <p>Extra layer of security with phone number</p>
-                  <p>Gotta support secondary method soon</p>
+                  <p>An extra layer of security with a phone number</p>
+                  <p>Gotta support a secondary method soon</p>
                 </article>
               </div>
             </div>
@@ -483,7 +483,7 @@ export default function Logs_atrable() {
                   <p>
                     Now (= Aug 5, 2023), I learned that this feature doesn't
                     bring people to engage that much (it probably does make
-                    people to open the app once or twice, but it doesn't give
+                    people open the app once or twice, but it doesn't give
                     people enough motivation to start recording diaries). I'm
                     going to deprecate this after implementing something else
                     😼.
@@ -513,15 +513,15 @@ export default function Logs_atrable() {
                 <article>
                   <h3>Finally released v1.3.2!</h3>
                   <p>
-                    I've been holding releasing v1.3 for a while, I finally
+                    I've been holding off releasing v1.3 for a while. I finally
                     released it!
                   </p>
                 </article>
                 <article>
                   <h3>Padding & Constraints for Big Screen UI</h3>
                   <p>
-                    I put some padding & constraints on widget so that it
-                    doesn't look broken in big screens.
+                    I put some padding & constraints on widgets so that they
+                    won't look broken on big screens.
                   </p>
                 </article>
                 <article>
@@ -531,13 +531,14 @@ export default function Logs_atrable() {
                     (Android)
                   </p>
                   <p>
-                    I feel like it's still a bit buggy though. Gotta figure out.
+                    I feel like it's still a bit buggy though. Gotta figure it
+                    out.
                   </p>
                 </article>
                 <article>
                   <h3>New App Details Image</h3>
                   <p>
-                    I thought the old one (from Oct 2022) isn't really
+                    I thought the old one (from Oct 2022) wasn't really
                     appealing, so I made some modifications.
                   </p>
                   <div style={{ display: "flex" }}>
@@ -575,7 +576,7 @@ export default function Logs_atrable() {
                   <h3>Retry Uploading / Sending if Failed</h3>
                   <p>
                     If the app gets terminated while uploading a diary or
-                    sending a chat message, it would ask you if you're going to
+                    sending a chat message, it will ask you if you're going to
                     retry the uploading / sending it on the next launch.
                   </p>
                 </article>
@@ -592,7 +593,7 @@ export default function Logs_atrable() {
                   <h3>Send Photos</h3>
                   <p>
                     Send and receive photos. My main focus is on audio and video
-                    rather than photo, but you can send photos if you want to.
+                    rather than photos, but you can send photos if you want to.
                   </p>
                   <div style={{ textAlign: "center" }}>
                     <StaticImage
@@ -613,8 +614,8 @@ export default function Logs_atrable() {
                   <h3>Save messages locally</h3>
                   <p>
                     Previously, all the messages were loaded directly from the
-                    server. Now the messages are permantly saved on your device
-                    once you read it.
+                    server. Now the messages are permanently saved on your
+                    device once you read them.
                   </p>
                   <p>
                     Audios, videos, and other imports are not saved on the
@@ -625,7 +626,7 @@ export default function Logs_atrable() {
                 </article>
 
                 <article>
-                  <h3>Check if Message is Notified</h3>
+                  <h3>Check if the Message is Notified</h3>
                   <p>
                     Check if the notification for your new message is
                     successfully delivered.
@@ -641,8 +642,8 @@ export default function Logs_atrable() {
                 </article>
 
                 <article>
-                  <h3>Open Url and Phone Number</h3>
-                  <p>Open web url and phone number contained in a text.</p>
+                  <h3>Open the URL and Phone Number</h3>
+                  <p>Open web URL and phone number contained in a text.</p>
                   <div style={{ textAlign: "center" }}>
                     <StaticImage
                       src={jan2023_openUrl}
@@ -672,11 +673,11 @@ export default function Logs_atrable() {
                 <h2>Dec 2022: Stabilize for real-life use [2]</h2>
 
                 <article>
-                  <h3>Reactions and Visitors of Diary</h3>
+                  <h3>Reactions and Visitors to Diary</h3>
                   <p>
                     Previously, the views (listens / visitors) and the reactions
                     were recorded, but there was no way to see who they were. I
-                    wanted to know whom it is that reacted / listened to my
+                    wanted to know who it was that reacted or listened to my
                     diary, so I made this feature.
                   </p>
                   <div style={{ textAlign: "center" }}>
@@ -719,10 +720,10 @@ export default function Logs_atrable() {
                     was too complicated for my use.
                   </p>
                   <p>
-                    Instead of using the package to display notificaitons from
+                    Instead of using the package to display notifications from
                     the Flutter side, I wrote some code to sync the currently
                     opened page with the native side (iOS and Android) and
-                    filter the incoming notification based on the currently
+                    filter the incoming notifications based on the currently
                     opened page.
                   </p>
                 </article>
@@ -732,7 +733,7 @@ export default function Logs_atrable() {
                   <p>
                     Because GatsbyJS is not made for Dynamic Server Side
                     Rendering, I migrated to NextJS to fetch some data from the
-                    db for profile pages.
+                    DB for profile pages.
                   </p>
                   <p>
                     I also made the website look cooler by displaying some
@@ -807,10 +808,9 @@ export default function Logs_atrable() {
                   </div>
                   <script src="https://player.vimeo.com/api/player.js"></script>
                   <p>
-                    When the Past Records page opens, the app used to freeze for
-                    like 1 full second. The function for sorting the past
-                    records was taking a long time, so I wrapped the sorting
-                    thingy with{" "}
+                    When the Past Records page opens, the app freezes for like a
+                    one full second. The function for sorting the past records
+                    was taking a long time, so I wrapped the sorting thingy with{" "}
                     <a
                       href="https://api.flutter.dev/flutter/foundation/compute-constant.html"
                       target="_blank"
@@ -826,7 +826,7 @@ export default function Logs_atrable() {
                   <h3>Preview audio/video message before sent</h3>
                   <p>
                     Previously, the audio and video messages were sent right
-                    after ending the record in a chatroom. I edited it to be
+                    after ending the recording in a chatroom. I edited it to be
                     able to display the preview of the audio / video before
                     sending it.
                   </p>
@@ -857,7 +857,7 @@ export default function Logs_atrable() {
                   <h3>Send your audio / video to friends</h3>
                   <p>
                     This allows you to send the recorded audio / video to others
-                    through chatroom.
+                    through chatrooms.
                   </p>
                   <div style={{ textAlign: "center" }}>
                     <StaticImage
@@ -871,7 +871,7 @@ export default function Logs_atrable() {
 
                 <article>
                   <h3>Communication Notification (iOS)</h3>
-                  <p>Notifications on iOS now shows the profile photo.</p>
+                  <p>Notifications on iOS now show the profile photo.</p>
                   <p>
                     I couldn't develop this (Conversation Notification) for
                     Android, as I couldn't find a way to show profile photos
@@ -891,10 +891,10 @@ export default function Logs_atrable() {
                 <article>
                   <h3>Profile Link & QR code</h3>
                   <p>
-                    I wanted to share my Atrable profile with my friends using
+                    I wanted to share my Atrable profile with my friends using a
                     QR code, instead of typing the username on the search page.
                     I first implemented a way to display the profile on the web.
-                    Then I added a button to get profile QR code in the app.
+                    Then I added a button to get a profile QR code in the app.
                   </p>
                   <p>
                     I'm using GatsbyJS for{" "}
@@ -936,8 +936,8 @@ export default function Logs_atrable() {
                 <article>
                   <h3>Select Records in Past Records</h3>
                   <p>
-                    I modified the Past Records page, so that people can select
-                    the records and delete / upload / share it.
+                    I modified the Past Records page so that people can select
+                    the records and delete / upload / share them.
                   </p>
                 </article>
 
@@ -975,7 +975,7 @@ export default function Logs_atrable() {
                   <p>
                     When I say it's a "post", it gives me a feeling of
                     disclosing myself to the public. It isn't wrong, but the
-                    audios are more daily, personal, reflective, which are
+                    audios are more daily, personal, and reflective, which are
                     closer to diaries.
                   </p>
                 </article>
@@ -1030,7 +1030,7 @@ export default function Logs_atrable() {
                 <article>
                   <h3>New App Details Image</h3>
                   <p>
-                    I thought the old one (from Aug 2022) isn't really
+                    I thought the old one (from Aug 2022) wasn't really
                     appealing, so I made some modifications.
                   </p>
                   <div style={{ display: "flex" }}>
@@ -1053,7 +1053,7 @@ export default function Logs_atrable() {
 
                 <article>
                   <h3>v1.1.2 Release</h3>
-                  <p>I released v1.1.2 (Aug 2022 works) on App Store. </p>
+                  <p>I released v1.1.2 (Aug 2022 works) on the App Store. </p>
                   <p>
                     My Android friends also want to get this app, so I gotta
                     release it on the Play Store too.
@@ -1082,7 +1082,7 @@ export default function Logs_atrable() {
                 <article>
                   <h3>New App Details Image</h3>
                   <p>
-                    I thought the old one (from Jul 2022) isn't really
+                    I thought the old one (from Jul 2022) wasn't really
                     appealing, so I made some modifications.
                   </p>
                   <div style={{ display: "flex" }}>
@@ -1157,7 +1157,7 @@ export default function Logs_atrable() {
                     >
                       a video
                     </a>{" "}
-                    to submit this app to Congressional App Challenge and
+                    to submit this app to the Congressional App Challenge and
                     advertise it at once. I was trying to kill two "birds" with
                     one "stone", but I think I lost both birds; I was being too
                     informal to submit it to the contest, but the video was
@@ -1211,14 +1211,14 @@ export default function Logs_atrable() {
                 </article>
 
                 <article>
-                  <h3>Changes on the Fundamental Features</h3>
+                  <h3>Changes in the Fundamental Features</h3>
                   <ul>
                     <li>Replace likes with emoji reactions</li>
                     <dl>
                       "Likes" give me a feeling that I should post something
                       "likeable" (or smth that can be loved by the public). I
-                      replaced the likes system with emoji-counting system to
-                      feel free to record and share whatever I wanted to,
+                      replaced the likes system with the emoji-counting system
+                      to feel free to record and share whatever I wanted to
                       because emoji lets reactions with more diverse and actual
                       emotions.
                     </dl>
@@ -1232,10 +1232,10 @@ export default function Logs_atrable() {
                       replaced it with <code>OnlyFriendsPost</code>s instead.
                     </dl>
                     <dl>
-                      So now, there are 2 type of posts: <code>PublicPost</code>{" "}
-                      and <code>OnlyFriendsPost</code>. Anybody can view a{" "}
-                      <code>PublicPost</code>, and only friends can view an{" "}
-                      <code>OnlyFriendsPost</code>.
+                      So now, there are 2 types of posts:{" "}
+                      <code>PublicPost</code> and <code>OnlyFriendsPost</code>.
+                      Anybody can view a <code>PublicPost</code>, and only
+                      friends can view an <code>OnlyFriendsPost</code>.
                     </dl>
                   </ul>
                 </article>
@@ -1249,7 +1249,7 @@ export default function Logs_atrable() {
                   <h3>Minor Changes on v1.1.0 </h3>
                   <p>(David strongly suggested)</p>
                   <ul>
-                    <li>Smoother audio player seekbar</li>
+                    <li>A smoother audio player SeekBar</li>
                     <li>Crop profile photo when setting it</li>
                   </ul>
                 </article>
@@ -1270,8 +1270,8 @@ export default function Logs_atrable() {
                 <article>
                   <h3>Suggested Posts</h3>
                   <p>
-                    In <code>SuggestedPosts</code> page, random public posts are
-                    fetched and displayed.
+                    On the <code>SuggestedPosts</code> page, random public posts
+                    are fetched and displayed.
                   </p>
                   <p>
                     Audios are automatically played as the page is scrolled.
@@ -1283,7 +1283,7 @@ export default function Logs_atrable() {
                   <p>
                     In <code>PostDetailsPage</code>, the uploader can see the
                     details of the post (views, likes, and comments). Comments
-                    are accessable here.
+                    are accessible here.
                   </p>
                 </article>
 
@@ -1306,8 +1306,8 @@ export default function Logs_atrable() {
                     Post Visibility: <code>Share With Friends</code>
                   </h3>
                   <p>
-                    In <code>SharePost</code>, I replaced <code>send to</code>{" "}
-                    feature, which was used to send post itself through
+                    In <code>SharePost</code>, I replaced <code>Send to</code>{" "}
+                    feature, which was used to send the post itself through
                     chatroom, with <code>Share With Friends</code>.
                   </p>
                   <p>
@@ -1342,8 +1342,8 @@ export default function Logs_atrable() {
                         infinite_scroll_pagination
                       </a>
                     </code>{" "}
-                    to fetch older messages and use FirebaseFirestore realtime
-                    update feature to fetch newer messages in real time.
+                    to fetch older messages and used FirebaseFirestore real-time
+                    update feature to fetch newer messages in real-time.
                   </p>
                 </article>
 
@@ -1439,10 +1439,10 @@ export default function Logs_atrable() {
                   I got the idea of an&nbsp;
                   <strong>audio</strong>
                   -based social media. Existing social media platforms focus on
-                  photos, which makes people focus on the appearances. On the
-                  other hand, audio lets you focus on the actual stuff that is
-                  going on. Audio also gives rich feeling of being connected,
-                  and I loved it.
+                  photos, which makes people focus on appearances. On the other
+                  hand, audio lets you focus on the actual stuff that is going
+                  on. Audio also gives a rich feeling of being connected, and I
+                  loved it.
                 </p>
               </div>
             </div>
@@ -1528,8 +1528,8 @@ export default function Logs_atrable() {
                   </a>{" "}
                   where people can share their travel stories, view other
                   traveler's stories, and follow travelers. But guess what{" "}
-                  <span style={{ opacity: 0.08 }}>chicken butt</span>, I'd only
-                  implemented fundamental authentication system there.
+                  <span style={{ opacity: 0.08 }}>chicken butt</span>, I only
+                  implemented the fundamental authentication system there.
                 </p>
                 <p>
                   Check{" "}
