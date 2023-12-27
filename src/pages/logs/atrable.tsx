@@ -449,6 +449,10 @@ export default function Logs_atrable() {
                 <article>
                   <h3>Compact UI for Home Page</h3>
                   <p>and it looks like this 😎</p>
+                  <p>
+                    Scroll vertically to scroll through friends, scroll
+                    horizontally to scroll through a person's diaries.
+                  </p>
                   <div style={{ textAlign: "center" }}>
                     <StaticImage
                       src={may2023_new_home_page_ui}
