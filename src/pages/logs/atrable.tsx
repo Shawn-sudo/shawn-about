@@ -854,7 +854,7 @@ export default function Logs_atrable() {
                 </article>
 
                 <article>
-                  <h3>Send audio to others</h3>
+                  <h3>Send your audio / video to friends</h3>
                   <p>
                     This allows you to send the recorded audio / video to others
                     through chatroom.
