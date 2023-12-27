@@ -1319,7 +1319,8 @@ export default function Logs_atrable() {
                 <article>
                   <h3>Chatroom Design Change</h3>
                   <p>
-                    Show the time when the message sent, with a better design.
+                    Show the time when the message was sent, with a better
+                    design.
                   </p>
                   <p>
                     If it's not a <code>DMChatroom</code>, show people's
