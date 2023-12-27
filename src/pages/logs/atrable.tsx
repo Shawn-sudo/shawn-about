@@ -429,7 +429,17 @@ export default function Logs_atrable() {
                 <h2>Jun 2023</h2>
                 <article>
                   <h3>Nothing Much</h3>
-                  <p>I was super busy with Busking Club and final exams 😵</p>
+                  <p>
+                    I was super busy with{" "}
+                    <a
+                      href="/logs/busking-club"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Busking Club
+                    </a>{" "}
+                    and final exams 😵
+                  </p>
                 </article>
               </div>
             </div>
