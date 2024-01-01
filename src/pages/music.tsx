@@ -3,6 +3,7 @@ import Layout from "../components/layouts.tsx/Layout";
 import audio1 from "../assets/musics/Mongrong12 - 2:7:22, 9.23 PM.mp3";
 import audio2 from "../assets/musics/Project - 2:12:22, 4.09 PM.m4a";
 import audio3 from "../assets/musics/Project - 2:14:22, 7.13 PM.m4a";
+import { Link } from "gatsby";
 
 function Music() {
   return (
@@ -29,6 +30,10 @@ function Music() {
           <p>
             They are all incomplete tho. I don't have time to complete those rn
             :/
+          </p>
+          <p>
+            Check my new single{" "}
+            <Link to="/logs/submerged-under-snow">Submerged Under Snow</Link>!
           </p>
         </main>
       </Layout>
