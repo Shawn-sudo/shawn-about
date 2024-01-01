@@ -207,7 +207,7 @@ footer .meetMeOn a {
 /* UI */
 .responsive-flexBox {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 @media (max-width: 900px) {
