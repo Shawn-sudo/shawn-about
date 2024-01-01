@@ -20,6 +20,11 @@ const frontOfCafeteria_2 =
   "../assets/busking-club/Screenshot 2023-06-19 at 1.14.04 PM.png";
 const inGym = "../assets/busking-club/Screenshot 2023-06-19 at 1.51.18 PM.png";
 
+const submergedUnderSnow_performance =
+  "../assets/submerged-under-snow/IMG_4297.jpg";
+const submergedUnderSnow_albumCover =
+  "../assets/submerged-under-snow/submerged-under-snow-album-cover.jpg";
+
 const game_superMarioRemix =
   "../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 7.12.41 PM.png";
 const game_carAndGravity =
@@ -168,6 +173,58 @@ function Home() {
                   <StaticImage
                     src={inGym}
                     alt="In the gym"
+                    style={{ width: "100%", maxWidth: 250, margin: 5 }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                </div>
+              </div>
+            </Card>
+          </Link>
+          <Link
+            to="/logs/submerged-under-snow"
+            style={{
+              textDecoration: "none",
+              borderRadius: 20,
+              margin: 5,
+            }}
+          >
+            <Card>
+              <div className="responsive-flexBox" style={{ color: "grey" }}>
+                <div style={{ padding: 20 }}>
+                  <h1
+                    style={{
+                      color: "skyblue",
+                      fontSize: 40,
+                      fontWeight: "800",
+                      marginTop: 25,
+                      marginBottom: 25,
+                    }}
+                  >
+                    Submerged Under Snow
+                  </h1>
+                  <p>My new single!!</p>
+                  <p>Nov 2023</p>
+                  <div className="learn-more">Learn More →</div>
+                </div>
+                <div
+                  style={{
+                    alignItems: "center",
+                    display: "flex",
+                    justifyContent: "center",
+                    margin: 15,
+                  }}
+                >
+                  <StaticImage
+                    src={submergedUnderSnow_performance}
+                    alt="Performing Submerged Under Snow"
+                    height={300}
+                    style={{ width: "100%", maxWidth: 250, margin: 5 }}
+                    imgStyle={{ borderRadius: 20 }}
+                  />
+                  <StaticImage
+                    src={submergedUnderSnow_albumCover}
+                    alt="Submerged Under Snow Album Cover"
+                    height={300}
                     style={{ width: "100%", maxWidth: 250, margin: 5 }}
                     imgStyle={{ borderRadius: 20 }}
                   />
