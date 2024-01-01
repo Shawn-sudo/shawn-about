@@ -21,8 +21,7 @@ function SubmergedUnderSnow() {
       <title>Submerged Under Snow | About Seihyun Lee</title>
       <LogsLayout>
         <main>
-          <h1>My new single!!</h1>
-          {/* TODO: better sound engineering  */}
+          <h1 style={{ margin: 20 }}>My new single!!</h1>
           <Card className="paragraph-with-padding">
             <iframe
               width="100%"
@@ -100,9 +99,9 @@ function SubmergedUnderSnow() {
 
             <h3>Freshness & Crunchiness of Winter Snow</h3>
             <p>
-              I used EQ to highlight the higher pitch (around 1500Hz or above).
-              This emphasizes the “th” / “sh” / “ch” / “s” / ... sound, giving
-              the feeling of the crunchy snow.
+              I used EQ to highlight the higher pitch (around 1500Hz or above)
+              for my vocal. This emphasizes the “th” / “sh” / “ch” / “s” / ...
+              sound, giving the feeling of the crunchy snow ❄️.
             </p>
 
             <h3>Roaring Regret</h3>
@@ -179,7 +178,7 @@ function SubmergedUnderSnow() {
                 <h2>The due date</h2>
                 <p>is the day that I'm most productive 😼</p>
                 <p style={{ color: "var(--hint-color)" }}>
-                  (actually had one day extension)
+                  (actually had one day extension tho)
                 </p>
                 <h3>Nov 29 Version</h3>
                 <p>
