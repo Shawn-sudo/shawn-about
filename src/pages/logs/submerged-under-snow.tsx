@@ -70,6 +70,14 @@ function SubmergedUnderSnow() {
                 Submerged Under Snow
               </a>
             </div>
+            <iframe
+              style={{ borderRadius: 12 }}
+              src="https://open.spotify.com/embed/track/62Cn6C3dJNJdD4r8En9CxG?utm_source=generator"
+              width="100%"
+              height="152"
+              frameBorder="0"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+            ></iframe>
             <p>
               I made this song for Mr. Whitehead's AP Lang class after reading{" "}
               <strong>Ethan Frome</strong> by Edith Wharton!
