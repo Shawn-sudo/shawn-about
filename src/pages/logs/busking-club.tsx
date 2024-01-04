@@ -34,6 +34,95 @@ function BuskingClub() {
       <LogsLayout>
         <main>
           <div className="timeline">
+            <div className="container left">
+              <div className="content">
+                <h2>Sep 2023 - </h2>
+                <p>
+                  The club grew quite big. We have around 40 members with 15
+                  active buskers.
+                </p>
+                <p>
+                  We're actively busking every two weeks, but I'm not able to
+                  actively update this page,{" "}
+                  <a
+                    href="https://www.instagram.com/thsbuskingclub/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Instagram
+                  </a>
+                  , and{" "}
+                  <a
+                    href="https://youtube.com/@THSBuskingClub"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    YouTube channel
+                  </a>{" "}
+                  because I have no time to manage those :/
+                </p>
+                <p>
+                  I observed Chemistry Club, and I realized that the president
+                  distributes jobs to other officers. That's the leadership
+                  right there 👆
+                </p>
+                <p>
+                  Next Monday (Today == Jan 4, 2024), I'm gonna have some
+                  conversations with the club officers to give them each
+                  platform (among Instagram, YouTube, Google Classroom, and
+                  GroupMe) that they'll be responsible for. Our advisor, Mr.
+                  Finn, will make sure that we're all doing our jobs well.
+                </p>
+                <p>
+                  I heard that smart companies build a <strong>system</strong>{" "}
+                  to operate smoothly by giving employees roles &
+                  responsibilities. I'm trying to implement that system here 🤓
+                </p>
+
+                <h3>Current State (as of Jan 2024)</h3>
+                <p>
+                  We have a solid <i>backbone</i>; we found the "supply"{" "}
+                  <span
+                    style={{ color: "var(--hint-color)", fontStyle: "italic" }}
+                  >
+                    (= musicians in our school who want to practice performing
+                    in front of others)
+                  </span>{" "}
+                  and the "demand"{" "}
+                  <span
+                    style={{ color: "var(--hint-color)", fontStyle: "italic" }}
+                  >
+                    (= students who are exhausted after preparing for tests,
+                    etc)
+                  </span>{" "}
+                  and matched them well!
+                </p>
+                <p>Now, I'm trying to make this club a bit more awesome.</p>
+
+                <h3>Aiming to build a strong team</h3>
+                <p>
+                  When together, we have endless potential. Together, we can go
+                  to many places—from senior centers and local restaurants to
+                  Times Square—and perform our music there. To do that, though,
+                  we first need a strong, supportive team. Next Monday, I'm
+                  going to have conversations with the officers about this too.
+                </p>
+                <p style={{ color: "var(--hint-color)" }}>
+                  More explanation: practicing, rehearsing, going to those
+                  places, and performing the music consume quite a lot of time &
+                  effort. When we put more of our efforts in, we want to have
+                  more incentives back, or else we'll easily get depressed and
+                  won't put that much effort like before. The crowds' claps
+                  would not be enough to keep us motivated—think about how most
+                  pop stars go through burn-out. I think it's because claps just
+                  disappear instantaneously. Our buskers's minds would want
+                  something that won't disappear too quickly by being in this
+                  club, and friendship can be an answer! (I'm kinda applying
+                  things I learned while developing Atrable lol) That's why I'm
+                  trying to build a strong team first.
+                </p>
+              </div>
+            </div>
             <div className="container right">
               <div className="content">
                 <h2>June 9th, 2023</h2>
