@@ -24,6 +24,7 @@ function SubmergedUnderSnow() {
           <h1 style={{ margin: 20 }}>My new single!!</h1>
           <Card className="paragraph-with-padding">
             <iframe
+              style={{ borderRadius: 3 }}
               width="100%"
               height="166"
               scrolling="no"
