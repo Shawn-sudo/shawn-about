@@ -115,11 +115,11 @@ function BuskingClub() {
                   won't put that much effort like before. The crowds' claps
                   would not be enough to keep us motivated—think about how most
                   pop stars go through burn-out. I think it's because claps just
-                  disappear instantaneously. Our buskers's minds would want
-                  something that won't disappear too quickly by being in this
-                  club, and friendship can be an answer! (I'm kinda applying
-                  things I learned while developing Atrable lol) That's why I'm
-                  trying to build a strong team first.
+                  disappear instantaneously. Our buskers's minds would want to
+                  get something that won't disappear too quickly by being in
+                  this club, and friendship can be an answer! (I'm kinda
+                  applying things I learned while developing Atrable lol) That's
+                  why I'm trying to build a strong team first.
                 </p>
               </div>
             </div>
