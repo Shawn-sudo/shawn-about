@@ -97,30 +97,43 @@ function BuskingClub() {
                   </span>{" "}
                   and matched them well!
                 </p>
-                <p>Now, I'm trying to make this club a bit more awesome.</p>
+                <p>Now, I'm trying to make this club a bit more awesome!</p>
 
-                <h3>Aiming to build a strong team</h3>
-                <p>
-                  When together, we have endless potential. Together, we can go
-                  to many places—from senior centers and local restaurants to
-                  Times Square—and perform our music there. To do that, though,
-                  we first need a strong, supportive team. Next Monday, I'm
-                  going to have conversations with the officers about this too.
-                </p>
-                <p style={{ color: "var(--hint-color)" }}>
-                  More explanation: practicing, rehearsing, going to those
-                  places, and performing the music consume quite a lot of time &
-                  effort. When we put more of our efforts in, we want to have
-                  more incentives back, or else we'll easily get depressed and
-                  won't put that much effort like before. The crowds' claps
-                  would not be enough to keep us motivated—think about how most
-                  pop stars go through burn-out. I think it's because claps just
-                  disappear instantaneously. Our buskers's minds would want to
-                  get something that won't disappear too quickly by being in
-                  this club, and friendship can be an answer! (I'm kinda
-                  applying things I learned while developing Atrable lol) That's
-                  why I'm trying to build a strong team first.
-                </p>
+                <details>
+                  <summary
+                    style={{
+                      color: "var(--primary-color)",
+                      cursor: "pointer",
+                      fontSize: "larger",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    Aiming to build a strong team
+                  </summary>
+                  <p>
+                    When together, we have endless potential. Together, we can
+                    go to many places—from senior centers and local restaurants
+                    to Times Square—and perform our music there. To do that,
+                    though, we first need a strong, supportive team. Next
+                    Monday, I'm going to have conversations with the officers
+                    about this too.
+                  </p>
+                  <p style={{ color: "var(--hint-color)" }}>
+                    More explanation: practicing, rehearsing, going to those
+                    places, and performing the music consume quite a lot of time
+                    & effort. When we put more of our efforts in, we want to
+                    have more incentives back, or else we'll easily get
+                    depressed and won't put that much effort like before. The
+                    crowds' claps would not be enough to keep us motivated—think
+                    about how most pop stars go through burn-out. I think it's
+                    because claps just disappear instantaneously. Our buskers's
+                    minds would want to get something that won't disappear too
+                    quickly by being in this club, and friendship can be an
+                    answer! (I'm kinda applying things I learned while
+                    developing Atrable lol) That's why I'm trying to build a
+                    strong team first.
+                  </p>
+                </details>
               </div>
             </div>
             <div className="container right">
