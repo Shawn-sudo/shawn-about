@@ -159,7 +159,7 @@ function BuskingClub() {
                   I re-rendered the video 17 times to put on YouTube because of
                   some weird visual effect caused by video file corruption. I
                   personally liked it, but I thought I would be the only one who
-                  liked it, so I tried removing those effects.
+                  liked it, so I tried removing those weird effects.
                 </p>
                 <div style={{ display: "flex" }}>
                   <StaticImage
