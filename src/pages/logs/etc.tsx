@@ -480,8 +480,9 @@ function EtcLog() {
             <h2>Chemistry Club (Sep 2021 - present)</h2>
             <h3>2022-2023</h3>
             <p>
-              NJCO was done in person this time! Eric and I didn't win a prize,
-              but it was fun.
+              NJCO was done in person this time! Eric and I made a molecule
+              model for R-(+)-menthofuran (part of peppermint) (CAS No.
+              17957-94-7).
             </p>
 
             <h3>2021-2022</h3>
