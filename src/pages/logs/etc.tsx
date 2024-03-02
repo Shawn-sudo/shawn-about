@@ -407,7 +407,7 @@ function EtcLog() {
 
             <h1>School Clubs</h1>
             <h2>Busking Club (Jun 2023 - present)</h2>
-            <p>I founded this club!</p>
+            <p>I founded this club with Ian!</p>
             <p>
               We go anywhere in our school and perform music during lunchtime
               🎤.
