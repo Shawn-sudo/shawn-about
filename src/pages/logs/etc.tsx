@@ -535,7 +535,8 @@ function EtcLog() {
             <h2>Scratch Coding Class (Dec 2022 - Jan 2023)</h2>
             <p>
               I taught the fun of coding with Scratch coding. I made students
-              come up with their own ideas and we implemented it together.
+              come up with their own Scratch game ideas and we implemented it
+              together.
             </p>
             <p>
               To read more about it, go to{" "}
