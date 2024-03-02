@@ -193,8 +193,8 @@ function EtcLog() {
             <p>
               As a middle school graduation project, I researched the
               relationship between the pandemic and depression. I learned that
-              depression happens more widely than I thought, which is mainly
-              caused by the COVID pandemic.
+              depression is more prevalent than I thought, mainly due to the
+              COVID pandemic.
             </p>
             <p>
               For the project, I made a simple depression test based on PHQ-9
@@ -214,12 +214,11 @@ function EtcLog() {
               I realized that the pandemic was just an indirect cause of the
               increased depression rate; the direct cause was increased usage of
               social media, where people often promote unrealistic images of
-              themselves or get exhausted from endless entertainment. I wanted
-              to make a better place for people to record and share their lives,
-              so I brought many shifts to the app that I was making at that
-              time. For example, I started focusing on the audio and video on
-              the app to encourage people to share their life stories more than
-              their appearances.
+              themselves and get exhausted from endless entertainment. I wanted
+              to make a better place for people to record and share their life
+              stories, so I brought many shifts to Atrable at that time. For
+              example, I implemented the audio diary feature to encourage people
+              to focus on the story rather than the appearance of their friends.
             </p>
 
             <h1>Academic Achievements</h1>
