@@ -436,11 +436,25 @@ function EtcLog() {
             </p>
             <h3>2023-2024</h3>
             <p>
-              With Alon leading us as the president, math club is becoming more
-              fun! I'll update this soon.
+              With Alon leading us as the president, math club became more fun!
             </p>
-            {/* PUMaC */}
             <p>I'm a secretary / treasurer along with Heeseo.</p>
+            <p>
+              In PUMaC (Princeton University Mathematics Competition), I became
+              a semi-finalist in the mini math bowl event as a team (with Alon,
+              Daniel, and Justin).
+            </p>
+            <p>
+              My friend David wrote an article about our experiences at PUMaC!
+              You can read it{" "}
+              <a
+                href="https://thetenaflyecho.com/21283/first-person/journey-through-equations-competing-at-pumac/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                here
+              </a>
+            </p>
             <h3>2022-2023</h3>
             <p>I won the exact same award & qualification as last year.</p>
             <p>I was a treasurer along with Justin.</p>
