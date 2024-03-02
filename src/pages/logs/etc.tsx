@@ -320,9 +320,11 @@ function EtcLog() {
             <p>
               Run the Future taught me the basics of entrepreneurship. Around 30
               of the RISE finalists joined it, and we met on Zoom calls every
-              Monday and Wednesday morning. I could meet a lot of like-minded
-              people from all around the world, including Ukraine, India,
-              Kazakhstan, Turkey, ..., and it was really fun to talk with them.
+              Monday and Wednesday morning. I met many like-minded friends from
+              all around the world, including Ukraine, India, Kazakhstan, and
+              Turkey. It was really exciting to talk with them about several
+              current issues—including mental health issues of social media—of
+              the world.
             </p>
             <p>
               One thing I especially liked about this program was the supportive
@@ -330,13 +332,8 @@ function EtcLog() {
               special formula to keep a positive vibe 😎. They strongly
               encouraged us to come up with our ideas and give feedback to each
               other, with the mindset of "Whatever idea you've got, it'll work
-              out!" We didn't even meet in person, but I could feel a strong
-              sense of community.
-            </p>
-            <p>
-              Many people did a mental-health related project for their RISE,
-              and it was a great experience to talk with them and share our
-              journey of tackling mental-health issues.
+              out if you don't give up!" I could feel a strong sense of
+              community even though we didn't even meet in person.
             </p>
             <p>
               Towards the end of the course, we all made a pitch deck for our
@@ -352,8 +349,9 @@ function EtcLog() {
             <p>
               I made many nice friends there. Now that the summer ended,
               however, I lost touch with them. I have their WhatsApp, but we
-              don't have things to talk about. I guess Atrable can come into
-              play in such situations one day in the future 😼.
+              don't have things to talk about. I guess in the future, Atrable
+              can come into play in such situations by making it easier to share
+              daily life stories with friends through personal vlogs 😼.
             </p>
 
             <h2>Oklahoma! (Spring 2023)</h2>
