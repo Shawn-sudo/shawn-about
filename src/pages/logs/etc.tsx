@@ -225,7 +225,7 @@ function EtcLog() {
             <h2>AIME - Qualified (2021 Fall & 2022 & 2023)</h2>
             <p>
               I qualified for AIME 3 times! I scored in the top 2.5% on AMC 10
-              and top 5% on AMC 12.
+              and the top 5% on AMC 12.
             </p>
 
             <h2>
