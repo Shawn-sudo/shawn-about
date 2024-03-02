@@ -142,30 +142,32 @@ function EtcLog() {
               pronounce it correctly.
             </p>
             <p>
-              pH is important in the freshwater ecosystem as it sets up the
-              conditions for how easily nutrients are available and how easily
-              things like heavy metals can dissolve in the water. Different
-              water bodies have different levels of pH, depending on location,
-              temperature, and other factors. Moss is a bioindicator, meaning
-              that it is a naturally occurring indicator of pollution, air
-              quality, and water quality. We wanted to investigate if the
-              difference in pH level would affect the biodiversity of the
-              inhabiting moss. We also wondered if there would be an ideal pH
-              level that allows many different species of moss to inhabit. Our
-              hypothesis was that biodiversity would peak as the pH level of
-              surrounding water gets closer to 7.
+              pH level is important in freshwater ecosystems as it indicates the
+              conditions of how easily nutrients are available and how easily
+              heavy metals can dissolve in the water. Different water bodies
+              have different levels of pH depending on location, temperature,
+              and other factors. Moss is a bioindicator, meaning that it is a
+              naturally occurring indicator of pollution, air quality, and water
+              quality. We wanted to investigate if the difference in pH level
+              would affect the biodiversity of the inhabiting moss. We also
+              wondered if there would be an ideal pH level that allows many
+              different species of moss to inhabit. We hypothesized that
+              biodiversity would peak as the pH level of surrounding water gets
+              closer to 7.
             </p>
             <p>
               We first went to different water streams in our town and collected
-              water and moss samples. Then, we went to the Harlem DNA Lab and
-              analyzed the diversity of the moss that we collected. We plotted
-              out the relationship between pH rate and moss diversity and
-              figured out that moss thrives in an environment with a pH of 7.5
+              water and moss samples. Then, we went to the Harlem DNA Learning
+              Center and analyzed the biodiversity of the collected moss. We
+              plotted out the relationship between pH rate and moss diversity
+              and figured out that moss thrives in an environment with a pH of
+              7.5
             </p>
             <p>
-              One unsatisfying part: for our results to be more accurate and
-              widely applicable, we had to collect much more samples. As high
-              schoolers, we had no time to do more :/
+              One unsatisfying part: For our results to be more accurate and
+              widely applicable, we had to collect more samples. The project was
+              done during the school year, and we were too busy to collect more
+              samples :/
             </p>
             <p>
               To see our poster, go to{" "}
