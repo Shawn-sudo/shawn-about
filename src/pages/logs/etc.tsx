@@ -36,37 +36,17 @@ function EtcLog() {
               (Aug 2021 - present)
             </h2>
             <p>
-              I'm developing a social platform where people can record their
-              lives with friends using audio and video. Simply put,{" "}
-              <b>vlogs for friends</b>.
+              A social platform where people can deepen friendships through
+              personal podcasts & vlogs.
             </p>
             <p>
-              I was pretty lonely during the pandemic era. I thought using{" "}
-              <i>social</i> networking platforms would help me gain more friends
-              and deepen my friendships. It did help me increase the number of
-              my friends, but I couldn't really deepen my relationships with
-              them. Watching YouTuber{" "}
-              <a
-                href="https://www.youtube.com/@PaniBottle"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Pani Bottle
-              </a>
-              's vlogs, I felt so much deeper connection with him, and I
-              realized that it is possible to form deep relationships on the
-              internet when people become more honest with each other. I tried
-              making a vlog like him, but it was not easy to fully open up
-              myself when I was publishing the video to the general public,
-              potentially including hundreds of doubters and haters. There was
-              no platform to share vlogs only with friends, and that's why I
-              started developing Atrable.{" "}
+              The motivation for starting the project:{" "}
               <a
                 href="https://www.atrable.com/#motivation"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Read More
+                atrable.com/#motivation
               </a>
             </p>
             <p>
@@ -95,15 +75,7 @@ function EtcLog() {
                 Firebase
               </a>
               . I spend half of my time bug fixing, a quarter brainstorming, and
-              the last quarter implementing new features. Check my{" "}
-              <a
-                href="https://github.com/Shawn-sudo"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                GitHub contributions
-              </a>{" "}
-              if you're doubtful 🧐.{" "}
+              the last quarter implementing new features.
             </p>
             <p>
               To see my works, go to{" "}
