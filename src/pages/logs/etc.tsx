@@ -298,13 +298,13 @@ function EtcLog() {
               time thoroughly explaining the mental health epidemic caused by
               current social media platforms, so I didn't have much time left to
               explain specifically <b>how</b> my app can fix the mental health
-              issues. Uh oh.
+              issues of social media. Uh oh.
             </p>
-            <p>Next time, no more mistakes!</p>
+            <p>Next time, no more mistakes!!</p>
             <p>
-              For the following summer, RISE provided free core programs,
-              including Run the Future, and I improved my presentation skills
-              there.
+              For the following summer, RISE provided the finalists with core
+              programs including Run the Future. I improved my presentation
+              skills there.
             </p>
 
             <h3>
