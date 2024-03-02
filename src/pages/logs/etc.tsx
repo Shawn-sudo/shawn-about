@@ -517,6 +517,14 @@ function EtcLog() {
               </a>
             </p>
 
+            <h2>Korean Culture Club (Mar 2023 - present)</h2>
+            <p>We meet every Tuesday lunch.</p>
+            <p>
+              I joined the club to sing in our school's Lunar New Year
+              celebration, which is held at the library and broadcasted around
+              the school for a whole day.
+            </p>
+
             <h2>International Student Advisory Board (Dec 2022 - Mar 2023)</h2>
             <p>
               We went to Tenafly Middle School's ELL class every Thursday and
