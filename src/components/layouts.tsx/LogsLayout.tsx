@@ -29,7 +29,7 @@ function LogsLayout(props: Props) {
     },
     {
       path: "/logs/interest-in-computers",
-      title: "Getting Interest in Computers (good old days)",
+      title: "Getting Interested in Computers (good old days)",
     },
     { path: "/logs/etc", title: "ETC (Resume / CV)" },
   ];
