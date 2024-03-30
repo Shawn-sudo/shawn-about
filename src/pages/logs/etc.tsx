@@ -478,7 +478,7 @@ function EtcLog() {
             </p>
             <p>I'm a secretary / treasurer along with Heeseo.</p>
             <p>
-              In PUMaC (Princeton University Mathematics Competition), I became
+              In PUMaC (Princeton University Mathematics Competition), we became
               a semi-finalist in the mini math bowl event as a team (with Alon,
               Daniel, and Justin).
             </p>
