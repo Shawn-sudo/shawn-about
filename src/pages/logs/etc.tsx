@@ -284,7 +284,7 @@ function EtcLog() {
               cumulative GPA.
             </p>
 
-            <h1>Other Activities</h1>
+            <h1>Awards & Recognitions</h1>
             <h2>
               <a
                 href="https://www.congressionalappchallenge.us"
@@ -391,6 +391,7 @@ function EtcLog() {
               daily life stories with friends through personal vlogs 😼.
             </p>
 
+            <h1>Other Activities</h1>
             <h2>Oklahoma! (Spring 2023)</h2>
             <p>
               I participated in our school's production of the musical{" "}
