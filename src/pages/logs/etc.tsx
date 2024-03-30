@@ -6,7 +6,7 @@ import LogsLayout from "../../components/layouts.tsx/LogsLayout";
 function EtcLog() {
   return (
     <>
-      <title>Resume as of Jan 2022 | About Seihyun Lee</title>
+      <title>Resume | About Seihyun Lee</title>
       <LogsLayout>
         <main>
           <div
