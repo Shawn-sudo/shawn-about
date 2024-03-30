@@ -181,9 +181,9 @@ function EtcLog() {
             </p>
             <p>
               One unsatisfying part: For our results to be more accurate and
-              widely applicable, we had to collect more samples. The project was
-              done during the school year, and we were too busy to collect more
-              samples :/
+              widely applicable, we had to collect more samples. We conducted
+              the research during the busiest time of the year, and we were too
+              busy to collect more samples :/
             </p>
             <p>
               To see our poster, go to{" "}
