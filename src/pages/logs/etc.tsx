@@ -40,16 +40,6 @@ function EtcLog() {
               personal podcasts & vlogs.
             </p>
             <p>
-              The motivation for starting the project:{" "}
-              <a
-                href="https://www.atrable.com/#motivation"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                atrable.com/#motivation
-              </a>
-            </p>
-            <p>
               For Atrable, I use{" "}
               <a
                 href="https://flutter.dev"
@@ -78,7 +68,17 @@ function EtcLog() {
               the last quarter implementing new features.
             </p>
             <p>
-              To see my works, go to{" "}
+              Motivation:{" "}
+              <a
+                href="https://www.atrable.com/#motivation"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                atrable.com/#motivation
+              </a>
+            </p>
+            <p>
+              My works:{" "}
               <a href="/logs/atrable" target="_blank" rel="noopener noreferrer">
                 /logs/atrable
               </a>
