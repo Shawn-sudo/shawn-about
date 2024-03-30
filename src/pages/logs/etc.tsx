@@ -91,7 +91,7 @@ function EtcLog() {
               (Feb 2022 - present)
             </h2>
             <p>
-              I'm making a personal website to record and organize my journeys.
+              I developed a personal website to record and organize my journeys.
             </p>
             <p>
               For the website, I use{" "}
@@ -105,7 +105,7 @@ function EtcLog() {
               , which is a React framework for generating static websites.
             </p>
             <p>
-              To see the source code, go to{" "}
+              Source code:{" "}
               <a
                 href="https://github.com/Shawn-sudo/shawn-about"
                 target="_blank"
