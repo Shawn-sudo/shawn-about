@@ -457,7 +457,7 @@ function EtcLog() {
               vibes in their daily lives through our music!
             </p>
             <p>
-              To read more about it, go to{" "}
+              Read more:{" "}
               <a
                 href="/logs/busking-club"
                 target="_blank"
