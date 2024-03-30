@@ -186,13 +186,23 @@ function EtcLog() {
               busy to collect more samples :/
             </p>
             <p>
-              To see our poster, go to{" "}
+              Details:{" "}
               <a
                 href="https://dnabarcoding101.org/symposium/details/3870"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 dnabarcoding101.org/symposium/details/3870
+              </a>
+            </p>
+            <p>
+              Our poster:{" "}
+              <a
+                href="https://dnabarcoding101.org/files/uploads/0000/ubp/brandstaedter-3870-poster-OMEIZGL.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                dnabarcoding101.org/files/uploads/0000/ubp/...
               </a>
             </p>
 
