@@ -585,7 +585,7 @@ function EtcLog() {
               together.
             </p>
             <p>
-              To read more about it, go to{" "}
+              Read more:{" "}
               <a
                 href="/logs/scratch-coding-class-dec-2022"
                 target="_blank"
