@@ -567,8 +567,8 @@ function EtcLog() {
             <p>
               We went to Tenafly Middle School's ELL class every Thursday and
               helped ELL students adapt to American culture. Because I came to
-              America just 2 years ago, I could relate with and help them pretty
-              well.
+              America just recently, I could relate with and help the students
+              pretty well.
             </p>
 
             <h1>Volunteers</h1>
