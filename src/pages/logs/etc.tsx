@@ -419,7 +419,7 @@ function EtcLog() {
               You should try Atrable too lol.
             </p>
             <p>
-              To see my videos, go to{" "}
+              My channel:{" "}
               <a
                 href="https://www.youtube.com/@seihyun"
                 target="_blank"
