@@ -287,6 +287,21 @@ function EtcLog() {
             <h1>Awards & Recognitions</h1>
             <h2>
               <a
+                href="https://www.artandwriting.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Scholastic Awards
+              </a>{" "}
+              - Honorable Mentions (2024)
+            </h2>
+            <p>
+              I received honorable mentions for my poem "Cotton Candy" and my
+              short film "Popcorn Brain."
+            </p>
+
+            <h2>
+              <a
                 href="https://www.congressionalappchallenge.us"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -310,6 +325,7 @@ function EtcLog() {
               They sent me an email about the RISE program, so I tried it out in
               the following spring.
             </p>
+
             <h2>
               <a
                 href="https://risefortheworld.org"
