@@ -298,10 +298,13 @@ function EtcLog() {
             <p>I received recognition from Congress :0</p>
             <p>
               I thought my project would place me in a higher place though. I
-              guess I should've articulated specifically <b>how</b> Atrable can
-              reduce mental health issues induced by social media. I only
-              explained the features of the app without connecting those back to
-              the vision. Uh oh.
+              guess I should've articulated specifically{" "}
+              <b>
+                <i>how</i>
+              </b>{" "}
+              Atrable can reduce mental health issues induced by social media. I
+              only explained the features of the app without connecting those
+              back to the vision. Uh oh.
             </p>
             <p>
               They sent me an email about the RISE program, so I tried it out in
