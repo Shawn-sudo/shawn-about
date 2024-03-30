@@ -121,8 +121,24 @@ function EtcLog() {
               online social comparison? (Jun 2023 - present)
             </h2>
             <p>
-              On-going research. Trying to figure out a way to design a better
-              social media platform 🤓
+              On-going research with{" "}
+              <a
+                href="https://dfreed.me/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Dr. Diana Freed
+              </a>{" "}
+              and{" "}
+              <a
+                href="http://yaxingyao.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Dr. Yaxing Yao
+              </a>
+              . Trying to figure out a way to design a better social media
+              platform 🤓
             </p>
 
             <h2>DNA Barcoding Project (Sep 2022 - May 2023)</h2>
