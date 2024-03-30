@@ -369,7 +369,8 @@ function EtcLog() {
               encouraged us to come up with our ideas and give feedback to each
               other, with the mindset of "Whatever idea you've got, it'll work
               out if you don't give up!" I could feel a strong sense of
-              community even though we didn't even meet in person.
+              community even though we didn't even meet in person. It was
+              magical.
             </p>
             <p>
               Towards the end of the course, we all made a pitch deck for our
