@@ -317,14 +317,21 @@ function EtcLog() {
               </a>{" "}
               - Global Top 500 Finalist (2023)
             </h2>
-            <p>I'm one of the global top 500 finalists!</p>
+            <p>
+              I'm one of the global top 500 finalists! I've heard that only 1%
+              of the applicants are chosen to be top 500 finalists and 0.2% to
+              be top 100 scholarship winners.
+            </p>
             <p>
               I'm not one of the top 100 winners though :/ I think I made a
               similar mistake again! In the presentation, I spent most of my
               time thoroughly explaining the mental health epidemic caused by
               current social media platforms, so I didn't have much time left to
-              explain specifically <b>how</b> my app can fix the mental health
-              issues of social media. Uh oh.
+              explain specifically{" "}
+              <b>
+                <i>how</i>
+              </b>{" "}
+              my app can fix the mental health issues of social media. Uh oh.
             </p>
             <p>Next time, no more mistakes!!</p>
             <p>
