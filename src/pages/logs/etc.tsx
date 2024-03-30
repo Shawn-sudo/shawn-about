@@ -398,7 +398,7 @@ function EtcLog() {
               <i>Oklahoma!</i>
             </p>
             <p>
-              To read more about my experience, go to{" "}
+              My reflections:{" "}
               <a
                 href="/logs/oklahoma-musical"
                 target="_blank"
