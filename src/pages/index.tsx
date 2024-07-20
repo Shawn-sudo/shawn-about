@@ -186,7 +186,7 @@ function Home() {
                   >
                     Busking Club
                   </h1>
-                  <p>A school club (that I'm making!)</p>
+                  <p>A school club</p>
                   <p>May 2023 - Now</p>
                   <div className="learn-more">Learn More →</div>
                 </div>
