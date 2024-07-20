@@ -33,6 +33,12 @@ const game_dontGetHit =
   "../assets/scratch-coding-class-dec-2022/Screenshot 2023-01-14 at 8.19.41 PM.png";
 
 function Home() {
+  const socialLinkStyle = {
+    color: "var(--text-color)",
+    margin: 10,
+    fontSize: "large",
+    textDecoration: "none",
+  };
   return (
     <>
       <title>About Seihyun Lee</title>
@@ -71,6 +77,41 @@ function Home() {
           <h2>Seihyun Lee</h2>
           <p>I'm Seihyun (Shawn) Lee</p>
           <p>나는 이세현</p>
+          <div
+            style={{
+              display: "flex",
+              justifyContent: "space-evenly",
+              flexWrap: "wrap",
+              fontSize: "large",
+            }}
+          >
+            <a
+              href="https://github.com/Shawn-sudo"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={socialLinkStyle}
+            >
+              <strong>GitHub @shawn-sudo</strong>
+            </a>
+
+            <a
+              href="https://www.atrable.com/u/shawn"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={socialLinkStyle}
+            >
+              <strong>Atrable @shawn</strong>
+            </a>
+
+            <a
+              href="https://www.youtube.com/@seihyun"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={socialLinkStyle}
+            >
+              <strong>YouTube @seihyun</strong>
+            </a>
+          </div>
           <Link
             to="/logs/atrable"
             style={{
