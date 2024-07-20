@@ -16,21 +16,21 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "gatsby": "^5.13.3",
+    "gatsby": "^5.13.7",
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
-    "node": "18.20.0",
-    "react": "^18.2.0"
+    "node": "22.5.1",
+    "react": "^18.3.1"
   },
   "devDependencies": {
-    "@types/node": "^20.11.30",
-    "@types/react": "^18.2.73",
-    "@types/react-dom": "^18.2.23",
+    "@types/node": "^20.14.11",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "@types/ua-parser-js": "^0.7.39",
-    "typescript": "^5.4.3"
+    "typescript": "^5.5.3"
   },
   "engines": {
     "node": "20.9.0"
