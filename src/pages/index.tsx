@@ -39,6 +39,7 @@ function Home() {
     fontSize: "large",
     textDecoration: "none",
   };
+
   return (
     <>
       <title>About Seihyun Lee</title>
